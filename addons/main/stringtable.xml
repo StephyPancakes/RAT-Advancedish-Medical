@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="KAT">
+<Project name="RAT">
     <Package name="Main">
         <Key ID="STR_KAT_Main_URL">
             <English>https://github.com/KAT-Advanced-Medical/KAM</English>
             <German>https://github.com/KAT-Advanced-Medical/KAM</German>
             <Japanese>https://github.com/KAT-Advanced-Medical/KAM</Japanese>
-            <Italian>https://github.com/KAT-Advanced-Medical/KAM</Italian>
-            <Spanish>https://github.com/KAT-Advanced-Medical/KAM</Spanish>
         </Key>
     </Package>
 </Project>

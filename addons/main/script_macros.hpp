@@ -5,8 +5,8 @@
 // Default versioning level
 #define DEFAULT_VERSIONING_LEVEL 2
 
-#define DGVAR(varName)    if(isNil "KAT_DEBUG_NAMESPACE") then { KAT_DEBUG_NAMESPACE = []; }; if(!(QUOTE(GVAR(varName)) in KAT_DEBUG_NAMESPACE)) then { PUSH(KAT_DEBUG_NAMESPACE, QUOTE(GVAR(varName))); }; GVAR(varName)
-#define DVAR(varName)     if(isNil "KAT_DEBUG_NAMESPACE") then { KAT_DEBUG_NAMESPACE = []; }; if(!(QUOTE(varName) in KAT_DEBUG_NAMESPACE)) then { PUSH(KAT_DEBUG_NAMESPACE, QUOTE(varName)); }; varName
+#define DGVAR(varName)    if(isNil "RAT_DEBUG_NAMESPACE") then { RAT_DEBUG_NAMESPACE = []; }; if(!(QUOTE(GVAR(varName)) in RAT_DEBUG_NAMESPACE)) then { PUSH(RAT_DEBUG_NAMESPACE, QUOTE(GVAR(varName))); }; GVAR(varName)
+#define DVAR(varName)     if(isNil "RAT_DEBUG_NAMESPACE") then { RAT_DEBUG_NAMESPACE = []; }; if(!(QUOTE(varName) in RAT_DEBUG_NAMESPACE)) then { PUSH(RAT_DEBUG_NAMESPACE, QUOTE(varName)); }; varName
 #define DFUNC(var1) TRIPLES(ADDON,fnc,var1)
 #define DEFUNC(var1,var2) TRIPLES(DOUBLES(PREFIX,var1),fnc,var2)
 
@@ -70,7 +70,6 @@
 #define QACEFUNC(module,function)   QUOTE(ACEFUNC(module,function))
 
 #define ACELSTRING(module,string)   QUOTE(TRIPLES(STR,DOUBLES(ACE_PREFIX,module),string))
-#define ACELLSTRING(module,string)  localize ACELSTRING(module,string)
 #define ACECSTRING(module,string)   QUOTE(TRIPLES($STR,DOUBLES(ACE_PREFIX,module),string))
 
 // item types
@@ -107,11 +106,11 @@
 
 #define PREP_MODULE(folder) [] call compile preprocessFileLineNumbers QPATHTOF(folder\__PREP__.sqf)
 
-#define KAT_isHC (!hasInterface && !isDedicated)
+#define RAT_isHC (!hasInterface && !isDedicated)
 
 #define IDC_STAMINA_BAR 193
 
-#define KAT_DEPRECATED(arg1,arg2,arg3) WARNING_3("%1 is deprecated. Support will be dropped in version %2. Replaced by: %3",arg1,arg2,arg3)
+#define RAT_DEPRECATED(arg1,arg2,arg3) WARNING_3("%1 is deprecated. Support will be dropped in version %2. Replaced by: %3",arg1,arg2,arg3)
 
 #define PFORMAT_10(MESSAGE,A,B,C,D,E,F,G,H,I,J) \
     format ['%1: A=%2, B=%3, C=%4, D=%5, E=%6, F=%7, G=%8, H=%9, I=%10 J=%11', MESSAGE, RETNIL(A), RETNIL(B), RETNIL(C), RETNIL(D), RETNIL(E), RETNIL(F), RETNIL(G), RETNIL(H), RETNIL(I), RETNIL(J)]

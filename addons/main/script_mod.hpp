@@ -1,7 +1,7 @@
 // COMPONENT should be defined in the script_component.hpp and included BEFORE this hpp
 
 #define MAINPREFIX x
-#define PREFIX kat
+#define PREFIX rat
 
 #include "script_version.hpp"
 
@@ -16,7 +16,7 @@
 #define REQUIRED_CBA_VERSION {3,8,0}
 
 #ifdef COMPONENT_BEAUTIFIED
-    #define COMPONENT_NAME QUOTE(KAT - COMPONENT_BEAUTIFIED)
+    #define COMPONENT_NAME QUOTE(RAT - COMPONENT_BEAUTIFIED)
 #else
-    #define COMPONENT_NAME QUOTE(KAT - COMPONENT)
+    #define COMPONENT_NAME QUOTE(RAT - COMPONENT)
 #endif
