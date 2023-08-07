@@ -3,78 +3,78 @@ class CfgWeapons {
     class CBA_MiscItem_ItemInfo;
     class ACE_bloodIV;
 
-    class kat_bloodIV_O: ACE_bloodIV {
+    class rat_bloodIV_O: ACE_bloodIV {
         displayName = CSTRING(BloodIV_O);
     };
-    class kat_bloodIV_O_N: ACE_bloodIV {
+    class rat_bloodIV_O_N: ACE_bloodIV {
         displayName = CSTRING(BloodIV_O_N);
     };
-    class kat_bloodIV_A: ACE_bloodIV {
+    class rat_bloodIV_A: ACE_bloodIV {
         displayName = CSTRING(BloodIV_A);
     };
-    class kat_bloodIV_A_N: ACE_bloodIV {
+    class rat_bloodIV_A_N: ACE_bloodIV {
         displayName = CSTRING(BloodIV_A_N);
     };
-    class kat_bloodIV_B: ACE_bloodIV {
+    class rat_bloodIV_B: ACE_bloodIV {
         displayName = CSTRING(BloodIV_B);
     };
-    class kat_bloodIV_B_N: ACE_bloodIV {
+    class rat_bloodIV_B_N: ACE_bloodIV {
         displayName = CSTRING(BloodIV_B_N);
     };
-    class kat_bloodIV_AB: ACE_bloodIV {
+    class rat_bloodIV_AB: ACE_bloodIV {
         displayName = CSTRING(BloodIV_AB);
     };
-    class kat_bloodIV_AB_N: ACE_bloodIV {
+    class rat_bloodIV_AB_N: ACE_bloodIV {
         displayName = CSTRING(BloodIV_AB_N);
     };
     class ACE_bloodIV_500;
-    class kat_bloodIV_O_500: ACE_bloodIV_500 {
+    class rat_bloodIV_O_500: ACE_bloodIV_500 {
         displayName = CSTRING(BloodIV_O_500);
     };
-    class kat_bloodIV_O_N_500: ACE_bloodIV_500 {
+    class rat_bloodIV_O_N_500: ACE_bloodIV_500 {
         displayName = CSTRING(BloodIV_O_500_N);
     };
-    class kat_bloodIV_A_500: ACE_bloodIV_500 {
+    class rat_bloodIV_A_500: ACE_bloodIV_500 {
         displayName = CSTRING(BloodIV_A_500);
     };
-    class kat_bloodIV_A_N_500: ACE_bloodIV_500 {
+    class rat_bloodIV_A_N_500: ACE_bloodIV_500 {
         displayName = CSTRING(BloodIV_A_500_N);
     };
-    class kat_bloodIV_B_500: ACE_bloodIV_500 {
+    class rat_bloodIV_B_500: ACE_bloodIV_500 {
         displayName = CSTRING(BloodIV_B_500);
     };
-    class kat_bloodIV_B_N_500: ACE_bloodIV_500 {
+    class rat_bloodIV_B_N_500: ACE_bloodIV_500 {
         displayName = CSTRING(BloodIV_B_500_N);
     };
-    class kat_bloodIV_AB_500: ACE_bloodIV_500 {
+    class rat_bloodIV_AB_500: ACE_bloodIV_500 {
         displayName = CSTRING(BloodIV_AB_500);
     };
-    class kat_bloodIV_AB_N_500: ACE_bloodIV_500 {
+    class rat_bloodIV_AB_N_500: ACE_bloodIV_500 {
         displayName = CSTRING(BloodIV_AB_500_N);
     };
     class ACE_bloodIV_250;
-    class kat_bloodIV_O_250: ACE_bloodIV_250 {
+    class rat_bloodIV_O_250: ACE_bloodIV_250 {
         displayName = CSTRING(BloodIV_O_250);
     };
-    class kat_bloodIV_O_N_250: ACE_bloodIV_250 {
+    class rat_bloodIV_O_N_250: ACE_bloodIV_250 {
         displayName = CSTRING(BloodIV_O_250_N);
     };
-    class kat_bloodIV_A_250: ACE_bloodIV_250 {
+    class rat_bloodIV_A_250: ACE_bloodIV_250 {
         displayName = CSTRING(BloodIV_A_250);
     };
-    class kat_bloodIV_A_N_250: ACE_bloodIV_250 {
+    class rat_bloodIV_A_N_250: ACE_bloodIV_250 {
         displayName = CSTRING(BloodIV_A_250_N);
     };
-    class kat_bloodIV_B_250: ACE_bloodIV_250 {
+    class rat_bloodIV_B_250: ACE_bloodIV_250 {
         displayName = CSTRING(BloodIV_B_250);
     };
-    class kat_bloodIV_B_N_250: ACE_bloodIV_250 {
+    class rat_bloodIV_B_N_250: ACE_bloodIV_250 {
         displayName = CSTRING(BloodIV_B_250_N);
     };
-    class kat_bloodIV_AB_250: ACE_bloodIV_250 {
+    class rat_bloodIV_AB_250: ACE_bloodIV_250 {
         displayName = CSTRING(BloodIV_AB_250);
     };
-    class kat_bloodIV_AB_N_250: ACE_bloodIV_250 {
+    class rat_bloodIV_AB_N_250: ACE_bloodIV_250 {
         displayName = CSTRING(BloodIV_AB_250_N);
     };
     class KAT_Empty_bloodIV_500: ACE_bloodIV
@@ -99,7 +99,7 @@ class CfgWeapons {
             mass = 1;
         };
     };
-    class kat_AED: ACE_ItemCore {
+    class rat_AED: ACE_ItemCore {
         scope = 2;
         author = "Katalam";
         displayName = CSTRING(AED_DISPLAYNAME);
@@ -110,7 +110,7 @@ class CfgWeapons {
             mass = 30;
         };
     };
-    class kat_X_AED: kat_AED {
+    class rat_X_AED: rat_AED {
         scope = 2;
         displayName = CSTRING(X_Display);
         picture = QPATHTOF(ui\x-series.paa);
@@ -120,7 +120,7 @@ class CfgWeapons {
             mass = 40;
         };
     };
-    class kat_crossPanel: ACE_ItemCore {
+    class rat_crossPanel: ACE_ItemCore {
         scope = 2;
         author = "Katalam";
         displayName = CSTRING(crosspanel);

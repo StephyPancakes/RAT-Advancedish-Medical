@@ -1,7 +1,7 @@
 class CfgMagazines {
     class CA_Magazine;
 
-    class kat_Painkiller: CA_Magazine {
+    class rat_Painkiller: CA_Magazine {
         author = "Katalam";
         scope = 2;
 
@@ -17,7 +17,7 @@ class CfgMagazines {
         lastRoundsTracer = 0;
         mass = 1;
     };
-    class kat_Carbonate: CA_Magazine {
+    class rat_Carbonate: CA_Magazine {
         author = "Katalam";
         scope = 2;
 
@@ -33,7 +33,7 @@ class CfgMagazines {
         lastRoundsTracer = 0;
         mass = 1;
     };
-    class kat_Pervitin: CA_Magazine {
+    class rat_Pervitin: CA_Magazine {
         author = "Miss Heda";
         
         scope = 2;
@@ -49,7 +49,7 @@ class CfgMagazines {
         lastRoundsTracer = 0;
         mass = 1;
     };
-    class kat_Caffeine: CA_Magazine {
+    class rat_Caffeine: CA_Magazine {
         author = "Miss Heda";
         
         scope = 2;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="KAT">
+<Project name="RAT">
     <Package name="Misc">
-        <Key ID="STR_KAT_Misc_SETTING_ENABLE">
+        <Key ID="STR_RAT_Misc_SETTING_ENABLE">
             <English>ACE-Misc activated?</English>
             <German>ACE-Sonstiges aktivieren?</German>
             <Polish>ACE-Inne aktywowane?</Polish>
@@ -14,10 +14,10 @@
             <Turkish>ACE-Misc activated?</Turkish>
             <Italian>Attivare ACE-Misc?</Italian>
             <Russian>ACE-Misc активирован?</Russian>
-            <Japanese>KAM-Misc を有効化しますか?</Japanese>
+            <Japanese>RAT-Misc を有効化しますか?</Japanese>
             <Portuguese>ACE - Miscelâneo ativado?</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_Action_add_IV">
+        <Key ID="STR_RAT_Misc_Action_add_IV">
             <English>Attaching IV</English>
             <German>IV wird angehangen</German>
             <Polish>Zakładanie IV</Polish>
@@ -33,7 +33,7 @@
             <Japanese>IVを取り付ける</Japanese>
             <Portuguese>Colocando IV</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_Action_add_IV_Display">
+        <Key ID="STR_RAT_Misc_Action_add_IV_Display">
             <English>Attach IV (1000ml)</English>
             <German>IV anhängen (1000ml)</German>
             <Polish>Załóż IV (1000ml)</Polish>
@@ -49,7 +49,7 @@
             <Japanese>IVを取り付ける (1000ml)</Japanese>
             <Portuguese>Administrar IV (1000ml)</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_Action_add_IV_Display_500">
+        <Key ID="STR_RAT_Misc_Action_add_IV_Display_500">
             <English>Attach IV (500ml)</English>
             <German>IV anhängen (500ml)</German>
             <Polish>Załóż IV (500ml)</Polish>
@@ -65,7 +65,7 @@
             <Japanese>IVを取り付ける (500ml)</Japanese>
             <Portuguese>Administrar IV (500ml)</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_Action_add_IV_Display_250">
+        <Key ID="STR_RAT_Misc_Action_add_IV_Display_250">
             <English>Attach IV (250ml)</English>
             <German>IV anhängen (250ml)</German>
             <Polish>Załóż IV (250ml)</Polish>
@@ -81,7 +81,7 @@
             <Japanese>IVを取り付ける (250ml)</Japanese>
             <Portuguese>Administrar IV (250ml)</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_Display_IVStand">
+        <Key ID="STR_RAT_Misc_Display_IVStand">
             <English>Stand: Saline IV (1000ml)</English>
             <German>Ständer: Kochsalzlösung IV (1000ml)</German>
             <Polish>Stojak: Sól fizjologiczna IV (1000ml)</Polish>
@@ -97,7 +97,7 @@
             <Japanese>スタンド: 生理食塩水IV (1000ml)</Japanese>
             <Portuguese>Suporte: Soro fisiológico IV (1000ml)</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_Display_IVStand_500">
+        <Key ID="STR_RAT_Misc_Display_IVStand_500">
             <English>Stand: Saline IV (500ml)</English>
             <German>Ständer: Kochsalzlösung IV (500ml)</German>
             <Polish>Stojak: Sól fizjologiczna IV (500ml)</Polish>
@@ -113,7 +113,7 @@
             <Japanese>スタンド: 生理食塩水IV (500ml)</Japanese>
             <Portuguese>Suporte: Soro fisiológico IV (500ml)</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_Display_IVStand_250">
+        <Key ID="STR_RAT_Misc_Display_IVStand_250">
             <English>Stand: Saline IV (250ml)</English>
             <German>Ständer: Kochsalzlösung IV (250ml)</German>
             <Polish>Stojak: Sól fizjologiczna IV (250ml)</Polish>
@@ -129,7 +129,7 @@
             <Japanese>スタンド: 生理食塩水IV (250ml)</Japanese>
             <Portuguese>Suporte: Soro fisiológico IV (250ml)</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_disassemble_stretcher_display">
+        <Key ID="STR_RAT_Misc_disassemble_stretcher_display">
             <English>Disassemble stretcher</English>
             <German>Trage einklappen</German>
             <Polish>Złóż nosze</Polish>
@@ -145,7 +145,7 @@
             <Japanese>担架を分解する</Japanese>
             <Portuguese>Desmontar maca</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_disassemble_attach_display">
+        <Key ID="STR_RAT_Misc_disassemble_attach_display">
             <English>Attach to</English>
             <German>Anhängen an</German>
             <Polish>Przyczep do</Polish>
@@ -161,7 +161,7 @@
             <Japanese>取り付ける</Japanese>
             <Portuguese>Anexar a</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_helistretcher_attach">
+        <Key ID="STR_RAT_Misc_helistretcher_attach">
             <English>Attach Stretcher</English>
             <Polish>Przyczep nosze</Polish>
             <German>Trage befestigen</German>
@@ -177,7 +177,7 @@
             <Japanese>担架を取り付ける</Japanese>
             <Portuguese>Anexar maca</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_helistretcher_lower10m">
+        <Key ID="STR_RAT_Misc_helistretcher_lower10m">
             <English>Lower Stretcher By 10m</English>
             <Polish>Opuść nosze o 10m</Polish>
             <German>Trage um 10m absenken</German>
@@ -193,7 +193,7 @@
             <Japanese>担架を10m下げる</Japanese>
             <Portuguese>Abaixar a maca em 10m</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_helistretcher_raise10m">
+        <Key ID="STR_RAT_Misc_helistretcher_raise10m">
             <English>Raise Stretcher By 10m</English>
             <Polish>Wciągnij nosze o 10m</Polish>
             <German>Trage um 10m anheben</German>
@@ -209,7 +209,7 @@
             <Japanese>担架を10m上げる</Japanese>
             <Portuguese>Elevar a maca em 10m</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_helistretcher_raise">
+        <Key ID="STR_RAT_Misc_helistretcher_raise">
             <English>Raise Stretcher</English>
             <Polish>Wciągnij nosze</Polish>
             <German>Trage anheben</German>
@@ -225,7 +225,7 @@
             <Japanese>担架を載せる</Japanese>
             <Portuguese>Elevar a maca</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_helistretcher_lower">
+        <Key ID="STR_RAT_Misc_helistretcher_lower">
             <English>Lower Stretcher</English>
             <Polish>Opuść nosze</Polish>
             <German>Trage absenken</German>
@@ -241,7 +241,7 @@
             <Japanese>担架を降ろす</Japanese>
             <Portuguese>Abaixar a maca</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_helistretcher_flip">
+        <Key ID="STR_RAT_Misc_helistretcher_flip">
             <English>Flip Stretcher</English>
             <Polish>Obróć nosze</Polish>
             <German>Trage flippen</German>
@@ -257,7 +257,7 @@
             <Japanese>担架をひっくり返す</Japanese>
             <Portuguese>Virar a maca</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_helistretcher_attention1">
+        <Key ID="STR_RAT_Misc_helistretcher_attention1">
             <English>The vehicle you are looking at is not a helicopter!</English>
             <Polish>Pojazd na który patrzysz nie jest śmigłowcem!</Polish>
             <German>Dieses Fahrzeug ist kein Helikopter!</German>
@@ -273,7 +273,7 @@
             <Japanese>あなたが見ている車両はヘリコプターではありません!</Japanese>
             <Portuguese>O veículo que você está olhando não é um helicóptero!</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_helistretcher_attention2">
+        <Key ID="STR_RAT_Misc_helistretcher_attention2">
             <English>You must be within 15m of the helicopter and look at it!</English>
             <Polish>Musisz być w zasięgu 15m od śmigłowca i patrzeć w jego kierunku!</Polish>
             <German>Sie müssen sich in einem Umkreis von 15 Metern um den Hubschrauber aufhalten und ihn anschauen!</German>
@@ -289,7 +289,7 @@
             <Japanese>あなたはヘリコプターから15メートル以内にいて、視線を合わせる必要があります!</Japanese>
             <Portuguese>Você deve estar a 15m do helicóptero e olhando para ele!</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_Helistretcher_Display">
+        <Key ID="STR_RAT_Misc_Helistretcher_Display">
             <English>Attachable Helistretcher</English>
             <Polish>Nosze śmigłowcowe</Polish>
             <German>Anbringbare Helitrage</German>
@@ -305,7 +305,7 @@
             <Japanese>ヘリコプター用担架</Japanese>
             <Portuguese>Maca de helicóptero acoplável</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_Helistretcher_Desc">
+        <Key ID="STR_RAT_Misc_Helistretcher_Desc">
             <English>Allows you to attach a stretcher to a helicopter(Double click)</English>
             <Polish>Pozwala podczepić nosze do śmigłowca(Podwójne kliknięcie)</Polish>
             <German>Ermöglicht das Anbringen einer Trage am Hubschrauber (Doppelklick)</German>
@@ -321,7 +321,7 @@
             <Japanese>ヘリコプターに担架を取り付けることができます(ダブルクリック)</Japanese>
             <Portuguese>Permite anexar uma maca a um helicóptero (clique duplo)</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_incompatibilityWarning">
+        <Key ID="STR_RAT_Misc_SETTING_incompatibilityWarning">
             <English>Incompatible addon warning</English>
             <German>Warnung inkompatibler Mods</German>
             <Czech>Varování nekompatibilního addonu</Czech>
@@ -333,31 +333,31 @@
             <Spanish>Advertencia: Addon incompatible</Spanish>
             <Portuguese>Aviso de addon incompatível</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_incompatibilityWarning_Desc">
-            <English>Throws a warning and add line to RPT log if incompatible addons(Listed by us - developers) that could negatively affect correct functionality of KAT are used.\n Warning disappears after 60 seconds.</English>
-            <German>Wirft eine Warnung aus und fügt eine Zeile in das RPT-Protokoll ein, wenn inkompatible Addons (von uns aufgelistet - Entwickler) verwendet werden, die die korrekte Funktionalität von KAT beeinträchtigen könnten. Die Warnung verschwindet nach 60 Sekunden.</German>
-            <Czech>Vyhodí varování a přidá řádek do RPT logu pokud jsou použity nekompatibilní addony(Zanesené námi - vývojáři), které by mohli negativně ovlivnit správnou funkcionalitu KATu.\n Varování zmizí po 60 sekundách. </Czech>
-            <Korean>KAT의 제대로 작동하는 기능에 부정적인 형향을 미칠 수 있는 호환되지 않는 애드온(개발자 목록 찾고)을 사용할 경우 경고를 보내고 rpt 로그에 라인을 추가합니다.\n경고는 60초 후에 사라집니다.</Korean>
-            <Japanese>KATの正常な動作に悪影響を与える可能性のある互換性のない(開発チームによりリストされた)アドオンが使用された場合、警告を表示し、RPTログに行を追加します。\n 警告は60秒後に消えます。</Japanese>
-            <French>Affiche un avertissement et ajoute une ligne au log RPT si des addons incompatibles (Listés par nous - les développeurs) qui pourraient affecter négativement le fonctionnement correct de KAT sont utilisés.\n L'avertissement disparaîtra après 60 secondes.  </French>
-            <Italian>Mostra un allerta e aggiungi una line al file RPT log se l'addon è incompatibile (elencato da noi sviluppatori) che possa influenzare negativamente sul corretto utilizzo della KAT \n L'avviso sparisce dopo 60 secondi.</Italian>
-            <Polish>Pokazuje error i dodaje log do RPT jeśli niekompatybilny mod (podane przez developerów KAT), który może powodować błędy jest używany. \nPowiadomienie znika po 60 sekundach.</Polish>
-            <Spanish>Muestra una advertencia y agrega una linea al log RPT si hay addons incompatibles(Listados por los desarolladores) que podrian afectar negativamente el funcionamiento de KAT.\n La advertencia desaparece 60 segundos mas tarde.</Spanish>
-            <Portuguese>Mostra um aviso e adiciona uma linha ao log do RPT se forem usados ​​complementos incompatíveis (listados por nós - desenvolvedores) que podem afetar negativamente a funcionalidade correta do KAT.\n O aviso desaparece após 60 segundos.</Portuguese>
+        <Key ID="STR_RAT_Misc_SETTING_incompatibilityWarning_Desc">
+            <English>Throws a warning and add line to RPT log if incompatible addons(Listed by us - developers) that could negatively affect correct functionality of RAT are used.\n Warning disappears after 60 seconds.</English>
+            <German>Wirft eine Warnung aus und fügt eine Zeile in das RPT-Protokoll ein, wenn inkompatible Addons (von uns aufgelistet - Entwickler) verwendet werden, die die korrekte Funktionalität von RAT beeinträchtigen könnten. Die Warnung verschwindet nach 60 Sekunden.</German>
+            <Czech>Vyhodí varování a přidá řádek do RPT logu pokud jsou použity nekompatibilní addony(Zanesené námi - vývojáři), které by mohli negativně ovlivnit správnou funkcionalitu RATu.\n Varování zmizí po 60 sekundách. </Czech>
+            <Korean>RAT의 제대로 작동하는 기능에 부정적인 형향을 미칠 수 있는 호환되지 않는 애드온(개발자 목록 찾고)을 사용할 경우 경고를 보내고 rpt 로그에 라인을 추가합니다.\n경고는 60초 후에 사라집니다.</Korean>
+            <Japanese>RATの正常な動作に悪影響を与える可能性のある互換性のない(開発チームによりリストされた)アドオンが使用された場合、警告を表示し、RPTログに行を追加します。\n 警告は60秒後に消えます。</Japanese>
+            <French>Affiche un avertissement et ajoute une ligne au log RPT si des addons incompatibles (Listés par nous - les développeurs) qui pourraient affecter négativement le fonctionnement correct de RAT sont utilisés.\n L'avertissement disparaîtra après 60 secondes.  </French>
+            <Italian>Mostra un allerta e aggiungi una line al file RPT log se l'addon è incompatibile (elencato da noi sviluppatori) che possa influenzare negativamente sul corretto utilizzo della RAT \n L'avviso sparisce dopo 60 secondi.</Italian>
+            <Polish>Pokazuje error i dodaje log do RPT jeśli niekompatybilny mod (podane przez developerów RAT), który może powodować błędy jest używany. \nPowiadomienie znika po 60 sekundach.</Polish>
+            <Spanish>Muestra una advertencia y agrega una linea al log RPT si hay addons incompatibles(Listados por los desarolladores) que podrian afectar negativamente el funcionamiento de RAT.\n La advertencia desaparece 60 segundos mas tarde.</Spanish>
+            <Portuguese>Mostra um aviso e adiciona uma linha ao log do RPT se forem usados ​​complementos incompatíveis (listados por nós - desenvolvedores) que podem afetar negativamente a funcionalidade correta do RAT.\n O aviso desaparece após 60 segundos.</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_incompatibilityWarning_Desc">
-            <English>[KAM WARNING] Incompatible addon(s) that could negatively affect correct functionality detected. KAT - Advanced Medical REWRITE Development Team strongly advises to remove these addons: %1</English>
-            <German>[KAM WARNUNG] Es wurden inkompatible Addons entdeckt, die die korrekte Funktionalität beeinträchtigen könnten. Das KAT - Advanced Medical REWRITE Development Team rät dringend, diese Addons zu entfernen: %1</German>
-            <Czech>[KAM VAROVÁNÍ] Nekompatibilní addon(y), které by mohly negativně ovlivnit správnou funkcionalitu detekovány. KAT - Advanced Medical REWRITE Developerský Tým silně doporučuje odebrat tyto addony: %1</Czech>
-            <Korean>[KAM 경고] 제대로 작동 중인 기능에 부정적인 영향을 미칠 수 있는 호환되지 않는 애드온이 감지되었습니다. KAT -Advanced Medical REWRITE 개발팀은 다음 애드온을 제거할 것을 강력히 권장합니다: %1</Korean>
-            <Japanese>[KAM WARNING] 動作に悪影響を及ぼす可能性のある互換性のないアドオンが検出されました。KAM開発チームはこれらのアドオンをアンロードすることを強く推奨します: %1</Japanese>
-            <French>[AVERTISSEMENT KAM] Un(des) addon(s) incompatible(s) pouvant affecter le fonctionnement correct de KAT ont été détectés. L'équipe de développement de KAT - Advanced Medical REWRITE recommande fortement de retirer ces addons : %1 </French>
-            <Italian>[AVVISO KAM]  E' stata rilevato almeno un addon che potrebbe influenzare negativamente il corretto funzionamenot della KAT. Gli sviluppatori della KAT consigliando vivamente di rumuovere questi addons.</Italian>
-            <Polish>[KAM WARNING] Niekompatybilny mod, który może wywoływać błędy został wykryty. Zespół deweloperski KAT - Advanced Medical REWRITE stanowczo odradza użycie następujących modów: %1 </Polish>
-            <Spanish>[ADVERTENCIA DE KAM] Addon(s) incompatibles que podrían afectar negativamente el funcionamiento del mod fueron detectados. El equipo de desarollo de KAT - Advanced Medical REWRITE recomienda fuertemente remover estos addons. %1</Spanish>
-            <Portuguese>[AVISO DE KAM] Detectados addons incompatíveis que podem afetar negativamente a funcionalidade correta. KAT - A equipe de desenvolvimento do Advanced Medical REWRITE recomenda fortemente a remoção destes complementos: %1</Portuguese>
+        <Key ID="STR_RAT_Misc_incompatibilityWarning_Desc">
+            <English>[RAT WARNING] Incompatible addon(s) that could negatively affect correct functionality detected. RAT - Advanced Medical REWRITE Development Team strongly advises to remove these addons: %1</English>
+            <German>[RAT WARNUNG] Es wurden inkompatible Addons entdeckt, die die korrekte Funktionalität beeinträchtigen könnten. Das RAT - Advanced Medical REWRITE Development Team rät dringend, diese Addons zu entfernen: %1</German>
+            <Czech>[RAT VAROVÁNÍ] Nekompatibilní addon(y), které by mohly negativně ovlivnit správnou funkcionalitu detekovány. RAT - Advanced Medical REWRITE Developerský Tým silně doporučuje odebrat tyto addony: %1</Czech>
+            <Korean>[RAT 경고] 제대로 작동 중인 기능에 부정적인 영향을 미칠 수 있는 호환되지 않는 애드온이 감지되었습니다. RAT -Advanced Medical REWRITE 개발팀은 다음 애드온을 제거할 것을 강력히 권장합니다: %1</Korean>
+            <Japanese>[RAT WARNING] 動作に悪影響を及ぼす可能性のある互換性のないアドオンが検出されました。RAT開発チームはこれらのアドオンをアンロードすることを強く推奨します: %1</Japanese>
+            <French>[AVERTISSEMENT RAT] Un(des) addon(s) incompatible(s) pouvant affecter le fonctionnement correct de RAT ont été détectés. L'équipe de développement de RAT - Advanced Medical REWRITE recommande fortement de retirer ces addons : %1 </French>
+            <Italian>[AVVISO RAT]  E' stata rilevato almeno un addon che potrebbe influenzare negativamente il corretto funzionamenot della RAT. Gli sviluppatori della RAT consigliando vivamente di rumuovere questi addons.</Italian>
+            <Polish>[RAT WARNING] Niekompatybilny mod, który może wywoływać błędy został wykryty. Zespół deweloperski RAT - Advanced Medical REWRITE stanowczo odradza użycie następujących modów: %1 </Polish>
+            <Spanish>[ADVERTENCIA DE RAT] Addon(s) incompatibles que podrían afectar negativamente el funcionamiento del mod fueron detectados. El equipo de desarollo de RAT - Advanced Medical REWRITE recomienda fuertemente remover estos addons. %1</Spanish>
+            <Portuguese>[AVISO DE RAT] Detectados addons incompatíveis que podem afetar negativamente a funcionalidade correta. RAT - A equipe de desenvolvimento do Advanced Medical REWRITE recomenda fortemente a remoção destes complementos: %1</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_SubCategory_Basic">
+        <Key ID="STR_RAT_Misc_SubCategory_Basic">
             <English>Basic Settings</English>
             <Polish>Podstawowe Ustawienia</Polish>
             <Italian>Impostazioni di base</Italian>
@@ -370,7 +370,7 @@
             <Spanish>Parámetros básicos</Spanish>
             <Portuguese>Configurações básicas</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_treatmentTimeDetachTourniquet">
+        <Key ID="STR_RAT_Misc_SETTING_treatmentTimeDetachTourniquet">
             <English>Time to take off tourniquet</English>
             <Spanish>Tiempo para retirar un torniquete</Spanish>
             <French>Temps pour retirer un garrot</French>
@@ -381,31 +381,31 @@
             <Czech>Čas pro sundání turniketu</Czech>
             <Italian>Tempo per rimuovere il laccio emostatico</Italian>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_arsenalMedCategory">
+        <Key ID="STR_RAT_Misc_SETTING_arsenalMedCategory">
             <English>Arsenal Medical category</English>
-            <Czech>Zdravotnická kategorie arzenálu</Czech>
+            <Czech>Zdravotnická RATegorie arzenálu</Czech>
             <French>Catégorie médicale pour l'arsenal</French>
             <Japanese>武器庫医療分類</Japanese>
             <Spanish>Categoria médica en Arsenal</Spanish>
             <Italian>Categoria medica nell'Arsenale</Italian>
-            <Polish>Kategoria medyczna w Arsenale</Polish>
-            <German>Arsenal Medizin-Kategorie</German>
+            <Polish>RATegoria medyczna w Arsenale</Polish>
+            <German>Arsenal Medizin-RATegorie</German>
             <Korean>아스널 의료 카테고리</Korean>
             <Portuguese>Categoria Médica do Arsenal</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_arsenalMedCategory_Desc">
+        <Key ID="STR_RAT_Misc_SETTING_arsenalMedCategory_Desc">
             <English>Enable medical category for arsenal and relocate all medical related items to it?</English>
-            <Czech>Povolit zdravotnickou kategorii pro arzenál a přemístit do ní všechny zdravotnické věci?</Czech>
+            <Czech>Povolit zdravotnickou RATegorii pro arzenál a přemístit do ní všechny zdravotnické věci?</Czech>
             <French>Active la catégorie médicale pour l'arsenal et y affecte tous les objets médicaux ?</French>
             <Japanese>武器庫の医療分類を有効にして、すべての医療関連アイテムをそこに再配置しますか?</Japanese>
             <Spanish>¿Habilitar la categoría médica para el arsenal y mover todos los elementos médicos a este?</Spanish>
             <Italian>Abilita la categoria medica nell'arsernale e muovi tutti gli oggetti medici in questa categoria?</Italian>
-            <Polish>Włączyć kategorię medyczną dla arsenału i przenieść do niej wszystkie przedmioty związane z medycyną?</Polish>
-            <German>Aktiviere Medizin-Kategorie für das Arsenal und verschiebe alle medizinischen Gegenstände dort hin?</German>
+            <Polish>Włączyć RATegorię medyczną dla arsenału i przenieść do niej wszystkie przedmioty związane z medycyną?</Polish>
+            <German>Aktiviere Medizin-RATegorie für das Arsenal und verschiebe alle medizinischen Gegenstände dort hin?</German>
             <Korean>아스널의 의료 카테고리를 활성화하고 모든 의료 관련 아이템을 아스널로 재배치합니까?</Korean>
             <Portuguese>Ativar categoria médica para arsenal e realocar todos os itens médicos relacionados a ela?</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_Stretcher_Display">
+        <Key ID="STR_RAT_Misc_Stretcher_Display">
             <English>Stretcher</English>
             <Japanese>担架</Japanese>
             <Chinese>擔架</Chinese>
@@ -421,7 +421,7 @@
             <Turkish>Sedye</Turkish>
             <Portuguese>Maca</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_StretcherPacked_Display">
+        <Key ID="STR_RAT_Misc_StretcherPacked_Display">
             <English>Stretcher (Packed)</English>
             <Japanese>担架 (折り畳み)</Japanese>
             <Chinese>擔架（打包）</Chinese>
@@ -437,7 +437,7 @@
             <Turkish>Sedye (Paketli)</Turkish>
             <Portuguese>Maca (Embalada)</Portuguese>
         </Key>
-        <Key ID="STR_KAT_Misc_NeckTourniquetDescription">
+        <Key ID="STR_RAT_Misc_NeckTourniquetDescription">
             <English>Neck Tourniquet</English>
             <Spanish>Torniquete de cuello</Spanish>
             <Polish>Staza na szyi</Polish>
@@ -448,7 +448,7 @@
             <Czech>Škrtidlo na krk</Czech>
             <Italian>Laccio emostatico collo</Italian>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_allowSharedVehicleEquipment">
+        <Key ID="STR_RAT_Misc_SETTING_allowSharedVehicleEquipment">
             <English>Allow Shared Vehicle Equipment</English>
             <German>Erlaube geteilte Fahrzeugausrüstung</German>
             <Korean>공유된 차량 내 장비 허용</Korean>
@@ -457,7 +457,7 @@
             <Italian>Consenti la condivisione del materiale nel veicolo</Italian>
             <Spanish>Permitir compartir equipamiento en el vehículo</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_allowSharedVehicleEquipment_DESC">
+        <Key ID="STR_RAT_Misc_SETTING_allowSharedVehicleEquipment_DESC">
             <English>Sets whether vehicle's medical supplies can be used while treating and in which order</English>
             <German>Legt fest, ob und in welcher Reihenfolge die medizinischen Hilfsmittel des Fahrzeugs während der Behandlung verwendet werden können</German>
             <Korean>치료 중에 차량 내 의료용품을 사용할 수 있는지 여부와 어떤 순서로 사용할 것인지 설정합니다.</Korean>
@@ -466,7 +466,7 @@
             <Italian>Imposta se le forniture mediche del veicolo possono essere utilizzate durante il trattamento e in quale ordine</Italian>
             <Spanish>Establece si los suministros médicos del vehículo pueden utilizarse durante el tratamiento y en qué orden</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_allowSharedVehicleEquipment_PriorityVehicleNoSelfTreatment">
+        <Key ID="STR_RAT_Misc_SETTING_allowSharedVehicleEquipment_PriorityVehicleNoSelfTreatment">
             <English>Vehicle's Equipment First (No self-treatment)</English>
             <German> Ausrüstung des Fahrzeuges zuerst (Keine Selbstbehandlung)</German>
             <Korean>차량 내 장비부터 사용(자가치료 불가능)</Korean>
@@ -475,7 +475,7 @@
             <Italian>Primo materiale del veicolo condiviso (nessun autotrattamento)</Italian>
             <Spanish>Priorizar equipamiento en el vehiculo (sin autotratamiento)</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_allowSharedVehicleEquipment_PriorityVehicleExceptSelfTreatment">
+        <Key ID="STR_RAT_Misc_SETTING_allowSharedVehicleEquipment_PriorityVehicleExceptSelfTreatment">
             <English>Vehicle's Equipment First (Except self-treatment)</English>
             <German> Ausrüstung des Fahrzeuges zuerst (außer für Selbstbehandlung)</German>
             <Korean>차량 내 장비부터 사용(자가치료 제외)</Korean>
@@ -484,7 +484,7 @@
             <Italian>Primo materiale del veicolo condiviso ( eccetto autotrattamento)</Italian>
             <Spanish>Priorizar equipamiento en el vehiculo (excepto autotratamiento)</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_allowSharedVehicleEquipment_PriorityVehicleAlways">
+        <Key ID="STR_RAT_Misc_SETTING_allowSharedVehicleEquipment_PriorityVehicleAlways">
             <English>Vehicle's Equipment First (Always)</English>
             <German> Ausrüstung des Fahrzeuges immer zuerst</German>
             <Korean>차량 내 장비부터 사용(모두)</Korean>
@@ -493,7 +493,7 @@
             <Italian>Primo materiale del veicolo condiviso (sempre)</Italian>
             <Spanish>Priorizar equipamiento en el vehiculo (siempre)</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SubCategory_Armband">
+        <Key ID="STR_RAT_Misc_SubCategory_Armband">
             <English>Armband</English>
             <German>Armband</German>
             <Korean>암밴드</Korean>
@@ -502,7 +502,7 @@
             <Italian>Fasciatura per arto</Italian>
             <Spanish>Brazalete</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingLeftArmPos_Display">
+        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftArmPos_Display">
             <English>Armband position left arm</English>
             <German>Armband Position linker Arm</German>
             <Korean>왼팔의 암밴드 위치</Korean>
@@ -511,7 +511,7 @@
             <Italian>Posizione fasciatura sul braccio sinistro</Italian>
             <Spanish>Posición del brazalete en el brazo izquierdo</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingLeftArmPos_Desc">
+        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftArmPos_Desc">
             <English>Defines the position (x, y, z) where the armband is slung to the left arm.</English>
             <German>Definiert die Position (x, y, z) wo das Armband am linken Arm angebunden wird.</German>
             <Korean>암밴드가 왼팔에 착용되는 위치(x, y, z)를 정의합니다.</Korean>
@@ -520,7 +520,7 @@
             <Italian>Definisce la posizione (x, y, z) in cui la fascia per arto  è agganciata al braccio sinistro.</Italian>
             <Spanish>Define la posición (x, y, z) en la que el brazalete se cuelga del brazo izquierdo.</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingLeftArmRot_Display">
+        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftArmRot_Display">
             <English>Armband rotation left arm</English>
             <German>Armband Rotation linker Arm</German>
             <Korean>왼팔의 암밴드 각도</Korean>
@@ -529,7 +529,7 @@
             <Italian>Rotazione fasciatura sul braccio sinistro</Italian>
             <Spanish>Rotación del brazalete del brazo izquierdo</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingLeftArmRot_Desc">
+        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftArmRot_Desc">
             <English>Defines the rotation (yaw, pitch, roll) of the armband that is slung to the left arm.</English>
             <German>Definiert die Rotation (yaw, pitch, roll) des Armbandes am linken Arm.</German>
             <Korean>암밴드가 왼팔에 착용되는 각도(요우, 피치, 롤)를 정의합니다.</Korean>
@@ -538,7 +538,7 @@
             <Italian>Definisce la rotazione (imbardata, beccheggio, rollio) della fascia per arto che viene agganciata al braccio sinistro.</Italian>
             <Spanish>Define la rotación (guiñada, cabeceo, balanceo) del brazalete que se cuelga al brazo izquierdo.</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingRightArmPos_Display">
+        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightArmPos_Display">
             <English>Armband position right arm</English>
             <German>Armband Position rechter Arm</German>
             <Korean>오른팔의 암밴드 위치</Korean>
@@ -547,7 +547,7 @@
             <Italian>Posizione fasciatura sul braccio destro</Italian>
             <Spanish>Posición del brazalete en el brazo derecho</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingRightArmPos_Desc">
+        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightArmPos_Desc">
             <English>Defines the position (x, y, z) where the armband is slung to the right arm.</English>
             <German>Definiert die Position (x, y, z) wo das Armband am rechten Arm angebunden wird.</German>
             <Korean>암밴드가 오른팔에 착용되는 위치(x, y, z)를 정의합니다.</Korean>
@@ -556,7 +556,7 @@
             <Italian>Definisce la posizione (x, y, z) in cui la fascia per arto è agganciata al braccio destro.</Italian>
             <Spanish>Define la posición (x, y, z) en la que el brazalete se cuelga del brazo derecha.</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingRightArmRot_Display">
+        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightArmRot_Display">
             <English>Armband rotation right arm</English>
             <German>Armband Rotation rechten Arm</German>
             <Korean>오른팔의 암밴드 각도</Korean>
@@ -565,7 +565,7 @@
             <Italian>Rotazione fasciatura sul braccio destro</Italian>
             <Spanish>Rotación del brazalete del brazo derecho</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingRightArmRot_Desc">
+        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightArmRot_Desc">
             <English>Defines the rotation (yaw, pitch, roll) of the armband that is slung to the right arm.</English>
             <German>Definiert die Rotation (yaw, pitch, roll) des Armbandes am rechten Arm.</German>
             <Korean>암밴드가 오른팔에 착용되는 각도(요우, 피치, 롤)를 정의합니다.</Korean>
@@ -574,7 +574,7 @@
             <Italian>Definisce la rotazione (imbardata, beccheggio, rollio) della fascia per arto che viene agganciata al braccio destro.</Italian>
             <Spanish>Define la rotación (guiñada, cabeceo, balanceo) del brazalete que se cuelga al brazo derecho.</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingLeftLegPos_Display">
+        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftLegPos_Display">
             <English>Armband position left leg</English>
             <German>Armband Position linkes Bein</German>
             <Korean>왼다리의 암밴드 위치</Korean>
@@ -583,7 +583,7 @@
             <Italian>Posizione fasciatura sulla gamba sinistra</Italian>
             <Spanish>Posición del brazalete en la pierna izquierda</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingLeftLegPos_Desc">
+        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftLegPos_Desc">
             <English>Defines the position (x, y, z) where the armband is slung to the left leg.</English>
             <German>Definiert die Position (x, y, z) wo das Armband am linken Bein angebunden wird.</German>
             <Korean>암밴드가 왼다리에 착용되는 위치(x, y, z)를 정의합니다.</Korean>
@@ -592,7 +592,7 @@
             <Italian>Definisce la posizione (x, y, z) in cui la fascia per arto è agganciata alla gamba sinistra.</Italian>
             <Spanish>Define la posición (x, y, z) en la que el brazalete se cuelga de la pierna izquierda.</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingLeftLegRot_Display">
+        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftLegRot_Display">
             <English>Armband rotation left leg</English>
             <German>Armband Rotation linkes Bein</German>
             <Korean>왼다리의 암밴드 각도</Korean>
@@ -601,7 +601,7 @@
             <Italian>Rotazione fasciatura sulla gamba sinistra</Italian>
             <Spanish>Rotación del brazalete de la pierna izquierda</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingLeftLegRot_Desc">
+        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftLegRot_Desc">
             <English>Defines the rotation (yaw, pitch, roll) of the armband that is slung to the left leg.</English>
             <German>Definiert die Rotation (yaw, pitch, roll) des Armbandes am linken Bein.</German>
             <Korean>암밴드가 왼다리에 착용되는 각도(요우, 피치, 롤)를 정의합니다.</Korean>
@@ -610,7 +610,7 @@
             <Italian>Definisce la rotazione (imbardata, beccheggio, rollio) della fascia per arto che viene agganciata alla gamba sinistra.</Italian>
             <Spanish>Define la rotación (guiñada, cabeceo, balanceo) del brazalete que se cuelga a la pierna izquierda.</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingRightLegPos_Display">
+        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightLegPos_Display">
             <English>Armband position right leg</English>
             <German>Armband Position rechtes Bein</German>
             <Korean>오른다리의 암밴드 위치</Korean>
@@ -619,7 +619,7 @@
             <Italian>Posizione fasciatura sulla gamba destra</Italian>
             <Spanish>Posición del brazalete en la pierna derecha</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingRightLegPos_Desc">
+        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightLegPos_Desc">
             <English>Defines the position (x, y, z) where the armband is slung to the right leg.</English>
             <German>Definiert die Position (x, y, z) wo das Armband am rechten Bein angebunden wird.</German>
             <Korean>암밴드가 오른다리에 착용되는 위치(x, y, z)를 정의합니다.</Korean>
@@ -628,7 +628,7 @@
             <Italian>Definisce la posizione (x, y, z) in cui la fascia per arto è agganciata alla gamba destra.</Italian>
             <Spanish>Define la posición (x, y, z) en la que el brazalete se cuelga de la pierna derecha.</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingRightLegRot_Display">
+        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightLegRot_Display">
             <English>Armband rotation right leg</English>
             <German>Armband Rotation rechtes Bein</German>
             <Korean>오른다리의 암밴드 각도</Korean>
@@ -637,7 +637,7 @@
             <Italian>Rotazione fasciatura sulla gamba destra</Italian>
             <Spanish>Rotación del brazalete de la pierna derecha</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingRightLegRot_Desc">
+        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightLegRot_Desc">
             <English>Defines the rotation (yaw, pitch, roll) of the armband that is slung to the right leg.</English>
             <German>Definiert die Rotation (yaw, pitch, roll) des Armbandes am rechten Bein.</German>
             <Korean>암밴드가 오른다리에 착용되는 각도(요우, 피치, 롤)를 정의합니다.</Korean>
@@ -646,7 +646,7 @@
             <Italian>Definisce la rotazione (imbardata, beccheggio, rollio) della fascia per arto che viene agganciata alla gamba destra.</Italian>
             <Spanish>Define la rotación (guiñada, cabeceo, balanceo) del brazalete que se cuelga a la pierna derecha.</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_Armband_Red_Cross_ItemName">
+        <Key ID="STR_RAT_Misc_Armband_Red_Cross_ItemName">
             <English>Armband Red Cross</English>
             <German>Armband Rotes Kreuz</German>
             <Korean>암밴드 (적십자)</Korean>
@@ -655,7 +655,7 @@
             <Italian>Fasciatura per arto Croce Rossa</Italian>
             <Spanish>Brazalete de la Cruz Roja</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_Armband_Medic_ItemName">
+        <Key ID="STR_RAT_Misc_Armband_Medic_ItemName">
             <English>Armband Medic</English>
             <German>Armband Medic</German>
             <Korean>암밴드 (의무병)</Korean>
@@ -664,7 +664,7 @@
             <Italian>Fasciatura per arto Medico</Italian>
             <Spanish>Brazalete de medico</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_Armband_Doctor_ItemName">
+        <Key ID="STR_RAT_Misc_Armband_Doctor_ItemName">
             <English>Armband Doctor</English>
             <German>Armband Doktor</German>
             <Korean>암밴드 (군의관)</Korean>
@@ -673,16 +673,16 @@
             <Italian>Fasciatura per arto Dottore</Italian>
             <Spanish>Brazalete de doctor</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_Armband_Kat_ItemName">
-            <English>Armband KAT</English>
-            <German>Armband KAT</German>
-            <Korean>암밴드 (KAT)</Korean>
-            <Japanese>識別帯 (KAT)</Japanese>
-            <French>Brassard de KAT</French>
-            <Italian>Fasciatura per arto KAT</Italian>
-            <Spanish>Brazalete de KAT</Spanish>
+        <Key ID="STR_RAT_Misc_Armband_RAT_ItemName">
+            <English>Armband RAT</English>
+            <German>Armband RAT</German>
+            <Korean>암밴드 (RAT)</Korean>
+            <Japanese>識別帯 (RAT)</Japanese>
+            <French>Brassard de RAT</French>
+            <Italian>Fasciatura per arto RAT</Italian>
+            <Spanish>Brazalete de RAT</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_Armband_Sling">
+        <Key ID="STR_RAT_Misc_Armband_Sling">
             <English>Armband</English>
             <German>Armband</German>
             <Korean>암밴드</Korean>
@@ -691,7 +691,7 @@
             <Italian>Fasciatura per arto</Italian>
             <Spanish>Brazalete</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_Armband_Sling_Left_Arm">
+        <Key ID="STR_RAT_Misc_Armband_Sling_Left_Arm">
             <English>Sling to left arm</English>
             <German>Binde an den linken Arm</German>
             <Korean>왼팔에 착용</Korean>
@@ -700,7 +700,7 @@
             <Italian>Lega al braccio sinistro</Italian>
             <Spanish>Colgar al brazo izquierdo</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_Armband_Sling_Right_Arm">
+        <Key ID="STR_RAT_Misc_Armband_Sling_Right_Arm">
             <English>Sling to right arm</English>
             <German>Binde an den rechten Arm</German>
             <Korean>오른팔에 착용</Korean>
@@ -709,7 +709,7 @@
             <Italian>Lega al braccio destro</Italian>
             <Spanish>Colgar al brazo derecho</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_Armband_Sling_Left_Leg">
+        <Key ID="STR_RAT_Misc_Armband_Sling_Left_Leg">
             <English>Sling to left leg</English>
             <German>Binde an das linke Bein</German>
             <Korean>왼다리에 착용</Korean>
@@ -718,7 +718,7 @@
             <Italian>Lega alla gamba sinistra</Italian>
             <Spanish>Colgar a la pierna izquierda</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_Armband_Sling_Right_Leg">
+        <Key ID="STR_RAT_Misc_Armband_Sling_Right_Leg">
             <English>Sling to right leg</English>
             <German>Binde an das rechte Bein</German>
             <Korean>오른다리에 착용</Korean>
@@ -727,7 +727,7 @@
             <Italian>Lega alla gamba destra</Italian>
             <Spanish>Colgar a la pierna derecha</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_Armband_UnSling_Left_Arm">
+        <Key ID="STR_RAT_Misc_Armband_UnSling_Left_Arm">
             <English>Unsling left arm</English>
             <German>Von linkem Arm abmachen</German>
             <Korean>왼팔로부터 탈착</Korean>
@@ -736,7 +736,7 @@
             <Italian>Slega al braccio sinistro</Italian>
             <Spanish>Desabrochar el brazo izquierdo</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_Armband_UnSling_Right_Arm">
+        <Key ID="STR_RAT_Misc_Armband_UnSling_Right_Arm">
             <English>Unsling right arm</English>
             <German>Von rechtem Arm abmachen</German>
             <Korean>오른팔로부터 탈착</Korean>
@@ -745,7 +745,7 @@
             <Italian>Slega al braccio destro</Italian>
             <Spanish>Desabrochar el brazo derecho</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_Armband_UnSling_Left_Leg">
+        <Key ID="STR_RAT_Misc_Armband_UnSling_Left_Leg">
             <English>Unsling left leg</English>
             <German>Von linkem Bein abmachen</German>
             <Korean>왼다리로부터 탈착</Korean>
@@ -754,7 +754,7 @@
             <Italian>Slega alla gamba sinistra</Italian>
             <Spanish>Desabrochar la pierna izquierda</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_Armband_UnSling_Right_Leg">
+        <Key ID="STR_RAT_Misc_Armband_UnSling_Right_Leg">
             <English>Unsling right leg</English>
             <German>Von rechtem Bein abmachen</German>
             <Korean>오른다리로부터 탈착</Korean>
@@ -763,7 +763,7 @@
             <Italian>Slega alla gamba destra</Italian>
             <Spanish>Desabrochar la pierna derecha</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_Bubble_Wrap_Ace_Action">
+        <Key ID="STR_RAT_Misc_Bubble_Wrap_Ace_Action">
             <English>Pop a Bubble</English>
             <German>Pop ein Luftpolster</German>
             <Korean>기포 터뜨리기</Korean>
@@ -772,7 +772,7 @@
             <Italian>Fai scoppiare una bolla</Italian>
             <Spanish>Reventar una burbuja</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_Bubble_Wrap_Display">
+        <Key ID="STR_RAT_Misc_Bubble_Wrap_Display">
             <English>Bubble Wrap</English>
             <German>Luftpolsterfolie</German>
             <Korean>완충 에어캡</Korean>
@@ -781,7 +781,7 @@
             <Italian>Pluriball</Italian>
             <Spanish>Papel burbuja</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_Bubble_Wrap_Desc">
+        <Key ID="STR_RAT_Misc_Bubble_Wrap_Desc">
             <English>A Bubble Wrap that you can squeeze to relive some pain</English>
             <German>Eine Luftpolsterfolie, die du zerdrücken kannst, um etwas Schmerz zu lindern</German>
             <Korean>고통을 덜어내기 위해 터뜨릴 수 있는 에어캡</Korean>
@@ -790,7 +790,7 @@
             <Italian>Un pluriball che puoi spremere per alleviare un po' di dolore</Italian>
             <Spanish>Un papel de burbujas que puedes apretar para aliviar un poco el dolor</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_BloodGroupPatch_A_P">
+        <Key ID="STR_RAT_Misc_BloodGroupPatch_A_P">
             <English>Blood Group Patch A+</English>
             <German>Blutgruppen Aufnäher A+</German>
             <Korean>혈액형 패치 A+</Korean>
@@ -799,7 +799,7 @@
             <Italian>Toppa per gruppo sanguigno A+</Italian>
             <Spanish>Parche de grupo sanguíneo A+</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_BloodGroupPatch_A_N">
+        <Key ID="STR_RAT_Misc_BloodGroupPatch_A_N">
             <English>Blood Group Patch A-</English>
             <German>Blutgruppen Aufnäher A-</German>
             <Korean>혈액형 패치 A-</Korean>
@@ -808,7 +808,7 @@
             <Italian>Toppa per gruppo sanguigno A-</Italian>
             <Spanish>Parche de grupo sanguíneo A-</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_BloodGroupPatch_B_P">
+        <Key ID="STR_RAT_Misc_BloodGroupPatch_B_P">
             <English>Blood Group Patch B+</English>
             <German>Blutgruppen Aufnäher B+</German>
             <Korean>혈액형 패치 B+</Korean>
@@ -817,7 +817,7 @@
             <Italian>Toppa per gruppo sanguigno B+</Italian>
             <Spanish>Parche de grupo sanguíneo B+</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_BloodGroupPatch_B_N">
+        <Key ID="STR_RAT_Misc_BloodGroupPatch_B_N">
             <English>Blood Group Patch B-</English>
             <German>Blutgruppen Aufnäher B-</German>
             <Korean>혈액형 패치 B-</Korean>
@@ -826,7 +826,7 @@
             <Italian>Toppa per gruppo sanguigno B-</Italian>
             <Spanish>Parche de grupo sanguíneo B-</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_BloodGroupPatch_0_P">
+        <Key ID="STR_RAT_Misc_BloodGroupPatch_0_P">
             <English>Blood Group Patch 0+</English>
             <German>Blutgruppen Aufnäher 0+</German>
             <Korean>혈액형 패치 O+</Korean>
@@ -835,7 +835,7 @@
             <Italian>Toppa per gruppo sanguigno 0+</Italian>
             <Spanish>Parche de grupo sanguíneo 0+</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_BloodGroupPatch_0_N">
+        <Key ID="STR_RAT_Misc_BloodGroupPatch_0_N">
             <English>Blood Group Patch 0-</English>
             <German>Blutgruppen Aufnäher 0-</German>
             <Korean>혈액형 패치 O-</Korean>
@@ -844,7 +844,7 @@
             <Italian>Toppa per gruppo sanguigno 0-</Italian>
             <Spanish>Parche de grupo sanguíneo 0-</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_BloodGroupPatch_AB_P">
+        <Key ID="STR_RAT_Misc_BloodGroupPatch_AB_P">
             <English>Blood Group Patch AB+</English>
             <German>Blutgruppen Aufnäher AB+</German>
             <Korean>혈액형 패치 AB+</Korean>
@@ -853,7 +853,7 @@
             <Italian>Toppa per gruppo sanguigno AB+</Italian>
             <Spanish>Parche de grupo sanguíneo AB+</Spanish>
         </Key>
-        <Key ID="STR_KAT_Misc_BloodGroupPatch_AB_N">
+        <Key ID="STR_RAT_Misc_BloodGroupPatch_AB_N">
             <English>Blood Group Patch AB-</English>
             <German>Blutgruppen Aufnäher AB-</German>
             <Korean>혈액형 패치 AB-</Korean>

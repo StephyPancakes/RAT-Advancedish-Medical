@@ -5,13 +5,13 @@ class CfgPatches {
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         units[] = {
-            "kat_stretcher",
-            "kat_stretcherBag"
+            "rat_stretcher",
+            "rat_stretcherBag"
         };
         weapons[] = { "Attachable_Helistretcher" };
         magazines[] = { };
         requiredAddons[] = {
-            "kat_main",
+            "rat_main",
             "ace_medical",
             "ace_medical_ai",
             "ace_medical_blood",

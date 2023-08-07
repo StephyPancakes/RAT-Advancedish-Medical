@@ -5,38 +5,38 @@ class CfgPatches {
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         units[] = {
-            "kat_X_AEDItem",
-            "kat_bloodBankCrate"
+            "rat_X_AEDItem",
+            "rat_bloodBankCrate"
         };
         weapons[] = {
-            "kat_bloodIV_O",
-            "kat_bloodIV_O_N",
-            "kat_bloodIV_A",
-            "kat_bloodIV_A_N",
-            "kat_bloodIV_B",
-            "kat_bloodIV_B_N",
-            "kat_bloodIV_AB",
-            "kat_bloodIV_AB_N",
-            "kat_bloodIV_O_500",
-            "kat_bloodIV_O_N_500",
-            "kat_bloodIV_A_500",
-            "kat_bloodIV_A_N_500",
-            "kat_bloodIV_B_500",
-            "kat_bloodIV_B_N_500",
-            "kat_bloodIV_AB_500",
-            "kat_bloodIV_AB_N_500",
-            "kat_bloodIV_O_250",
-            "kat_bloodIV_O_N_250",
-            "kat_bloodIV_A_250",
-            "kat_bloodIV_A_N_250",
-            "kat_bloodIV_B_250",
-            "kat_bloodIV_B_N_250",
-            "kat_bloodIV_AB_250",
-            "kat_bloodIV_AB_N_250",
-            "kat_X_AED",
-            "kat_crossPanel",
-            "KAT_Empty_bloodIV_500",
-            "KAT_Empty_bloodIV_250"
+            "rat_bloodIV_O",
+            "rat_bloodIV_O_N",
+            "rat_bloodIV_A",
+            "rat_bloodIV_A_N",
+            "rat_bloodIV_B",
+            "rat_bloodIV_B_N",
+            "rat_bloodIV_AB",
+            "rat_bloodIV_AB_N",
+            "rat_bloodIV_O_500",
+            "rat_bloodIV_O_N_500",
+            "rat_bloodIV_A_500",
+            "rat_bloodIV_A_N_500",
+            "rat_bloodIV_B_500",
+            "rat_bloodIV_B_N_500",
+            "rat_bloodIV_AB_500",
+            "rat_bloodIV_AB_N_500",
+            "rat_bloodIV_O_250",
+            "rat_bloodIV_O_N_250",
+            "rat_bloodIV_A_250",
+            "rat_bloodIV_A_N_250",
+            "rat_bloodIV_B_250",
+            "rat_bloodIV_B_N_250",
+            "rat_bloodIV_AB_250",
+            "rat_bloodIV_AB_N_250",
+            "rat_X_AED",
+            "rat_crossPanel",
+            "RAT_Empty_bloodIV_500",
+            "RAT_Empty_bloodIV_250"
         };
         magazines[] = { };
         requiredAddons[] = {
@@ -53,7 +53,7 @@ class CfgPatches {
             "ace_medical_vitals",
             "ace_dogtags",
             "cba_settings",
-            "kat_main"
+            "rat_main"
         };
         author = "Katalam";
         authors[] = {"Katalam"};

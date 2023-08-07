@@ -1,7 +1,7 @@
 class CfgMagazines {
     class CA_Magazine;
     
-    class kat_Bubble_Wrap: CA_Magazine {
+    class rat_Bubble_Wrap: CA_Magazine {
         scope = 2;
         author = "Miss Heda";
         displayName = CSTRING(Bubble_Wrap_Display);

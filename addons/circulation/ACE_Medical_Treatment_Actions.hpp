@@ -29,14 +29,14 @@ class ACE_Medical_Treatment_Actions {
         allowedSelections[] = {"Body"};
         treatmentTime = 2;
         items[] = {};
-        condition = QUOTE((_patient getVariable [ARR_2(QQGVAR(X),false)]) || ([ARR_2(_medic,'kat_AED')] call ACEFUNC(common,hasItem)));
+        condition = QUOTE((_patient getVariable [ARR_2(QQGVAR(X),false)]) || ([ARR_2(_medic,'rat_AED')] call ACEFUNC(common,hasItem)));
         callbackStart = QFUNC(AEDanalyze);
         callbackSuccess = "";
         animationPatient = "";
         animationPatientUnconscious = "AinjPpneMstpSnonWrflDnon_rolltoback";
         animationPatientUnconsciousExcludeOn[] = {"ainjppnemstpsnonwrfldnon"};
     };
-    class KAT_DrawBlood500: CheckPulse {
+    class RAT_DrawBlood500: CheckPulse {
         displayName = CSTRING(DrawBlood500_Action_Use);
         displayNameProgress = CSTRING(DrawBlood_Action_Progress);
         treatmentTime = QGVAR(blood_drawTime_500ml);
@@ -47,12 +47,12 @@ class ACE_Medical_Treatment_Actions {
         consumeItem = 1;
         callbackSuccess = QUOTE([ARR_3(_medic, _patient,500)] call FUNC(drawBlood));
         condition = QUOTE([ARR_3(_medic, _patient,500)] call FUNC(canDraw));
-        items[] = {"KAT_Empty_bloodIV_500"};
+        items[] = {"RAT_Empty_bloodIV_500"};
         animationPatient = "";
         animationPatientUnconscious = "AinjPpneMstpSnonWrflDnon_rolltoback";
         animationPatientUnconsciousExcludeOn[] = {"ainjppnemstpsnonwrfldnon"};
     };
-    class KAT_DrawBlood250: CheckPulse {
+    class RAT_DrawBlood250: CheckPulse {
         displayName = CSTRING(DrawBlood250_Action_Use);
         displayNameProgress = CSTRING(DrawBlood_Action_Progress);
         treatmentTime = QGVAR(blood_drawTime_250ml);
@@ -63,7 +63,7 @@ class ACE_Medical_Treatment_Actions {
         consumeItem = 1;
         callbackSuccess = QUOTE([ARR_3(_medic, _patient,250)] call FUNC(drawBlood));
         condition = QUOTE([ARR_3(_medic, _patient,250)] call FUNC(canDraw));
-        items[] = {"KAT_Empty_bloodIV_250"};
+        items[] = {"RAT_Empty_bloodIV_250"};
         animationPatient = "";
         animationPatientUnconscious = "AinjPpneMstpSnonWrflDnon_rolltoback";
         animationPatientUnconsciousExcludeOn[] = {"ainjppnemstpsnonwrfldnon"};
@@ -75,7 +75,7 @@ class ACE_Medical_Treatment_Actions {
         displayName = CSTRING(Defib_Action_Use);
         displayNameProgress = CSTRING(AED_PROGRESS);
         icon = QPATHTOF(ui\defib.paa);
-        items[] = {"kat_AED"};
+        items[] = {"rat_AED"};
         treatmentTime = 10;
         condition = QUOTE(([ARR_2(_medic,_patient)] call ACEFUNC(medical_treatment,canCPR)) && !(_patient getVariable [ARR_2(QQEGVAR(airway,recovery),false)]));
         callbackStart = QFUNC(AEDStart);
@@ -106,7 +106,7 @@ class ACE_Medical_Treatment_Actions {
     class AttachAEDX: AED {
         displayName = CSTRING(X_Action_Use);
         displayNameProgress = CSTRING(X_Action_Progress);
-        items[] = {"kat_X_AED"};
+        items[] = {"rat_X_AED"};
         treatmentTime = QGVAR(AED_X_AttachTime);
         condition = QUOTE(!(_patient getVariable [ARR_2(QQGVAR(X), false)]));
         consumeItem = 1;

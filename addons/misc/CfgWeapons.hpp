@@ -17,7 +17,7 @@ class CfgWeapons
         };
     };
 
-    class kat_Armband_Red_Cross_Item: ACE_ItemCore {
+    class rat_Armband_Red_Cross_Item: ACE_ItemCore {
         author = "Miss Heda, vccv9040 (Swedish Forces Pack)";
         displayName = CSTRING(Armband_Red_Cross_ItemName);
         scope = 2;
@@ -29,25 +29,25 @@ class CfgWeapons
         };
     };
 
-    class kat_Armband_Medic_Item: kat_Armband_Red_Cross_Item {
+    class rat_Armband_Medic_Item: rat_Armband_Red_Cross_Item {
         displayName = CSTRING(Armband_Medic_ItemName);
         editorPreview = QPATHTOF(ui\ArmbandWhiteCrossMedic.paa);
         picture = QPATHTOF(ui\ArmbandWhiteCrossMedic.paa);
     };
 
-    class kat_Armband_Doctor_Item: kat_Armband_Red_Cross_Item {
+    class rat_Armband_Doctor_Item: rat_Armband_Red_Cross_Item {
         displayName = CSTRING(Armband_Doctor_ItemName);
         editorPreview = QPATHTOF(ui\ArmbandWhiteCrossDoctor.paa);
         picture = QPATHTOF(ui\ArmbandWhiteCrossDoctor.paa);
     };
 
-    class kat_Armband_Kat_Item: kat_Armband_Red_Cross_Item {
-        displayName = CSTRING(Armband_Kat_ItemName);
+    class rat_Armband_Kat_Item: rat_Armband_Red_Cross_Item {
+        displayName = CSTRING(Armband_Rat_ItemName);
         editorPreview = QPATHTOF(ui\ArmbandKat.paa);
         picture = QPATHTOF(ui\ArmbandKat.paa);
     };
 
-    class kat_Bubble_Wrap_Item: ACE_ItemCore {
+    class rat_Bubble_Wrap_Item: ACE_ItemCore {
         author = "Miss Heda";
         displayName = CSTRING(Bubble_Wrap_Display);
         descriptionShort = CSTRING(Bubble_Wrap_Desc);

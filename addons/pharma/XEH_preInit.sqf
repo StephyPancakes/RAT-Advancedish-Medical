@@ -6,7 +6,7 @@ PREP_RECOMPILE_START;
 #include "XEH_PREP.hpp"
 PREP_RECOMPILE_END;
 
-#define CBA_SETTINGS_CAT "KAT - ADV Medical: Pharmacy"
+#define CBA_SETTINGS_CAT "RAT - ADV Medical: Pharmacy"
 
 // Basic Settings Category
 [

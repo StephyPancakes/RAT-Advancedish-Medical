@@ -1,6 +1,6 @@
 #define COMPONENT misc
 #define COMPONENT_BEAUTIFIED KAT - MISC
-#include "\x\kat\addons\main\script_mod.hpp"
+#include "\x\rat\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -14,7 +14,7 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_MISC
 #endif
 
-#include "\x\kat\addons\main\script_macros.hpp"
+#include "\x\rat\addons\main\script_macros.hpp"
 #include "\z\ace\addons\medical_engine\script_macros_medical.hpp"
 
 #define DEFAULT_TOURNIQUET_VALUES   [0,0,0,0,0,0]

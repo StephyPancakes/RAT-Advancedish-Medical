@@ -20,10 +20,10 @@
 [QGVAR(caffeineLocal), LINKFUNC(treatmentAdvanced_CaffeineLocal)] call CBA_fnc_addEventHandler;
 
 
-["kat_PainkillerItem", "kat_Painkiller"] call ACEFUNC(common,registerItemReplacement);
-["kat_CarbonateItem", "kat_Carbonate"] call ACEFUNC(common,registerItemReplacement);
-["kat_PervitinItem", "kat_Pervitin"] call ACEFUNC(common,registerItemReplacement);
-["kat_CaffeineItem", "kat_Caffeine"] call ACEFUNC(common,registerItemReplacement);
+["rat_PainkillerItem", "rat_Painkiller"] call ACEFUNC(common,registerItemReplacement);
+["rat_CarbonateItem", "rat_Carbonate"] call ACEFUNC(common,registerItemReplacement);
+["rat_PervitinItem", "rat_Pervitin"] call ACEFUNC(common,registerItemReplacement);
+["rat_CaffeineItem", "rat_Caffeine"] call ACEFUNC(common,registerItemReplacement);
 
 ["ace_treatmentSucceded", {
     params ["_medic", "_patient", "_bodyPart", "_classname"];
@@ -34,11 +34,11 @@
             params ["_patient"];
             if !(alive _patient) exitWith {};
             ACEGVAR(advanced_fatigue,anReserve) = ACEGVAR(advanced_fatigue,anReserve) + 300;
-            ["kat_EDF", 0.5] call ACEFUNC(advanced_fatigue,addDutyFactor);
+            ["rat_EDF", 0.5] call ACEFUNC(advanced_fatigue,addDutyFactor);
 
             [{
                 params ["_patient"];
-                ["kat_EDF"] call ACEFUNC(advanced_fatigue,removeDutyFactor);
+                ["rat_EDF"] call ACEFUNC(advanced_fatigue,removeDutyFactor);
             },
             [_patient],
             120] call CBA_fnc_waitAndExecute;

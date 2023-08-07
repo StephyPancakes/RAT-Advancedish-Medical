@@ -18,7 +18,7 @@ class CfgVehicles {
         ace_cargo_canLoad = 1;
     };
 
-    class kat_AEDItem: Item_Base_F {
+    class rat_AEDItem: Item_Base_F {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(AED_DISPLAYNAME);
@@ -26,62 +26,62 @@ class CfgVehicles {
         vehicleClass = "Items";
         model = "\A3\Structures_F_EPA\Items\Medical\Defibrillator_F.p3d";
         class TransportItems {
-            MACRO_ADDITEM(kat_AED,1);
+            MACRO_ADDITEM(rat_AED,1);
         };
     };
 
-    class kat_X_AEDItem: kat_AEDItem {
+    class rat_X_AEDItem: rat_AEDItem {
         displayName = CSTRING(X_Display);
         model = QPATHTOF(models\aedx\aedx.p3d);
         class TransportItems {
-            MACRO_ADDITEM(kat_X_AED,1);
+            MACRO_ADDITEM(rat_X_AED,1);
         };
     };
 
     class ACE_medicalSupplyCrate_advanced: ACE_medicalSupplyCrate {
         class TransportItems: TransportItems {
-            MACRO_ADDITEM(kat_X_AED,1);
-            MACRO_ADDITEM(kat_AED,1);
-            MACRO_ADDITEM(KAT_Empty_bloodIV_500,10);
-            MACRO_ADDITEM(KAT_Empty_bloodIV_250,20);
-            MACRO_ADDITEM(kat_crossPanel,5);
+            MACRO_ADDITEM(rat_X_AED,1);
+            MACRO_ADDITEM(rat_AED,1);
+            MACRO_ADDITEM(RAT_Empty_bloodIV_500,10);
+            MACRO_ADDITEM(RAT_Empty_bloodIV_250,20);
+            MACRO_ADDITEM(rat_crossPanel,5);
         };
         class TransportMagazines: TransportMagazines {
-            MACRO_ADDMAGAZINE(kat_Painkiller,10);
+            MACRO_ADDMAGAZINE(rat_Painkiller,10);
         };
     };
-    class kat_medicalSupplyCrate: ACE_medicalSupplyCrate {
+    class rat_medicalSupplyCrate: ACE_medicalSupplyCrate {
         displayName = CSTRING(bloodbank);
         class TransportItems: TransportItems {
-            MACRO_ADDITEM(kat_crossPanel,2);
-            MACRO_ADDITEM(kat_IO_FAST,15);
-            MACRO_ADDITEM(kat_IV_16,15);
-            MACRO_ADDITEM(KAT_Empty_bloodIV_250,7);
-            MACRO_ADDITEM(KAT_Empty_bloodIV_500,7);
-            MACRO_ADDITEM(kat_bloodIV_O,7);
-            MACRO_ADDITEM(kat_bloodIV_O_N,7);
-            MACRO_ADDITEM(kat_bloodIV_A,7);
-            MACRO_ADDITEM(kat_bloodIV_A_N,7);
-            MACRO_ADDITEM(kat_bloodIV_B,7);
-            MACRO_ADDITEM(kat_bloodIV_B_N,7);
-            MACRO_ADDITEM(kat_bloodIV_AB,7);
-            MACRO_ADDITEM(kat_bloodIV_AB_N,7);
-            MACRO_ADDITEM(kat_bloodIV_O_500,7);
-            MACRO_ADDITEM(kat_bloodIV_O_N_500,7);
-            MACRO_ADDITEM(kat_bloodIV_A_500,7);
-            MACRO_ADDITEM(kat_bloodIV_A_N_500,7);
-            MACRO_ADDITEM(kat_bloodIV_B_500,7);
-            MACRO_ADDITEM(kat_bloodIV_B_N_500,7);
-            MACRO_ADDITEM(kat_bloodIV_AB_500,7);
-            MACRO_ADDITEM(kat_bloodIV_AB_N_500,7);
-            MACRO_ADDITEM(kat_bloodIV_O_250,7);
-            MACRO_ADDITEM(kat_bloodIV_O_N_250,7);
-            MACRO_ADDITEM(kat_bloodIV_A_250,7);
-            MACRO_ADDITEM(kat_bloodIV_A_N_250,7);
-            MACRO_ADDITEM(kat_bloodIV_B_250,7);
-            MACRO_ADDITEM(kat_bloodIV_B_N_250,7);
-            MACRO_ADDITEM(kat_bloodIV_AB_250,7);
-            MACRO_ADDITEM(kat_bloodIV_AB_N_250,7);
+            MACRO_ADDITEM(rat_crossPanel,2);
+            MACRO_ADDITEM(rat_IO_FAST,15);
+            MACRO_ADDITEM(rat_IV_16,15);
+            MACRO_ADDITEM(RAT_Empty_bloodIV_250,7);
+            MACRO_ADDITEM(RAT_Empty_bloodIV_500,7);
+            MACRO_ADDITEM(rat_bloodIV_O,7);
+            MACRO_ADDITEM(rat_bloodIV_O_N,7);
+            MACRO_ADDITEM(rat_bloodIV_A,7);
+            MACRO_ADDITEM(rat_bloodIV_A_N,7);
+            MACRO_ADDITEM(rat_bloodIV_B,7);
+            MACRO_ADDITEM(rat_bloodIV_B_N,7);
+            MACRO_ADDITEM(rat_bloodIV_AB,7);
+            MACRO_ADDITEM(rat_bloodIV_AB_N,7);
+            MACRO_ADDITEM(rat_bloodIV_O_500,7);
+            MACRO_ADDITEM(rat_bloodIV_O_N_500,7);
+            MACRO_ADDITEM(rat_bloodIV_A_500,7);
+            MACRO_ADDITEM(rat_bloodIV_A_N_500,7);
+            MACRO_ADDITEM(rat_bloodIV_B_500,7);
+            MACRO_ADDITEM(rat_bloodIV_B_N_500,7);
+            MACRO_ADDITEM(rat_bloodIV_AB_500,7);
+            MACRO_ADDITEM(rat_bloodIV_AB_N_500,7);
+            MACRO_ADDITEM(rat_bloodIV_O_250,7);
+            MACRO_ADDITEM(rat_bloodIV_O_N_250,7);
+            MACRO_ADDITEM(rat_bloodIV_A_250,7);
+            MACRO_ADDITEM(rat_bloodIV_A_N_250,7);
+            MACRO_ADDITEM(rat_bloodIV_B_250,7);
+            MACRO_ADDITEM(rat_bloodIV_B_N_250,7);
+            MACRO_ADDITEM(rat_bloodIV_AB_250,7);
+            MACRO_ADDITEM(rat_bloodIV_AB_N_250,7);
         };
     };
 
@@ -101,7 +101,7 @@ class CfgVehicles {
             class ACE_Equipment {
                 class AED_X_removeSound {
                     displayName = CSTRING(X_Action_removeSound);
-                    condition = QUOTE('kat_X_AED' in (items _player) && (_player getVariable [ARR_2(QQGVAR(AED_X_Volume), false])));
+                    condition = QUOTE('rat_X_AED' in (items _player) && (_player getVariable [ARR_2(QQGVAR(AED_X_Volume), false])));
                     statement = QUOTE(_player setVariable [ARR_3(QQGVAR(AED_X_Volume), false, true)]);
                     showDisabled = 0;
                     exceptions[] = {"isNotInside", "isNotSitting"};
@@ -109,12 +109,12 @@ class CfgVehicles {
                 };
                 class AED_X_addSound : AED_X_removeSound {
                     displayName = CSTRING(X_Action_addSound);
-                    condition = QUOTE('kat_X_AED' in (items _player) && !(_player getVariable [ARR_2(QQGVAR(AED_X_Volume), false])));
+                    condition = QUOTE('rat_X_AED' in (items _player) && !(_player getVariable [ARR_2(QQGVAR(AED_X_Volume), false])));
                     statement = QUOTE(_player setVariable [ARR_3(QQGVAR(AED_X_Volume), true, true)]);
                 };
                 class openCrossPanel {
                     displayName = CSTRING(open_crosspanel);
-                    condition = "('kat_crossPanel' in (uniformItems _player)) || ('kat_crossPanel' in (vestItems _player))";
+                    condition = "('rat_crossPanel' in (uniformItems _player)) || ('rat_crossPanel' in (vestItems _player))";
                     statement = QUOTE(createDialog QQGVAR(CrossPanel_Dialog));
                     showDisabled = 0;
                     exceptions[] = {"isNotInside", "isNotSitting"};
@@ -122,7 +122,7 @@ class CfgVehicles {
                 };
                 class placeAED {
                     displayName=CSTRING(place_AED);
-                    condition="'kat_AED' in (items ACE_player)";
+                    condition="'rat_AED' in (items ACE_player)";
                     exceptions[]=
                     {
                         "notOnMap",
@@ -132,7 +132,7 @@ class CfgVehicles {
                         "isNotSwimming",
                         "isNotOnLadder"
                     };
-                    statement="call kat_circulation_fnc_placeAED";
+                    statement="call rat_circulation_fnc_placeAED";
                     icon="";
                     showDisabled=0;
                 };
