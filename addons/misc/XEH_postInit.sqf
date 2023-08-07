@@ -39,8 +39,8 @@ if (GVAR(incompatibilityWarning)) then {
     GVAR(uniqueItemsCache) = nil;
 }] call CBA_fnc_addPlayerEventHandler;
 
-["rat_Armband_Red_Cross_Item", "kat_armband_red_cross"] call ACEFUNC(common,registerItemReplacement);
-["rat_Armband_Medic_Item", "kat_armband_medic"] call ACEFUNC(common,registerItemReplacement);
-["rat_Armband_Doctor_Item", "kat_armband_doctor"] call ACEFUNC(common,registerItemReplacement);
-["rat_Armband_Kat_Item", "kat_armband_kat"] call ACEFUNC(common,registerItemReplacement);
-["rat_Bubble_Wrap_Item", "kat_Bubble_Wrap"] call ACEFUNC(common,registerItemReplacement);
+["rat_Armband_Red_Cross_Item", "rat_armband_red_cross"] call ACEFUNC(common,registerItemReplacement);
+["rat_Armband_Medic_Item", "rat_armband_medic"] call ACEFUNC(common,registerItemReplacement);
+["rat_Armband_Doctor_Item", "rat_armband_doctor"] call ACEFUNC(common,registerItemReplacement);
+["rat_Armband_Kat_Item", "rat_armband_kat"] call ACEFUNC(common,registerItemReplacement);
+["rat_Bubble_Wrap_Item", "rat_Bubble_Wrap"] call ACEFUNC(common,registerItemReplacement);

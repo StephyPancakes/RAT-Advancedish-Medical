@@ -1,5 +1,5 @@
 #define COMPONENT misc
-#define COMPONENT_BEAUTIFIED KAT - MISC
+#define COMPONENT_BEAUTIFIED RAT - MISC
 #include "\x\rat\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

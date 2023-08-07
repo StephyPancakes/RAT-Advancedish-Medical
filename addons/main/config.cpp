@@ -4,7 +4,7 @@ class CfgPatches
 {
 	class rat_main
 	{
-		name = "KAT - Main";
+		name = "RAT - Main";
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 1.88;
@@ -21,7 +21,7 @@ class CfgMods
 	class rat
 	{
 		dir = "@rat_aceAdvMedical";
-		name = "RAT - Advanced Medical";
+		name = "RAT - Advancedish Medical";
 		picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
 		hidePicture = "true";
 		hideName = "true";

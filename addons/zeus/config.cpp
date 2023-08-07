@@ -13,7 +13,7 @@ class CfgPatches {
         weapons[] = {};
         magazines[] = { };
         requiredAddons[] = {
-            "kat_main",
+            "rat_main",
             "ace_zeus",
             "cba_settings"
         };

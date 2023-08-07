@@ -3,7 +3,7 @@ class cfgVehicles {
 
     class GVAR(baseModule): Module_F {
         author   = "DiGi";
-        category = QGVAR(KAM);
+        category = QGVAR(RAT);
         function = QFUNC(emptyFunction);
         functionPriority = 1;
         isGlobal = 1;

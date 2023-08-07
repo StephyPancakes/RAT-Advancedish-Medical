@@ -1,6 +1,6 @@
 class CfgMovesBasic {
     class ManActions {
-        rat_stretcher = "kat_stretcher";
+        rat_stretcher = "rat_stretcher";
     };
 };
 

@@ -189,7 +189,7 @@ class CfgVehicles {
         model = QPATHTOF(models\armband\Armband.p3d);
         hiddenSelectionsTextures[] = {QPATHTOF(models\armband\ArmbandWCD.paa)};
     };
-    class Rat_armbandKAT: Rat_armbandRC {
+    class Rat_armbandRAT: Rat_armbandRC {
         author = "Miss Heda, vccv9040 (Swedish Forces Pack)";
         editorPreview = QPATHTOF(ui\ArmbandKat.paa);
         model = QPATHTOF(models\armband\Armband.p3d);
@@ -245,9 +245,9 @@ class CfgVehicles {
 
                         class Rat {
                             displayName = CSTRING(Armband_Rat_ItemName);
-                            condition = QUOTE([ARR_2(_player, ""rat_armband_kat"")] call ACEFUNC(common,hasItem));
+                            condition = QUOTE([ARR_2(_player, ""rat_armband_rat"")] call ACEFUNC(common,hasItem));
                             exceptions[] = {"isNotSwimming", "isNotInside", "notOnMap", "isNotSitting"};
-                            statement = QUOTE([ARR_3(_player, ""rat_armband_kat"", 0)] call FUNC(slingArmband));
+                            statement = QUOTE([ARR_3(_player, ""rat_armband_rat"", 0)] call FUNC(slingArmband));
                             showDisabled = 0;
                             icon = QPATHTOF(ui\ArmbandKat.paa);
                         };
@@ -288,11 +288,11 @@ class CfgVehicles {
                             icon = QPATHTOF(ui\ArmbandWhiteCrossDoctor.paa);
                         };
 
-                        class Kat {
+                        class Rat {
                             displayName = CSTRING(Armband_Rat_ItemName);
-                            condition = QUOTE([ARR_2(_player, ""rat_armband_kat"")] call ACEFUNC(common,hasItem));
+                            condition = QUOTE([ARR_2(_player, ""rat_armband_rat"")] call ACEFUNC(common,hasItem));
                             exceptions[] = {"isNotSwimming", "isNotInside", "notOnMap", "isNotSitting"};
-                            statement = QUOTE([ARR_3(_player, ""rat_armband_kat"", 1)] call FUNC(slingArmband));
+                            statement = QUOTE([ARR_3(_player, ""rat_armband_rat"", 1)] call FUNC(slingArmband));
                             showDisabled = 0;
                             icon = QPATHTOF(ui\ArmbandKat.paa);
                         };
@@ -333,11 +333,11 @@ class CfgVehicles {
                             icon = QPATHTOF(ui\ArmbandWhiteCrossDoctor.paa);
                         };
 
-                        class Kat {
+                        class Rat {
                             displayName = CSTRING(Armband_rat_ItemName);
-                            condition = QUOTE([ARR_2(_player, ""rat_armband_kat"")] call ACEFUNC(common,hasItem));
+                            condition = QUOTE([ARR_2(_player, ""rat_armband_rat"")] call ACEFUNC(common,hasItem));
                             exceptions[] = {"isNotSwimming", "isNotInside", "notOnMap", "isNotSitting"};
-                            statement = QUOTE([ARR_3(_player, ""rat_armband_kat"", 2)] call FUNC(slingArmband));
+                            statement = QUOTE([ARR_3(_player, ""rat_armband_rat"", 2)] call FUNC(slingArmband));
                             showDisabled = 0;
                             icon = QPATHTOF(ui\ArmbandKat.paa);
                         };
@@ -378,11 +378,11 @@ class CfgVehicles {
                             icon = QPATHTOF(ui\ArmbandWhiteCrossDoctor.paa);
                         };
 
-                        class Kat {
+                        class Rat {
                             displayName = CSTRING(Armband_rat_ItemName);
-                            condition = QUOTE([ARR_2(_player, ""rat_armband_kat"")] call ACEFUNC(common,hasItem));
+                            condition = QUOTE([ARR_2(_player, ""rat_armband_rat"")] call ACEFUNC(common,hasItem));
                             exceptions[] = {"isNotSwimming", "isNotInside", "notOnMap", "isNotSitting"};
-                            statement = QUOTE([ARR_3(_player, ""rat_armband_kat"", 3)] call FUNC(slingArmband));
+                            statement = QUOTE([ARR_3(_player, ""rat_armband_rat"", 3)] call FUNC(slingArmband));
                             showDisabled = 0;
                             icon = QPATHTOF(ui\ArmbandKat.paa);
                         };

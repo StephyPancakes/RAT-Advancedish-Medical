@@ -1,5 +1,5 @@
-name = "KAM"
-prefix = "kat"
+name = "RAT"
+prefix = "rat"
 author = "Katalam, Tomcat, Kygan, YetheSamartaka, Battlekeeper, MJSTIC, Digii / Julian and MiszczuZPolski"
 mainprefix = "x"
 
@@ -12,8 +12,6 @@ include = [
     "mod.cpp",
     "README.md",
     "LICENSE.md",
-    "KAMLogoLowRes.paa",
-    "KAMLogoHighRes.paa",
     "AUTHORS.txt"
 ]
 

@@ -1,5 +1,5 @@
 #define COMPONENT pharma
-#define COMPONENT_BEAUTIFIED KAT - Pharma
+#define COMPONENT_BEAUTIFIED RAT - Pharma
 #include "\x\rat\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

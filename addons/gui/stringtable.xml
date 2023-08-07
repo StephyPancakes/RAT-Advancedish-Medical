@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="KAT">
+<Project name="RAT">
     <Package name="Gui">
-        <Key ID="STR_KAT_Gui_dummy">
+        <Key ID="STR_RAT_Gui_dummy">
             <English>dummy for tabler application</English>
             <German>Platzhalter für die tabler app</German>
             <Japanese>tablerのためのダミー文字列です</Japanese>

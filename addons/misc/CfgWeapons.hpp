@@ -41,7 +41,7 @@ class CfgWeapons
         picture = QPATHTOF(ui\ArmbandWhiteCrossDoctor.paa);
     };
 
-    class rat_Armband_Kat_Item: rat_Armband_Red_Cross_Item {
+    class rat_Armband_Rat_Item: rat_Armband_Red_Cross_Item {
         displayName = CSTRING(Armband_Rat_ItemName);
         editorPreview = QPATHTOF(ui\ArmbandKat.paa);
         picture = QPATHTOF(ui\ArmbandKat.paa);

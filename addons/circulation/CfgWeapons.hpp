@@ -77,7 +77,7 @@ class CfgWeapons {
     class rat_bloodIV_AB_N_250: ACE_bloodIV_250 {
         displayName = CSTRING(BloodIV_AB_250_N);
     };
-    class KAT_Empty_bloodIV_500: ACE_bloodIV
+    class RAT_Empty_bloodIV_500: ACE_bloodIV
     {
         displayName = CSTRING(FieldBloodTK500_Display);
         descriptionShort = CSTRING(FieldBloodTK_Desc);
@@ -88,7 +88,7 @@ class CfgWeapons {
             mass = 2;
         };
     };
-    class KAT_Empty_bloodIV_250: ACE_bloodIV
+    class RAT_Empty_bloodIV_250: ACE_bloodIV
     {
         displayName = CSTRING(FieldBloodTK250_Display);
         descriptionShort = CSTRING(FieldBloodTK_Desc);
