@@ -18,11 +18,12 @@
 
 params ["_patient", "_bodyPart"];
 
-private _partIndex = ALL_BODY_PARTS find toLower _bodyPart;
-private _IVarray = _patient getVariable [QGVAR(IV), [0,0,0,0,0,0]];
-private _IVactual = _IVarray select _partIndex;
-private _block = false;
+//private _partIndex = ALL_BODY_PARTS find toLower _bodyPart;
+//private _IVarray = _patient getVariable [QGVAR(IV), [0,0,0,0,0,0]];
+//private _IVactual = _IVarray select _partIndex;
+//private _block = false;
 
+/*
 if (_IVactual > 1) then {
     private _randomNumber = random 100;
 
@@ -37,9 +38,10 @@ if (_IVactual > 1) then {
     _IVarray set [_partIndex, 2];
     _patient setVariable [QGVAR(IV), _IVarray, true];
 };
+*/
 
-if !(GVAR(coagulation)) then {
-    if !(_block) then {
+//if !(GVAR(coagulation)) then {
+//  if !(_block) then {
         [{
             params ["_args", "_idPFH"];
             _args params ["_patient"];
@@ -48,14 +50,14 @@ if !(GVAR(coagulation)) then {
             private _alive = alive _patient;
             private _exit = true;
 
-            if !(GVAR(kidneyAction)) then {
-                _patient setVariable [QGVAR(pH), 1500, true];
-            };
+            //if !(GVAR(kidneyAction)) then {
+            //    _patient setVariable [QGVAR(pH), 1500, true];
+            //};
 
-            private _random = random 1000;
-            private _ph = (_patient getVariable [QGVAR(pH), 1500]) - 500;
+           // private _random = random 1000;
+            //private _ph = (_patient getVariable [QGVAR(pH), 1500]) - 500;
 
-            if (_random <= _ph) then {
+            //if (_random <= _ph) then {
                 {
                     _x params ["", "_bodyPart", "_amount", "_bleeding"];
 
@@ -65,12 +67,12 @@ if !(GVAR(coagulation)) then {
                         _exit = false;
                     };
                 } forEach _openWounds;
-            };
+            //};
 
             if ((!_alive) || (_exit)) exitWith {
                 [_idPFH] call CBA_fnc_removePerFrameHandler;
             };
 
         }, 6, [_patient]] call CBA_fnc_addPerFrameHandler;
-    };
-};
+//  };
+//};

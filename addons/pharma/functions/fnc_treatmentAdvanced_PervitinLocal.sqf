@@ -29,7 +29,7 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
         if !(alive _patient) exitWith {};
         ACEGVAR(advanced_fatigue,anReserve) = ACEGVAR(advanced_fatigue,anReserve) + 3000;
-        ["kat_PDF", 0] call ACEFUNC(advanced_fatigue,addDutyFactor);
+        ["rat_PDF", 0] call ACEFUNC(advanced_fatigue,addDutyFactor);
         [LLSTRING(Pervitin_start), 2, _patient] call ACEFUNC(common,displayTextStructured); 
 
         if (!isNil QACEGVAR(advanced_fatigue,setAnimExclusions)) then {
@@ -44,7 +44,7 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
         params ["_patient", "_defaultAnimSpeed"];
 
         if !(alive _patient) exitWith {};
-        ["kat_PDF"] call ACEFUNC(advanced_fatigue,removeDutyFactor);
+        ["rat_PDF"] call ACEFUNC(advanced_fatigue,removeDutyFactor);
         [LLSTRING(Pervitin_mid), 2, _patient] call ACEFUNC(common,displayTextStructured);
 
         _patient setAnimSpeedCoef _defaultAnimSpeed;
@@ -63,7 +63,7 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
         if !(alive _patient) exitWith {};
         ACEGVAR(advanced_fatigue,anReserve) = ACEGVAR(advanced_fatigue,anReserve) + 3000;
-        ["kat_PDF", 0.4] call ACEFUNC(advanced_fatigue,addDutyFactor);
+        ["rat_PDF", 0.4] call ACEFUNC(advanced_fatigue,addDutyFactor);
         [LLSTRING(Pervitin_mid2), 2, _patient] call ACEFUNC(common,displayTextStructured);
     },
     [_patient], 240] call CBA_fnc_waitAndExecute; /// 4m
@@ -74,7 +74,7 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
         if !(alive _patient) exitWith {};
         ACEGVAR(advanced_fatigue,anReserve) = ACEGVAR(advanced_fatigue,anReserve) + 3000;
-        ["kat_PDF", 0.6] call ACEFUNC(advanced_fatigue,addDutyFactor);
+        ["rat_PDF", 0.6] call ACEFUNC(advanced_fatigue,addDutyFactor);
         [LLSTRING(Pervitin_mid3), 2, _patient] call ACEFUNC(common,displayTextStructured);
     },
     [_patient], 360] call CBA_fnc_waitAndExecute; /// 6m
@@ -84,7 +84,7 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
         params ["_patient"];
 
         if !(alive _patient) exitWith {};
-        ["kat_PDF", 2] call ACEFUNC(advanced_fatigue,addDutyFactor);
+        ["rat_PDF", 2] call ACEFUNC(advanced_fatigue,addDutyFactor);
         [LLSTRING(Pervitin_mid4), 2, _patient] call ACEFUNC(common,displayTextStructured);
     },
     [_patient], 510] call CBA_fnc_waitAndExecute; /// 8:30m
@@ -94,7 +94,7 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
         params ["_patient"];
 
         if !(alive _patient) exitWith {};
-        ["kat_PDF"] call ACEFUNC(advanced_fatigue,removeDutyFactor);
+        ["rat_PDF"] call ACEFUNC(advanced_fatigue,removeDutyFactor);
         [LLSTRING(Pervitin_end), 2, _patient] call ACEFUNC(common,displayTextStructured);
     },
     [_patient], 600] call CBA_fnc_waitAndExecute; /// 10m

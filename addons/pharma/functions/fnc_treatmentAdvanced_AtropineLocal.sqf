@@ -16,7 +16,7 @@
  */
  
 params ["_patient"];
-
+/*
 private _medicationArray = _patient getVariable [QACEGVAR(medical,medications), []];
 
 {
@@ -36,3 +36,4 @@ _patient setVariable [QEGVAR(chemical,timeleft), missionNamespace getVariable [Q
 if (_patient getVariable [QEGVAR(chemical,painEffect),0] != 0) then {
     KAT_PAIN_EFFECT ppEffectEnable false;
 };
+*/

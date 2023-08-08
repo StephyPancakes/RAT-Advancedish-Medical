@@ -22,7 +22,7 @@ private _medicationArray = _patient getVariable [QACEGVAR(medical,medications), 
 {
     _x params ["_medication"];
 
-    if (_medication isEqualTo "Morphine" || _medication isEqualTo "Fentanyl" || _medication isEqualTo "Nalbuphine") exitWith {
+    if (_medication isEqualTo "Morphine") then {
         _medicationArray deleteAt (_medicationArray find _x);
     };
 } forEach (_medicationArray);

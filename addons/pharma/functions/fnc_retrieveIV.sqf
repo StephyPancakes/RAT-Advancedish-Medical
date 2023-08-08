@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 /*
  * Author: 2LT.Mazinski
- * Retrieves the IV/IO from a patient and returns additional fluids to the medic.
+ * Returns additional fluids to the medic.
  *
  * Arguments:
  * 0: Medic <OBJECT>
@@ -22,8 +22,9 @@ params ["_medic", "_patient", "_bodyPart"];
 private _partIndex = ALL_BODY_PARTS find toLower _bodyPart;
 private _IVarray = _patient getVariable [QGVAR(IV), [0,0,0,0,0,0]];
 private _newArray = _patient getVariable [QACEGVAR(medical,ivBags), []];
-private _IVactual = _IVarray select _partIndex;
+//private _IVactual = _IVarray select _partIndex;
 
+/*
 if(GVAR(IVreuse)) then {
     if (_IVactual == 1) then {
         _medic addItem "kat_IO_FAST";
@@ -31,6 +32,7 @@ if(GVAR(IVreuse)) then {
         _medic addItem "kat_IV_16";
     };
 };
+*/
 
 _IVarray set [_partIndex, 0];
 _patient setVariable [QGVAR(IV), _IVarray, true];

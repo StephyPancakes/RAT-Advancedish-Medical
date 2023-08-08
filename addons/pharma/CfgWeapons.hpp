@@ -1,216 +1,217 @@
 class CfgWeapons {
-    class ACE_ItemCore;
-    class CBA_MiscItem_ItemInfo;
+	class ACE_ItemCore;
+	class CBA_MiscItem_ItemInfo;
 
-    class rat_PainkillerItem: ACE_ItemCore {
-        scope = 2; //This item is not actually used and it is replaced by ace_common_fnc_registerItemReplacement 
-        author = "Katalam";
-        displayName = CSTRING(Painkillers_Box_Display);
-        picture = QPATHTOF(ui\icon_painkillers.paa);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 1;
-        };
-    };
-    class rat_CarbonateItem: ACE_ItemCore {
-        scope = 2; //This item is not actually used and it is replaced by ace_common_fnc_registerItemReplacement 
-        author = "Mazinski.H";
-        displayName = CSTRING(Carbonate_Box_Display);
-        picture = QPATHTOF(ui\icon_Carbonate.paa);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 1;
-        };
-    };
-    class rat_PervitinItem: ACE_ItemCore {
-        scope = 2; //This item is not actually used and it is replaced by ace_common_fnc_registerItemReplacement 
-        author = "Miss Heda";
-        displayName = CSTRING(Pervitin_Capsule_Display);
-        picture = QPATHTOF(ui\icon_Pervitin.paa);
-        descriptionShort = CSTRING(Pervitin_Capsule_DescShort);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.1;
-        }; 
-    };
-    class rat_CaffeineItem: ACE_ItemCore {
-        scope = 2; //This item is not actually used and it is replaced by ace_common_fnc_registerItemReplacement 
-        author = "Miss Heda";
-        displayName = CSTRING(Caffeine_Bottle_Display);
-        picture = QPATHTOF(ui\icon_Caffeine.paa);
-        descriptionShort = CSTRING(Caffeine_Bottle_DescShort);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.1;
-        }; 
-    };
-    class rat_IV_16: ACE_ItemCore {
-        scope = 2;
-        displayName = CSTRING(IV_16_Display);
-        picture = QPATHTOF(ui\icon_IV_16.paa);
-        model = QPATHTOF(models\iv\rat_iv.p3d);
-        descriptionShort = CSTRING(IV_DescShort);
-        hiddenSelections[]={"0"};
-        hiddenSelectionsMaterials[] = {QPATHTOF(models\iv\kat_iv.rvmat)};
-        hiddenSelectionsTextures[] = {QPATHTOF(models\iv\kat_iv_co.paa)};
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.5;
-        }; 
-    };
-    class rat_IO_FAST: ACE_ItemCore {
-        scope = 2;
-        displayName = CSTRING(IO_45_Display);
-        picture = QPATHTOF(ui\icon_fast_io.paa);
-        model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-        descriptionShort = CSTRING(IO_DescShort);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.5;
-        }; 
-    };
-    class rat_naloxone: ACE_ItemCore {
-        scope = 2;
-        displayName = CSTRING(Naloxone_Box_Display);
-        picture = QPATHTOF(ui\icon_Naloxone.paa);
-        model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-        descriptionShort = CSTRING(Naloxone_DescShort);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.5;
-        }; 
-    };
-    class rat_EACA: ACE_ItemCore {
-        scope = 2;
-        displayName = CSTRING(EACA_Display);
-        picture = QPATHTOF(ui\icon_TXA.paa);
-        model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-        descriptionShort = CSTRING(EACA_DescShort);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.2;
-        };
-    };
-    class rat_TXA: ACE_ItemCore {
-        scope = 2;
-        displayName = CSTRING(TXA_Box_Display);
-        picture = QPATHTOF(ui\icon_TXA.paa);
-        model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-        descriptionShort = CSTRING(TXA_DescShort);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.5;
-        }; 
-    };
-    class rat_norepinephrine: ACE_ItemCore {
-        scope = 2;
-        displayName = CSTRING(Norep_Box_Display);
-        picture = QPATHTOF(ui\norep.paa);
-        model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-        descriptionShort = CSTRING(Norep_DescShort);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.5;
-        }; 
-    };
-    class rat_phenylephrine: ACE_ItemCore {
-        scope = 2;
-        displayName = CSTRING(Phenyl_Box_Display);
-        picture = QPATHTOF(ui\phen.paa);
-        model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-        descriptionShort = CSTRING(Phenyl_DescShort);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.5;
-        }; 
-    };
-    class rat_nitroglycerin: ACE_ItemCore {
-        scope = 2;
-        displayName = CSTRING(Nitro_Box_Display);
-        picture = QPATHTOF(ui\nitro.paa);
-        model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-        descriptionShort = CSTRING(Nitro_DescShort);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.5;
-        }; 
-    };
-    class rat_amiodarone: ACE_ItemCore {
-        scope = 2;
-        displayName = CSTRING(Amiodarone_Box_Display);
-        picture = QPATHTOF(ui\icon_Amiodarone.paa);
-        model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-        descriptionShort = CSTRING(Amiodarone_DescShort);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.5;
-        }; 
-    };
-    class rat_lidocaine: ACE_ItemCore {
-        scope = 2;
-        displayName = CSTRING(Lidocaine_Box_Display);
-        picture = QPATHTOF(ui\icon_Lidocaine.paa);
-        model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-        descriptionShort = CSTRING(Lidocaine_DescShort);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.5;
-        }; 
-    };
-    class rat_atropine: ACE_ItemCore {
-        scope = 2;
-        displayName = CSTRING(Atropine_Box_Display);
-        picture = QPATHTOF(ui\icon_Atropine.paa);
-        model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-        descriptionShort = CSTRING(Atropine_DescShort);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.5;
-        }; 
-    };
-    class rat_ketamine: ACE_ItemCore {
-        scope = 2;
-        displayName = CSTRING(Ketamine_Box_Display);
-        picture = QPATHTOF(ui\icon_Ketamine.paa);
-        model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-        descriptionShort = CSTRING(Ketamine_DescShort);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.5;
-        }; 
-    };
-    class rat_fentanyl: ACE_ItemCore {
-        scope = 2;
-        displayName = CSTRING(Fentanyl_Box_Display);
-        picture = QPATHTOF(ui\icon_Fentanyl.paa);
-        model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-        descriptionShort = CSTRING(Fentanyl_DescShort);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.5;
-        }; 
-    };
-    class rat_nalbuphine: ACE_ItemCore {
-        scope = 2;
-        displayName = CSTRING(Nalbuphine_Box_Display);
-        picture = QPATHTOF(ui\icon_Nalbuphine.paa);
-        model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-        descriptionShort = CSTRING(Nalbuphine_DescShort);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.5;
-        }; 
-    };
-        class rat_lorazepam: ACE_ItemCore {
-        scope = 2;
-        displayName = CSTRING(Lorazepam_displayName);
-        picture = QPATHTOF(ui\icon_lorazepam.paa);
-        model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-        descriptionShort = CSTRING(Lorazepam_DescShort);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.2;
-        }; 
-    };
-    class rat_flumazenil: ACE_ItemCore {
-        scope = 2;
-        displayName = CSTRING(Flumazenil_displayName);
-        picture = QPATHTOF(ui\icon_flumazenil.paa);
-        model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-        descriptionShort = CSTRING(Flumazenil_DescShort);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.2;
-        }; 
-    };
-    class rat_etomidate: ACE_ItemCore {
-        scope = 2;
-        displayName = CSTRING(Etomidate_displayName);
-        picture = QPATHTOF(ui\icon_etomidate.paa);
-        model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-        descriptionShort = CSTRING(Etomidate_DescShort);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.2;
-        }; 
-    };
+	class rat_PainkillerItem: ACE_ItemCore {
+		scope = 2; //This item is not actually used and it is replaced by ace_common_fnc_registerItemReplacement 
+		author = "Katalam";
+		displayName = CSTRING(Painkillers_Box_Display);
+		picture = QPATHTOF(ui\icon_painkillers.paa);
+		class ItemInfo: CBA_MiscItem_ItemInfo {
+			mass = 1;
+		};
+	};
+	class rat_CarbonateItem: ACE_ItemCore {
+		scope = 2; //This item is not actually used and it is replaced by ace_common_fnc_registerItemReplacement 
+		author = "Mazinski.H";
+		displayName = CSTRING(Carbonate_Box_Display);
+		picture = QPATHTOF(ui\icon_Carbonate.paa);
+		class ItemInfo: CBA_MiscItem_ItemInfo {
+			mass = 1;
+		};
+	};
+	class rat_PervitinItem: ACE_ItemCore {
+		scope = 2; //This item is not actually used and it is replaced by ace_common_fnc_registerItemReplacement 
+		author = "Miss Heda";
+		displayName = CSTRING(Pervitin_Capsule_Display);
+		picture = QPATHTOF(ui\icon_Pervitin.paa);
+		descriptionShort = CSTRING(Pervitin_Capsule_DescShort);
+		class ItemInfo: CBA_MiscItem_ItemInfo {
+			mass = 0.1;
+		}; 
+	};
+	class rat_CaffeineItem: ACE_ItemCore {
+		scope = 2; //This item is not actually used and it is replaced by ace_common_fnc_registerItemReplacement 
+		author = "Miss Heda";
+		displayName = CSTRING(Caffeine_Bottle_Display);
+		picture = QPATHTOF(ui\icon_Caffeine.paa);
+		descriptionShort = CSTRING(Caffeine_Bottle_DescShort);
+		class ItemInfo: CBA_MiscItem_ItemInfo {
+			mass = 0.1;
+		}; 
+	};
+	class rat_naloxone: ACE_ItemCore {
+		scope = 2;
+		displayName = CSTRING(Naloxone_Box_Display);
+		picture = QPATHTOF(ui\icon_Naloxone.paa);
+		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
+		descriptionShort = CSTRING(Naloxone_DescShort);
+		class ItemInfo: CBA_MiscItem_ItemInfo {
+			mass = 0.5;
+		}; 
+	};
+	class rat_TXA: ACE_ItemCore {
+		scope = 2;
+		displayName = CSTRING(TXA_Box_Display);
+		picture = QPATHTOF(ui\icon_TXA.paa);
+		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
+		descriptionShort = CSTRING(TXA_DescShort);
+		class ItemInfo: CBA_MiscItem_ItemInfo {
+			mass = 0.5;
+		}; 
+	};
+	class rat_norepinephrine: ACE_ItemCore {
+		scope = 2;
+		displayName = CSTRING(Norep_Box_Display);
+		picture = QPATHTOF(ui\norep.paa);
+		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
+		descriptionShort = CSTRING(Norep_DescShort);
+		class ItemInfo: CBA_MiscItem_ItemInfo {
+			mass = 0.5;
+		}; 
+	};
+	class rat_phenylephrine: ACE_ItemCore {
+		scope = 2;
+		displayName = CSTRING(Phenyl_Box_Display);
+		picture = QPATHTOF(ui\phen.paa);
+		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
+		descriptionShort = CSTRING(Phenyl_DescShort);
+		class ItemInfo: CBA_MiscItem_ItemInfo {
+			mass = 0.5;
+		}; 
+	};
+	class rat_nitroglycerin: ACE_ItemCore {
+		scope = 2;
+		displayName = CSTRING(Nitro_Box_Display);
+		picture = QPATHTOF(ui\nitro.paa);
+		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
+		descriptionShort = CSTRING(Nitro_DescShort);
+		class ItemInfo: CBA_MiscItem_ItemInfo {
+			mass = 0.5;
+		}; 
+	};
+		class rat_atropine: ACE_ItemCore {
+		scope = 2;
+		displayName = CSTRING(Atropine_Box_Display);
+		picture = QPATHTOF(ui\icon_Atropine.paa);
+		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
+		descriptionShort = CSTRING(Atropine_DescShort);
+		class ItemInfo: CBA_MiscItem_ItemInfo {
+			mass = 0.5;
+		}; 
+	};
+	class rat_ketamine: ACE_ItemCore {
+		scope = 2;
+		displayName = CSTRING(Ketamine_Box_Display);
+		picture = QPATHTOF(ui\icon_Ketamine.paa);
+		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
+		descriptionShort = CSTRING(Ketamine_DescShort);
+		class ItemInfo: CBA_MiscItem_ItemInfo {
+			mass = 0.5;
+		}; 
+	};
+// To be removed - EACE, IV_16, IO_FAST, amiodarone, lidocaine, fentanyl, nalbuphrine, Lorazepam. flumazenil, etomidate
+//	class rat_EACA: ACE_ItemCore {
+//		scope = 2;
+//		displayName = CSTRING(EACA_Display);
+//		picture = QPATHTOF(ui\icon_TXA.paa);
+//		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
+//		descriptionShort = CSTRING(EACA_DescShort);
+//		class ItemInfo: CBA_MiscItem_ItemInfo {
+//			mass = 0.2;
+//		};
+//	};
+//	class rat_IV_16: ACE_ItemCore {
+//		scope = 2;
+//		displayName = CSTRING(IV_16_Display);
+//		picture = QPATHTOF(ui\icon_IV_16.paa);
+//		model = QPATHTOF(models\iv\rat_iv.p3d);
+//		descriptionShort = CSTRING(IV_DescShort);
+//		hiddenSelections[]={"0"};
+//		hiddenSelectionsMaterials[] = {QPATHTOF(models\iv\kat_iv.rvmat)};
+//		hiddenSelectionsTextures[] = {QPATHTOF(models\iv\kat_iv_co.paa)};
+//		class ItemInfo: CBA_MiscItem_ItemInfo {
+//			mass = 0.5;
+//		}; 
+//	};
+//	class rat_IO_FAST: ACE_ItemCore {
+//		scope = 2;
+//		displayName = CSTRING(IO_45_Display);
+//		picture = QPATHTOF(ui\icon_fast_io.paa);
+//		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
+//		descriptionShort = CSTRING(IO_DescShort);
+//		class ItemInfo: CBA_MiscItem_ItemInfo {
+//			mass = 0.5;
+//		}; 
+//	};
+//	class rat_amiodarone: ACE_ItemCore {
+//		scope = 2;
+//		displayName = CSTRING(Amiodarone_Box_Display);
+//		picture = QPATHTOF(ui\icon_Amiodarone.paa);
+//		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
+//		descriptionShort = CSTRING(Amiodarone_DescShort);
+//		class ItemInfo: CBA_MiscItem_ItemInfo {
+//			mass = 0.5;
+//		}; 
+//	};
+//	class rat_lidocaine: ACE_ItemCore {
+//		scope = 2;
+//		displayName = CSTRING(Lidocaine_Box_Display);
+//		picture = QPATHTOF(ui\icon_Lidocaine.paa);
+//		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
+//		descriptionShort = CSTRING(Lidocaine_DescShort);
+//		class ItemInfo: CBA_MiscItem_ItemInfo {
+//			mass = 0.5;
+//		}; 
+//	};
+//	class rat_fentanyl: ACE_ItemCore {
+//		scope = 2;
+//		displayName = CSTRING(Fentanyl_Box_Display);
+//		picture = QPATHTOF(ui\icon_Fentanyl.paa);
+//		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
+//		descriptionShort = CSTRING(Fentanyl_DescShort);
+//		class ItemInfo: CBA_MiscItem_ItemInfo {
+//			mass = 0.5;
+//		}; 
+//	};
+//	class rat_nalbuphine: ACE_ItemCore {
+//		scope = 2;
+//		displayName = CSTRING(Nalbuphine_Box_Display);
+//		picture = QPATHTOF(ui\icon_Nalbuphine.paa);
+//		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
+//		descriptionShort = CSTRING(Nalbuphine_DescShort);
+//		class ItemInfo: CBA_MiscItem_ItemInfo {
+//			mass = 0.5;
+//		}; 
+//	};
+//		class rat_lorazepam: ACE_ItemCore {
+//		scope = 2;
+//		displayName = CSTRING(Lorazepam_displayName);
+//		picture = QPATHTOF(ui\icon_lorazepam.paa);
+//		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
+//		descriptionShort = CSTRING(Lorazepam_DescShort);
+//		class ItemInfo: CBA_MiscItem_ItemInfo {
+//			mass = 0.2;
+//		}; 
+//	};
+//	class rat_flumazenil: ACE_ItemCore {
+//		scope = 2;
+//		displayName = CSTRING(Flumazenil_displayName);
+//		picture = QPATHTOF(ui\icon_flumazenil.paa);
+//		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
+//		descriptionShort = CSTRING(Flumazenil_DescShort);
+//		class ItemInfo: CBA_MiscItem_ItemInfo {
+//			mass = 0.2;
+//		}; 
+//	};
+//	class rat_etomidate: ACE_ItemCore {
+//		scope = 2;
+//		displayName = CSTRING(Etomidate_displayName);
+//		picture = QPATHTOF(ui\icon_etomidate.paa);
+//		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
+//		descriptionShort = CSTRING(Etomidate_DescShort);
+//		class ItemInfo: CBA_MiscItem_ItemInfo {
+//			mass = 0.2;
+//		}; 
+//	};
 };

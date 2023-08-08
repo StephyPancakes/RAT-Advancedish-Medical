@@ -18,8 +18,8 @@
 
 params ["_medic", "_patient"];
 
-private _sedated = _patient getVariable [QEGVAR(surgery,sedated), false];
-if (_sedated) exitWith {};
+//private _sedated = _patient getVariable [QEGVAR(surgery,sedated), false];
+//if (_sedated) exitWith {};
 
 private _bloodPressure = [_patient] call ACEFUNC(medical_status,getBloodPressure);
 _bloodPressureH = _bloodPressure select 1;

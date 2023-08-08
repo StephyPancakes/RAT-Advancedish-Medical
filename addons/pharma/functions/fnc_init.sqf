@@ -35,11 +35,11 @@ _unit setVariable [QGVAR(alphaAction), 1];
 
 _unit setVariable [QGVAR(TXA), 1, true];
 
-_unit setVariable [QGVAR(pH), 1500, true];
-_unit setVariable [QGVAR(coagulationFactor), 10, true];
-_unit setVariable [QGVAR(kidneyFail), false, true];
-_unit setVariable [QGVAR(kidneyArrest), false, true];
-_unit setVariable [QGVAR(kidneyPressure), false, true];
+//_unit setVariable [QGVAR(pH), 1500, true];
+//_unit setVariable [QGVAR(coagulationFactor), 10, true];
+//_unit setVariable [QGVAR(kidneyFail), false, true];
+//_unit setVariable [QGVAR(kidneyArrest), false, true];
+//_unit setVariable [QGVAR(kidneyPressure), false, true];
 
 [{
     params ["_args", "_idPFH"];
@@ -57,7 +57,7 @@ _unit setVariable [QGVAR(kidneyPressure), false, true];
     {
         _x params ["_medication"];
 
-        if (_medication in ["Epinephrine", "Phenylephrine", "Nitroglycerin", "Lidocaine", "Norepinephrine"]) exitWith {
+        if (_medication in ["Epinephrine", "Phenylephrine", "Nitroglycerin", "Norepinephrine"]) exitWith {
             _action = true;
         };
     } forEach (_medicationArray);
@@ -67,6 +67,7 @@ _unit setVariable [QGVAR(kidneyPressure), false, true];
     };
 }, 180, [_unit]] call CBA_fnc_addPerFrameHandler;
 
+/*
 if (GVAR(kidneyAction)) then {
     [{
         params ["_args", "_idPFH"];
@@ -117,7 +118,6 @@ if (GVAR(kidneyAction)) then {
         _unit setVariable [QGVAR(pH), _ph, true];
     }, 20, [_unit]] call CBA_fnc_addPerFrameHandler;
 };
-
 if (GVAR(coagulation)) then {
     [{
         params ["_args", "_idPFH"];
@@ -164,3 +164,4 @@ if (GVAR(coagulation)) then {
         };
     }, 8, [_unit]] call CBA_fnc_addPerFrameHandler;
 };
+*/

@@ -21,7 +21,7 @@ private _bloodVolume = GET_BLOOD_VOLUME(_unit);
 if (_bloodVolume < 5.1) exitWith { false };
 
 if IN_CRDC_ARRST(_unit) exitWith { false };
-if (_unit getVariable [QEGVAR(surgery,sedated), false]) exitWith { false };
+//if (_unit getVariable [QEGVAR(surgery,sedated), false]) exitWith { false };
 
 private _cardiacOutput = [_unit] call ACEFUNC(medical_status,getCardiacOutput);
 private _bloodLoss = _unit call EFUNC(pharma,getBloodLoss);
@@ -34,7 +34,7 @@ if (_bloodPressureL < 50 || {_bloodPressureH < 60}) exitWith { false };
 private _heartRate = GET_HEART_RATE(_unit);
 if (_heartRate < 40) exitWith { false };
 
-private _o2 = _unit getVariable [QEGVAR(breathing,airwayStatus), 100];
-if (_o2 < EGVAR(breathing,Stable_spo2)) exitWith { false };
+//private _o2 = _unit getVariable [QEGVAR(breathing,airwayStatus), 100];
+//if (_o2 < EGVAR(breathing,Stable_spo2)) exitWith { false };
 
 true
