@@ -1,4 +1,4 @@
-#include "\x\kat\addons\pharma\script_component.hpp"
+#include "\x\rat\addons\pharma\script_component.hpp"
 
 #define VAR_BLOOD_PRESS       "ACE_medical_bloodPressure"
 #define VAR_BLOOD_VOL         "ACE_medical_bloodVolume"

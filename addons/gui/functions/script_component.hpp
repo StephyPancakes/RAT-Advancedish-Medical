@@ -1,1 +1,1 @@
-#include "\x\kat\addons\gui\script_component.hpp"
+#include "\x\rat\addons\gui\script_component.hpp"
