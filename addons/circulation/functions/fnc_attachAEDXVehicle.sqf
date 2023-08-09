@@ -20,8 +20,8 @@ params ["_medic", "_patient"];
 
 _vehicle = _patient getVariable [QGVAR(AEDvehicleName), ""];
 
-if (_patient getVariable ["kat_AEDXPatient_PFH", false]) exitWith {};
-_patient setVariable ["kat_AEDXPatient_PFH", true];
+if (_patient getVariable ["rat_AEDXPatient_PFH", false]) exitWith {};
+_patient setVariable ["rat_AEDXPatient_PFH", true];
 
 // if there is already a connected x-series exitWith a hint
 if (_patient getVariable [QGVAR(X), false]) exitWith {
@@ -34,8 +34,9 @@ _patient setVariable [QGVAR(X), true, true];
 _patient setVariable [QGVAR(AED_X_VolumePatient), _medic getVariable QGVAR(AED_X_Volume), true];
 
 private _bloodLoss = _patient getVariable [QACEGVAR(medical,bloodVolume), 6.0];
-private _asystole = _patient getVariable [QGVAR(asystole), 1];
+//private _asystole = _patient getVariable [QGVAR(asystole), 1];
 
+/*
 if !(GVAR(AdvRhythm)) then {
     _patient setVariable [QGVAR(asystole), 1, true];
     _asystole = _patient getVariable [QGVAR(asystole), 1];
@@ -48,6 +49,7 @@ if !(GVAR(AdvRhythm)) then {
         _asystole = _patient getVariable [QGVAR(asystole), 2];
     };
 };
+*/
 
 // analyse sound feedback
 playsound3D [QPATHTOF_SOUND(sounds\analyse.wav), _patient, false, getPosASL _patient, 5, 1, 15];

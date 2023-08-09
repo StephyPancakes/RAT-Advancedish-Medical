@@ -13,9 +13,9 @@
 *
 */
 
-ACE_player removeItem "kat_AED";
+ACE_player removeItem "rat_AED";
 
-private _AED = createVehicle ["kat_AEDItem", position ACE_player, [], 0, "NONE"];
+private _AED = createVehicle ["rat_AEDItem", position ACE_player, [], 0, "NONE"];
 
 [_AED, true, [0, 1, 0]] remoteExecCall ["ace_dragging_fnc_setDraggable", 0, true];
 [_AED, true, [0, 1, 0]] remoteExecCall ["ace_dragging_fnc_setCarryable", 0, true];
@@ -24,13 +24,13 @@ private _AED = createVehicle ["kat_AEDItem", position ACE_player, [], 0, "NONE"]
 
 private _pickupAED = [
     "AED_pickupAction",
-    localize "STR_KAT_circulation_PickUpAction",
+    localize "STR_RAT_circulation_PickUpAction",
     "",
     {
         params ["_target", "_player"];
         
         deleteVehicle _target;
-        _player addItem "kat_AED";
+        _player addItem "rat_AED";
     },
     {true}
 ] call ACEFUNC(interact_menu,createAction);

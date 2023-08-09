@@ -21,7 +21,7 @@ params ["_medic", "_patient"];
 private _canCPR = ["",_patient] call ACEFUNC(medical_treatment,canCPR);
 private _classNameObjects = [];
 {
-    if (typeOf _x in ["kat_AEDItem", "Land_Defibrillator_F"]) then {
+    if (typeOf _x in ["rat_AEDItem", "Land_Defibrillator_F"]) then {
         _className = typeOf _x; 
         _classNameObjects pushBack _className;
     };

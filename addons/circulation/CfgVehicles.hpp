@@ -44,44 +44,9 @@ class CfgVehicles {
             MACRO_ADDITEM(rat_AED,1);
             MACRO_ADDITEM(RAT_Empty_bloodIV_500,10);
             MACRO_ADDITEM(RAT_Empty_bloodIV_250,20);
-            MACRO_ADDITEM(rat_crossPanel,5);
         };
         class TransportMagazines: TransportMagazines {
             MACRO_ADDMAGAZINE(rat_Painkiller,10);
-        };
-    };
-    class rat_medicalSupplyCrate: ACE_medicalSupplyCrate {
-        displayName = CSTRING(bloodbank);
-        class TransportItems: TransportItems {
-            MACRO_ADDITEM(rat_crossPanel,2);
-            MACRO_ADDITEM(rat_IO_FAST,15);
-            MACRO_ADDITEM(rat_IV_16,15);
-            MACRO_ADDITEM(RAT_Empty_bloodIV_250,7);
-            MACRO_ADDITEM(RAT_Empty_bloodIV_500,7);
-            MACRO_ADDITEM(rat_bloodIV_O,7);
-            MACRO_ADDITEM(rat_bloodIV_O_N,7);
-            MACRO_ADDITEM(rat_bloodIV_A,7);
-            MACRO_ADDITEM(rat_bloodIV_A_N,7);
-            MACRO_ADDITEM(rat_bloodIV_B,7);
-            MACRO_ADDITEM(rat_bloodIV_B_N,7);
-            MACRO_ADDITEM(rat_bloodIV_AB,7);
-            MACRO_ADDITEM(rat_bloodIV_AB_N,7);
-            MACRO_ADDITEM(rat_bloodIV_O_500,7);
-            MACRO_ADDITEM(rat_bloodIV_O_N_500,7);
-            MACRO_ADDITEM(rat_bloodIV_A_500,7);
-            MACRO_ADDITEM(rat_bloodIV_A_N_500,7);
-            MACRO_ADDITEM(rat_bloodIV_B_500,7);
-            MACRO_ADDITEM(rat_bloodIV_B_N_500,7);
-            MACRO_ADDITEM(rat_bloodIV_AB_500,7);
-            MACRO_ADDITEM(rat_bloodIV_AB_N_500,7);
-            MACRO_ADDITEM(rat_bloodIV_O_250,7);
-            MACRO_ADDITEM(rat_bloodIV_O_N_250,7);
-            MACRO_ADDITEM(rat_bloodIV_A_250,7);
-            MACRO_ADDITEM(rat_bloodIV_A_N_250,7);
-            MACRO_ADDITEM(rat_bloodIV_B_250,7);
-            MACRO_ADDITEM(rat_bloodIV_B_N_250,7);
-            MACRO_ADDITEM(rat_bloodIV_AB_250,7);
-            MACRO_ADDITEM(rat_bloodIV_AB_N_250,7);
         };
     };
 

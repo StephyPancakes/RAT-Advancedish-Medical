@@ -27,7 +27,7 @@ _medic setVariable [QGVAR(AED_X_Volume), _patient getVariable [QGVAR(AED_X_Volum
 if (_AEDreturn) then {
     _medic setVariable [QGVAR(use), false, true];
     [_output, 1.5, _medic] call ACEFUNC(common,displayTextStructured);
-    [_medic, "kat_X_AED"] call ACEFUNC(common,addToInventory);
+    [_medic, "rat_X_AED"] call ACEFUNC(common,addToInventory);
     _medic setVariable [QGVAR(returnedAED), true, true];
 } else {
     _patient setVariable [QGVAR(AEDvehicle), "", true];
