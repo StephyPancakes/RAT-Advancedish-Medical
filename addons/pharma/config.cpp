@@ -11,26 +11,16 @@ class CfgPatches {
         weapons[] = {
             "rat_Painkiller",
             "rat_PainkillerItem",
-            "rat_IV_16",
-            "rat_IO_FAST",
             "rat_Carbonate",
             "rat_CarbonateItem",
             "rat_naloxone",
-            "rat_EACA",
             "rat_TXA",
             "rat_X_AED",
             "rat_norepinephrine",
             "rat_phenylephrine",
             "rat_nitroglycerin",
-            "rat_amiodarone",
-            "rat_lidocane",
             "rat_atropine",
-            "rat_ketamine",
-            "rat_fentanyl",
-            "rat_nalbuphine",
-            "rat_flumazenil",
-            "rat_lorazepam",
-            "rat_etomidate"
+            "rat_ketamine"
         };
         magazines[] = { };
         requiredAddons[] = {

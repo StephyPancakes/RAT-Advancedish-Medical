@@ -69,8 +69,6 @@ class ACE_Medical_Treatment_Actions {
         animationPatientUnconsciousExcludeOn[] = {"ainjppnemstpsnonwrfldnon"};
     };
 
-    #include "Blood_Medical.hpp"
-
     class AED: CPR {
         displayName = CSTRING(Defib_Action_Use);
         displayNameProgress = CSTRING(AED_PROGRESS);
