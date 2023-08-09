@@ -1,7 +1,7 @@
 name = "RAT - Advanced-ish Medical";
 dir = "@rat_aceAdvMedical";
-actionName = "KAT's Original Github";
-action = "https://github.com/Tomcat-SG/KAM";
+actionName = "RAT Github";
+action = "https://github.com/StephyPancakes/RAT-Advancedish-Medical";
 tooltip = "RAT - Advanced-ish Medical";
 tooltipOwned = "RAT - Advanced-ish Medical";
 overview = "RAT Advanced-ish Medical is a very stripped down version of KAT Advanced medical made for 3SA by someone with a name that was an excellent coincidence. Some of the original customisation is gone, a lot of the extra drugs are gone, many of the more complex systems are totally cut and some things have had their function incredibly simplified.";

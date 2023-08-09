@@ -11,7 +11,7 @@
  * None
  *
  * Example:
- * [player, 0] call kat_misc_fnc_unSlingArmband;
+ * [player, 0] call rat_misc_fnc_unSlingArmband;
  *
  * Public: No
  */
@@ -25,26 +25,20 @@ switch (_limbNumber) do
 
         switch (typeOf _objectLA) do
         {
-            case "Kat_armbandRC": {
-                [_unit, "kat_armband_red_cross"] call ACEFUNC(common,addToInventory);
+            case "Rat_armbandRC": {
+                [_unit, "rat_armband_red_cross"] call ACEFUNC(common,addToInventory);
                 _unit setVariable [QGVAR(isLeftArmFree), true, true];
                 deleteVehicle _objectLA;
             };
 
-            case "Kat_armbandRCM": {
-                [_unit, "kat_armband_medic"] call ACEFUNC(common,addToInventory);
+            case "Rat_armbandRCM": {
+                [_unit, "rat_armband_medic"] call ACEFUNC(common,addToInventory);
                 _unit setVariable [QGVAR(isLeftArmFree), true, true];
                 deleteVehicle _objectLA;
             };
 
-                case "Kat_armbandRCD": {
-                [_unit, "kat_armband_doctor"] call ACEFUNC(common,addToInventory);
-                _unit setVariable [QGVAR(isLeftArmFree), true, true];
-                deleteVehicle _objectLA;
-            };
-
-            case "Kat_armbandKAT": {
-                [_unit, "kat_armband_kat"] call ACEFUNC(common,addToInventory);
+                case "Rat_armbandRCD": {
+                [_unit, "rat_armband_doctor"] call ACEFUNC(common,addToInventory);
                 _unit setVariable [QGVAR(isLeftArmFree), true, true];
                 deleteVehicle _objectLA;
             };
@@ -56,26 +50,20 @@ switch (_limbNumber) do
 
         switch (typeOf _objectRA) do
         {
-            case "Kat_armbandRC": {
-                [_unit, "kat_armband_red_cross"] call ACEFUNC(common,addToInventory);
+            case "Rat_armbandRC": {
+                [_unit, "rat_armband_red_cross"] call ACEFUNC(common,addToInventory);
                 _unit setVariable [QGVAR(isRightArmFree), true, true];
                 deleteVehicle _objectRA;
             };
 
-            case "Kat_armbandRCM": {
-                [_unit, "kat_armband_medic"] call ACEFUNC(common,addToInventory);
+            case "Rat_armbandRCM": {
+                [_unit, "rat_armband_medic"] call ACEFUNC(common,addToInventory);
                 _unit setVariable [QGVAR(isRightArmFree), true, true];
                 deleteVehicle _objectRA;
             };
 
-            case "Kat_armbandRCD": {
-                [_unit, "kat_armband_doctor"] call ACEFUNC(common,addToInventory);
-                _unit setVariable [QGVAR(isRightArmFree), true, true];
-                deleteVehicle _objectRA;
-            };
-
-            case "Kat_armbandKAT": {
-                [_unit, "kat_armband_kat"] call ACEFUNC(common,addToInventory);
+            case "Rat_armbandRCD": {
+                [_unit, "rat_armband_doctor"] call ACEFUNC(common,addToInventory);
                 _unit setVariable [QGVAR(isRightArmFree), true, true];
                 deleteVehicle _objectRA;
             };
@@ -87,26 +75,20 @@ switch (_limbNumber) do
 
         switch (typeOf _objectLL) do
         {
-            case "Kat_armbandRC": {
-                [_unit, "kat_armband_red_cross"] call ACEFUNC(common,addToInventory);
+            case "Rat_armbandRC": {
+                [_unit, "rat_armband_red_cross"] call ACEFUNC(common,addToInventory);
                 _unit setVariable [QGVAR(isLeftLegFree), true, true];
                 deleteVehicle _objectLL;
             };
 
-            case "Kat_armbandRCM": {
-                [_unit, "kat_armband_medic"] call ACEFUNC(common,addToInventory);
+            case "Rat_armbandRCM": {
+                [_unit, "rat_armband_medic"] call ACEFUNC(common,addToInventory);
                 _unit setVariable [QGVAR(isLeftLegFree), true, true];
                 deleteVehicle _objectLL;
             };
 
-            case "Kat_armbandRCD": {
-                [_unit, "kat_armband_doctor"] call ACEFUNC(common,addToInventory);
-                _unit setVariable [QGVAR(isLeftLegFree), true, true];
-                deleteVehicle _objectLL;
-            };
-
-            case "Kat_armbandKAT": {
-                [_unit, "kat_armband_kat"] call ACEFUNC(common,addToInventory);
+            case "Rat_armbandRCD": {
+                [_unit, "rat_armband_doctor"] call ACEFUNC(common,addToInventory);
                 _unit setVariable [QGVAR(isLeftLegFree), true, true];
                 deleteVehicle _objectLL;
             };
@@ -118,26 +100,20 @@ switch (_limbNumber) do
 
         switch (typeOf _objectRL) do
         {
-            case "Kat_armbandRC": {
-                [_unit, "kat_armband_red_cross"] call ACEFUNC(common,addToInventory);
+            case "Rat_armbandRC": {
+                [_unit, "rat_armband_red_cross"] call ACEFUNC(common,addToInventory);
                 _unit setVariable [QGVAR(isRightLegFree), true, true];
                 deleteVehicle _objectRL;
             };
 
-            case "Kat_armbandRCM": {
-                [_unit, "kat_armband_medic"] call ACEFUNC(common,addToInventory);
+            case "Rat_armbandRCM": {
+                [_unit, "rat_armband_medic"] call ACEFUNC(common,addToInventory);
                 _unit setVariable [QGVAR(isRightLegFree), true, true];
                 deleteVehicle _objectRL;
             };
 
-            case "Kat_armbandRCD": {
-                [_unit, "kat_armband_doctor"] call ACEFUNC(common,addToInventory);
-                _unit setVariable [QGVAR(isRightLegFree), true, true];
-                deleteVehicle _objectRL;
-            };
-
-            case "Kat_armbandKAT": {
-                [_unit, "kat_armband_kat"] call ACEFUNC(common,addToInventory);
+            case "Rat_armbandRCD": {
+                [_unit, "rat_armband_doctor"] call ACEFUNC(common,addToInventory);
                 _unit setVariable [QGVAR(isRightLegFree), true, true];
                 deleteVehicle _objectRL;
             };

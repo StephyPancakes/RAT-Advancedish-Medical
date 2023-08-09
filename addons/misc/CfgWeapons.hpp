@@ -41,12 +41,6 @@ class CfgWeapons
         picture = QPATHTOF(ui\ArmbandWhiteCrossDoctor.paa);
     };
 
-    class rat_Armband_Rat_Item: rat_Armband_Red_Cross_Item {
-        displayName = CSTRING(Armband_Rat_ItemName);
-        editorPreview = QPATHTOF(ui\ArmbandKat.paa);
-        picture = QPATHTOF(ui\ArmbandKat.paa);
-    };
-
     class rat_Bubble_Wrap_Item: ACE_ItemCore {
         author = "Miss Heda";
         displayName = CSTRING(Bubble_Wrap_Display);

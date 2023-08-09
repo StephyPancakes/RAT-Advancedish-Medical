@@ -42,5 +42,4 @@ if (GVAR(incompatibilityWarning)) then {
 ["rat_Armband_Red_Cross_Item", "rat_armband_red_cross"] call ACEFUNC(common,registerItemReplacement);
 ["rat_Armband_Medic_Item", "rat_armband_medic"] call ACEFUNC(common,registerItemReplacement);
 ["rat_Armband_Doctor_Item", "rat_armband_doctor"] call ACEFUNC(common,registerItemReplacement);
-["rat_Armband_Kat_Item", "rat_armband_kat"] call ACEFUNC(common,registerItemReplacement);
 ["rat_Bubble_Wrap_Item", "rat_Bubble_Wrap"] call ACEFUNC(common,registerItemReplacement);

@@ -23,19 +23,6 @@ class ACE_Medical_Treatment_Actions {
         animationPatientUnconscious = "AinjPpneMstpSnonWrflDnon_rolltoback";
         animationPatientUnconsciousExcludeOn[] = {"ainjppnemstpsnonwrfldnon"};
     };
-    class CheckRhythm: CheckPulse {
-        displayName = CSTRING(Rhythm);
-        displayNameProgress = CSTRING(Checking_Rhythm);
-        allowedSelections[] = {"Body"};
-        treatmentTime = 2;
-        items[] = {};
-        condition = QUOTE((_patient getVariable [ARR_2(QQGVAR(X),false)]) || ([ARR_2(_medic,'rat_AED')] call ACEFUNC(common,hasItem)));
-        callbackStart = QFUNC(AEDanalyze);
-        callbackSuccess = "";
-        animationPatient = "";
-        animationPatientUnconscious = "AinjPpneMstpSnonWrflDnon_rolltoback";
-        animationPatientUnconsciousExcludeOn[] = {"ainjppnemstpsnonwrfldnon"};
-    };
     class RAT_DrawBlood500: CheckPulse {
         displayName = CSTRING(DrawBlood500_Action_Use);
         displayNameProgress = CSTRING(DrawBlood_Action_Progress);

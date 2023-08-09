@@ -22,7 +22,7 @@
  };
 
 _h = cursorObject;
-_s = createVehicle ["kat_stretcher", (_h modelToWorld [0,0,-5])];
+_s = createVehicle ["rat_stretcher", (_h modelToWorld [0,0,-5])];
 _s attachTo [_h,[0,0,-.1],"slingload0"];
 
 [_s,_h] call kat_misc_fnc_heliAddActionDeploy;

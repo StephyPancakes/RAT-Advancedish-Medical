@@ -43,4 +43,3 @@ class CfgPatches {
 #include "ACE_Medical_Treatment_Actions.hpp"
 #include "CfgSounds.hpp"
 #include "CfgMagazines.hpp"
-#include "CfgBloodGroupsInsignia.hpp"

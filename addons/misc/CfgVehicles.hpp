@@ -189,12 +189,6 @@ class CfgVehicles {
         model = QPATHTOF(models\armband\Armband.p3d);
         hiddenSelectionsTextures[] = {QPATHTOF(models\armband\ArmbandWCD.paa)};
     };
-    class Rat_armbandRAT: Rat_armbandRC {
-        author = "Miss Heda, vccv9040 (Swedish Forces Pack)";
-        editorPreview = QPATHTOF(ui\ArmbandKat.paa);
-        model = QPATHTOF(models\armband\Armband.p3d);
-        hiddenSelectionsTextures[] = {QPATHTOF(models\armband\ArmbandKAT.paa)};
-    };
     class Man;
     class CAManBase: Man {
         class ACE_SelfActions
@@ -242,15 +236,6 @@ class CfgVehicles {
                             showDisabled = 0;
                             icon = QPATHTOF(ui\ArmbandWhiteCrossDoctor.paa);
                         };
-
-                        class Rat {
-                            displayName = CSTRING(Armband_Rat_ItemName);
-                            condition = QUOTE([ARR_2(_player, ""rat_armband_rat"")] call ACEFUNC(common,hasItem));
-                            exceptions[] = {"isNotSwimming", "isNotInside", "notOnMap", "isNotSitting"};
-                            statement = QUOTE([ARR_3(_player, ""rat_armband_rat"", 0)] call FUNC(slingArmband));
-                            showDisabled = 0;
-                            icon = QPATHTOF(ui\ArmbandKat.paa);
-                        };
                     }; 
 
                     class RightArm {
@@ -286,15 +271,6 @@ class CfgVehicles {
                             statement = QUOTE([ARR_3(_player, ""rat_armband_doctor"", 1)] call FUNC(slingArmband));
                             showDisabled = 0;
                             icon = QPATHTOF(ui\ArmbandWhiteCrossDoctor.paa);
-                        };
-
-                        class Rat {
-                            displayName = CSTRING(Armband_Rat_ItemName);
-                            condition = QUOTE([ARR_2(_player, ""rat_armband_rat"")] call ACEFUNC(common,hasItem));
-                            exceptions[] = {"isNotSwimming", "isNotInside", "notOnMap", "isNotSitting"};
-                            statement = QUOTE([ARR_3(_player, ""rat_armband_rat"", 1)] call FUNC(slingArmband));
-                            showDisabled = 0;
-                            icon = QPATHTOF(ui\ArmbandKat.paa);
                         };
                     }; 
 
@@ -332,15 +308,6 @@ class CfgVehicles {
                             showDisabled = 0;
                             icon = QPATHTOF(ui\ArmbandWhiteCrossDoctor.paa);
                         };
-
-                        class Rat {
-                            displayName = CSTRING(Armband_rat_ItemName);
-                            condition = QUOTE([ARR_2(_player, ""rat_armband_rat"")] call ACEFUNC(common,hasItem));
-                            exceptions[] = {"isNotSwimming", "isNotInside", "notOnMap", "isNotSitting"};
-                            statement = QUOTE([ARR_3(_player, ""rat_armband_rat"", 2)] call FUNC(slingArmband));
-                            showDisabled = 0;
-                            icon = QPATHTOF(ui\ArmbandKat.paa);
-                        };
                     }; 
 
                     class RightLeg {
@@ -376,15 +343,6 @@ class CfgVehicles {
                             statement = QUOTE([ARR_3(_player, ""rat_armband_doctor"", 3)] call FUNC(slingArmband));
                             showDisabled = 0;
                             icon = QPATHTOF(ui\ArmbandWhiteCrossDoctor.paa);
-                        };
-
-                        class Rat {
-                            displayName = CSTRING(Armband_rat_ItemName);
-                            condition = QUOTE([ARR_2(_player, ""rat_armband_rat"")] call ACEFUNC(common,hasItem));
-                            exceptions[] = {"isNotSwimming", "isNotInside", "notOnMap", "isNotSitting"};
-                            statement = QUOTE([ARR_3(_player, ""rat_armband_rat"", 3)] call FUNC(slingArmband));
-                            showDisabled = 0;
-                            icon = QPATHTOF(ui\ArmbandKat.paa);
                         };
                     };
 

@@ -13,14 +13,6 @@ class CfgGlasses
         identityTypes[] = {};
     };
 
-    class rat_armband_medic: rat_armband_red_cross
-    {
-        author= "Miss Heda, vccv9040 (Swedish Forces Pack)";
-        displayname = CSTRING(Armband_Medic_ItemName);
-        hiddenSelectionsTextures[] = {QPATHTOF(models\armband\ArmbandWCM.paa)};
-        picture= QPATHTOF(ui\ArmbandWhiteCrossMedic.paa);
-    };
-
     class rat_armband_doctor: rat_armband_red_cross
     {
         author= "Miss Heda, vccv9040 (Swedish Forces Pack)";

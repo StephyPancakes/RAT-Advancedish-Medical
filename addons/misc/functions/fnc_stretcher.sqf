@@ -17,14 +17,14 @@
 
 params [["_object", objNull, [objNull]]];
 
-if !(_object isKindOf "kat_stretcher") exitWith {false};
+if !(_object isKindOf "rat_stretcher") exitWith {false};
 
 [_object] call ACEFUNC(dragging,initObject);
 
 [_object, 0, ["ACE_MainActions"],
     [QGVAR(disassemble), LLSTRING(disassemble_stretcher_display), "", {
         params [["_object", objNull, [objNull]]];
-        "kat_stretcherBag" createVehicle (getPos _object); // TODO create at exact position
+        "rat_stretcherBag" createVehicle (getPos _object); // TODO create at exact position
         deleteVehicle _object;
     }, {
         params [["_object", objNull, [objNull]]];

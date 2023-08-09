@@ -14,7 +14,7 @@
 params ["_s","_h","_rope1","_rope2","_rope3","_rope4"];
 
 _h addAction [
-  format ["<ui image='x\kat\addons\misc\ui\uparrow.paa' size='1' shadow='false'/> <t>%1</t>", LLSTRING(helistretcher_raise)],
+  format ["<ui image='x\rat\addons\misc\ui\uparrow.paa' size='1' shadow='false'/> <t>%1</t>", LLSTRING(helistretcher_raise)],
   {
     params ["_target", "_caller", "_actionId", "_arguments"];
     _caller removeAction _actionId;
@@ -47,9 +47,9 @@ _h addAction [
       ropeDestroy _rope3;
       ropeDestroy _rope4;
 
-      _s = createVehicle ["kat_stretcher", (_h modelToWorld [0,0,-5])];
+      _s = createVehicle ["rat_stretcher", (_h modelToWorld [0,0,-5])];
       _s attachTo [_h,[0,0,-.1],"slingload0"];
-      [_s,_h] call kat_misc_fnc_heliAddActionDeploy;
+      [_s,_h] call rat_misc_fnc_heliAddActionDeploy;
     } else {
       sleep 8;
       deleteVehicle _s;
@@ -59,9 +59,9 @@ _h addAction [
       ropeDestroy _rope3;
       ropeDestroy _rope4;
 
-      _s = createVehicle ["kat_stretcher", (_h modelToWorld [0,0,-5])];
+      _s = createVehicle ["rat_stretcher", (_h modelToWorld [0,0,-5])];
       _s attachTo [_h,[0,0,-.1],"slingload0"];
-      [_s,_h] call kat_misc_fnc_heliAddActionDeploy;
+      [_s,_h] call rat_misc_fnc_heliAddActionDeploy;
     };
   },
   [_s,_h,_rope1,_rope2,_rope3,_rope4],
