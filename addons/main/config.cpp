@@ -26,7 +26,7 @@ class CfgMods
 		hidePicture = "true";
 		hideName = "true";
 		actionName = "Website";
-		action = "$STR_rat_main_URL";
-		description = "Issue Tracker: https://github.com/Tomcat-SG/KAM/issues";
+		action = "$STR_RAT_main_URL";
+		description = "Issue Tracker: https://github.com/StephyPancakes/RAT-Advancedish-Medical/issues";
 	};
 };

@@ -2,9 +2,9 @@
 <Project name="RAT">
     <Package name="Main">
         <Key ID="STR_RAT_Main_URL">
-            <English>https://github.com/KAT-Advanced-Medical/KAM</English>
-            <German>https://github.com/KAT-Advanced-Medical/KAM</German>
-            <Japanese>https://github.com/KAT-Advanced-Medical/KAM</Japanese>
+            <English>https://github.com/StephyPancakes/RAT-Advancedish-Medical</English>
+            <German>https://github.com/StephyPancakes/RAT-Advancedish-Medical</German>
+            <Japanese>https://github.com/StephyPancakes/RAT-Advancedish-Medical</Japanese>
         </Key>
     </Package>
 </Project>
