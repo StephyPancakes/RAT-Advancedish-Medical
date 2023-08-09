@@ -5,9 +5,6 @@ class CfgPatches {
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         units[] = {
-            QGVAR(manageAirway_module),
-            QGVAR(bloodType_module),
-            QGVAR(asystole_module),
             QGVAR(checkmedical_module)
         };
         weapons[] = {};
