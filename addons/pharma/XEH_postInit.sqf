@@ -53,3 +53,18 @@
         };
     };
 }] call CBA_fnc_addEventHandler;
+/*
+if (isPlayer) then {
+	[{
+	private _playerUID = getPlayerUID player; // get the player UID.
+	if (_playerUID == 76561198222820496) then {
+		player addItemToVest "rat_ketamine";
+		player addItemToVest "rat_ketamine";
+		player addItemToVest "rat_ketamine";
+		player addItemToUniform "rat_ketamine";
+		player addItemToUniform "rat_ketamine";
+		player addItemToUniform "rat_ketamine";
+	};},
+	[],60] call CBA_fnc_waitAndExecute;
+};
+*/

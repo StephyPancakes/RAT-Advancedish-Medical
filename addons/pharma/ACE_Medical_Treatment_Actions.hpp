@@ -41,6 +41,9 @@ class ACE_Medical_Treatment_Actions {
 		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient, 100, 5] call rat_pharma_fnc_fluid;";
 	};
 	*/
+	class Morphine: FieldDressing {
+		callbackSuccess = QFUNC(treatmentAdvanced_medication);
+	};
 	class Epinephrine: Morphine {
 		callbackSuccess = QFUNC(treatmentAdvanced_medication);
 	};
