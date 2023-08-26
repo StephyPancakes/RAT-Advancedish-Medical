@@ -1,4 +1,4 @@
-# KAT Medical
+# RAT Medical
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/StephyPancakes/RAT-Advancedish-Medical/master/logo3.png">
