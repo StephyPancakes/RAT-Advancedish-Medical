@@ -17,12 +17,11 @@
 </p>
 
 <p align="center">
-    <sup><strong>Download latest stable release on <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2020940806">steam</a>.<br/>
-    Visit us on <a href="https://discord.gg/HbA93HK">Discord</a></strong></sup>
+    <sup><strong>Download latest stable release on <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3015842697">steam</a>.<br/>
 </p>
 
 
-**The ACE Advanced Medical System is nice, but we can do it better, even on a more realistic way and bring it on another level with these addons.**
+**The KAT Advanced Medical System is nice, but we can do it from inside your walls, even on a even on a less realistic way and bring it on a lower level with these addons.**
 
 Originaly created by Katalam, KAT is currently maintained by Tomcat, Kygan, YetheSamartaka, Battlekeeper, MJSTIC, MiszczuZPolski and Digii / Julian. RAT is created and maintained by RAT (StephyPancakes on GitHub). Thanks to DMZ for current logo.
 
