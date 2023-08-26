@@ -35,10 +35,13 @@ class ADDON {
 		};
 		class Norepinephrine {
 			painReduce = 0;
-			hrIncreaseLow[] = {0, 5};
-			hrIncreaseNormal[] = {5, 15};
-			hrIncreaseHigh[] = {5, 10};
-			timeInSystem = 360;
+			hrIncreaseLow[] = {0, 0};
+			hrIncreaseNormal[] = {0, 0};
+			hrIncreaseHigh[] = {0, 0};
+		//	hrIncreaseLow[] = {0, 5};
+		//	hrIncreaseNormal[] = {5, 15};
+		//	hrIncreaseHigh[] = {5, 10};
+			timeInSystem = 180;
 			timeTillMaxEffect = 15;
 			maxDose = 12;
 			incompatibleMedication[] = {};
@@ -47,10 +50,13 @@ class ADDON {
 		};
 		class Phenylephrine {
 			painReduce = 0;
-			hrIncreaseLow[] = {-5, -10};
-			hrIncreaseNormal[] = {-10, -15};
-			hrIncreaseHigh[] = {-10, -15};
-			timeInSystem = 360;
+			hrIncreaseLow[] = {0, 0};
+			hrIncreaseNormal[] = {0, 0};
+			hrIncreaseHigh[] = {0, 0};
+		//	hrIncreaseLow[] = {-5, -10};
+		//	hrIncreaseNormal[] = {-10, -15};
+		//	hrIncreaseHigh[] = {-10, -15};
+			timeInSystem = 180;
 			timeTillMaxEffect = 15;
 			maxDose = 12;
 			incompatibleMedication[] = {};
@@ -59,10 +65,13 @@ class ADDON {
 		};
 		class Nitroglycerin {
 			painReduce = 0;
-			hrIncreaseLow[] = {5, 10};
-			hrIncreaseNormal[] = {10, 15};
-			hrIncreaseHigh[] = {10, 15};
-			timeInSystem = 360;
+			hrIncreaseLow[] = {0, 0};
+			hrIncreaseNormal[] = {0, 0};
+			hrIncreaseHigh[] = {0, 0};
+		//	hrIncreaseLow[] = {5, 10};
+		//	hrIncreaseNormal[] = {10, 15};
+		//	hrIncreaseHigh[] = {10, 15};
+			timeInSystem = 180;
 			timeTillMaxEffect = 15;
 			maxDose = 12;
 			incompatibleMedication[] = {};
@@ -82,9 +91,12 @@ class ADDON {
 		};
 		class Painkillers {
 			painReduce = 0.3;
-			hrIncreaseLow[] = {0, 5};
-			hrIncreaseNormal[] = {5, 10};
-			hrIncreaseHigh[] = {5, 15};
+			hrIncreaseLow[] = {0, 0};
+			hrIncreaseNormal[] = {0, 0};
+			hrIncreaseHigh[] = {0, 0};
+		//	hrIncreaseLow[] = {0, 5};
+		//	hrIncreaseNormal[] = {5, 10};
+		//	hrIncreaseHigh[] = {5, 15};
 			timeInSystem = 600;
 			timeTillMaxEffect = 90;
 			maxDose = 10;
@@ -93,9 +105,12 @@ class ADDON {
 		};
 		class Atropine {
 			painReduce = 0;
-			hrIncreaseLow[] = {20, 40};
-			hrIncreaseNormal[] = {10, 25};
-			hrIncreaseHigh[] = {5, 15};
+			hrIncreaseLow[] = {0, 0};
+			hrIncreaseNormal[] = {0, 0};
+			hrIncreaseHigh[] = {0, 0};
+		//	hrIncreaseLow[] = {20, 40};
+		//	hrIncreaseNormal[] = {10, 25};
+		//	hrIncreaseHigh[] = {5, 15};
 			timeInSystem = 120;
 			timeTillMaxEffect = 30;
 			maxDose = 4;

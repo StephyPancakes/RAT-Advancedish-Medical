@@ -19,14 +19,17 @@
 params ["_patient"];
 
 if (ACE_Player != _patient) exitWith {};
-_defaultAnimSpeed = getAnimSpeedCoef _patient;
+private _defaultAnimSpeed = getAnimSpeedCoef _patient;
+private _deaths = getPlayerScores _patient select 5;
 
 /// ACE Fatigue 
 if (ACEGVAR(advanced_fatigue,enabled)) then {
     
     [{
-        params ["_patient", "_defaultAnimSpeed"];
+        params ["_patient", "_defaultAnimSpeed", "_deaths"];
 
+		private _newDeaths = getPlayerScores _patient select 5;
+		if (_newDeaths > _deaths) exitwith {};
         if !(alive _patient) exitWith {};
         ACEGVAR(advanced_fatigue,anReserve) = ACEGVAR(advanced_fatigue,anReserve) + 3000;
         ["rat_PDF", 0] call ACEFUNC(advanced_fatigue,addDutyFactor);
@@ -41,8 +44,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
     [{
-        params ["_patient", "_defaultAnimSpeed"];
+        params ["_patient", "_defaultAnimSpeed", "_deaths"];
 
+		private _newDeaths = getPlayerScores _patient select 5;
+		if (_newDeaths > _deaths) exitwith {};
         if !(alive _patient) exitWith {};
         ["rat_PDF"] call ACEFUNC(advanced_fatigue,removeDutyFactor);
         [LLSTRING(Pervitin_mid), 2, _patient] call ACEFUNC(common,displayTextStructured);
@@ -59,8 +64,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
     [{
-        params ["_patient"];
+        params ["_patient", "_deaths"];
 
+		private _newDeaths = getPlayerScores _patient select 5;
+		if (_newDeaths > _deaths) exitwith {};
         if !(alive _patient) exitWith {};
         ACEGVAR(advanced_fatigue,anReserve) = ACEGVAR(advanced_fatigue,anReserve) + 3000;
         ["rat_PDF", 0.4] call ACEFUNC(advanced_fatigue,addDutyFactor);
@@ -70,8 +77,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
     [{
-        params ["_patient"];
+        params ["_patient", "_deaths"];
 
+		private _newDeaths = getPlayerScores _patient select 5;
+		if (_newDeaths > _deaths) exitwith {};
         if !(alive _patient) exitWith {};
         ACEGVAR(advanced_fatigue,anReserve) = ACEGVAR(advanced_fatigue,anReserve) + 3000;
         ["rat_PDF", 0.6] call ACEFUNC(advanced_fatigue,addDutyFactor);
@@ -81,8 +90,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
     [{
-        params ["_patient"];
+        params ["_patient", "_deaths"];
 
+		private _newDeaths = getPlayerScores _patient select 5;
+		if (_newDeaths > _deaths) exitwith {};
         if !(alive _patient) exitWith {};
         ["rat_PDF", 2] call ACEFUNC(advanced_fatigue,addDutyFactor);
         [LLSTRING(Pervitin_mid4), 2, _patient] call ACEFUNC(common,displayTextStructured);
@@ -91,8 +102,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
     [{
-        params ["_patient"];
+        params ["_patient", "_deaths"];
 
+		private _newDeaths = getPlayerScores _patient select 5;
+		if (_newDeaths > _deaths) exitwith {};
         if !(alive _patient) exitWith {};
         ["rat_PDF"] call ACEFUNC(advanced_fatigue,removeDutyFactor);
         [LLSTRING(Pervitin_end), 2, _patient] call ACEFUNC(common,displayTextStructured);
@@ -109,7 +122,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
         };
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
+			
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             ACEGVAR(advanced_fatigue,swayFactor) = GVAR(originalSwayFactor) * 0.3;
         },
@@ -117,7 +133,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
+			
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             ACEGVAR(advanced_fatigue,swayFactor) = GVAR(originalSwayFactor) * 0.5 ;
         },
@@ -125,7 +144,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
         
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
+			
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             ACEGVAR(advanced_fatigue,swayFactor) = GVAR(originalSwayFactor) * 1;
         },
@@ -133,7 +155,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
+			
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             ACEGVAR(advanced_fatigue,swayFactor) = (GVAR(originalSwayFactor) * 1.3) min 2;
         },
@@ -141,7 +166,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
+			
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             ACEGVAR(advanced_fatigue,swayFactor) = (GVAR(originalSwayFactor) * 1.5) min 2;
         },
@@ -149,7 +177,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
+			
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             ACEGVAR(advanced_fatigue,swayFactor) = (GVAR(originalSwayFactor) * 1.7) min 2;
         },
@@ -157,7 +188,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
+			
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             ACEGVAR(advanced_fatigue,swayFactor) = (GVAR(originalSwayFactor) * 2) min 2;
         },
@@ -165,7 +199,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
+			
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             ACEGVAR(advanced_fatigue,swayFactor) = (GVAR(originalSwayFactor) * 1.7) min 2;
         },
@@ -173,7 +210,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
+			
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             ACEGVAR(advanced_fatigue,swayFactor) = (GVAR(originalSwayFactor) * 1.4) min 2;
         },
@@ -181,7 +221,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
+			
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             ACEGVAR(advanced_fatigue,swayFactor) = (GVAR(originalSwayFactor) * 1.2) min 2;
         },
@@ -189,7 +232,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
+			
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             ACEGVAR(advanced_fatigue,swayFactor) = GVAR(originalSwayFactor);
         },
@@ -200,8 +246,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
     /// Normal Stamina & Weapon Sway
 
     [{
-        params ["_patient", "_defaultAnimSpeed"];
-
+        params ["_patient", "_defaultAnimSpeed", "_deaths"];
+		
+		private _newDeaths = getPlayerScores _patient select 5;
+		if (_newDeaths > _deaths) exitwith {};
         if !(alive _patient) exitWith {};
         _patient setAnimSpeedCoef (_defaultAnimSpeed * (GVAR(pervitinSpeed)));
         _patient enableStamina false;
@@ -211,8 +259,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
     [{
-        params ["_patient", "_defaultAnimSpeed"];
+        params ["_patient", "_defaultAnimSpeed", "_deaths"];
 
+		private _newDeaths = getPlayerScores _patient select 5;
+		if (_newDeaths > _deaths) exitwith {};
         if !(alive _patient) exitWith {};
         _patient enableStamina true;
         _patient setAnimSpeedCoef _defaultAnimSpeed;
@@ -222,8 +272,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
     [{
-        params ["_patient"];
+        params ["_patient", "_deaths"];
 
+		private _newDeaths = getPlayerScores _patient select 5;
+		if (_newDeaths > _deaths) exitwith {};
         if !(alive _patient) exitWith {};
         _patient setStamina(getStamina _patient + 300);
         [LLSTRING(Pervitin_mid2), 2, _patient] call ACEFUNC(common,displayTextStructured);
@@ -232,8 +284,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
     [{
-        params ["_patient"];
+        params ["_patient", "_deaths"];
 
+		private _newDeaths = getPlayerScores _patient select 5;
+		if (_newDeaths > _deaths) exitwith {};
         if !(alive _patient) exitWith {};
         _patient setStamina(getStamina _patient + 300);
         [LLSTRING(Pervitin_mid3), 2, _patient] call ACEFUNC(common,displayTextStructured);
@@ -241,8 +295,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
     [_patient], 360] call CBA_fnc_waitAndExecute; /// 6m
 
     [{
-        params ["_patient"];
+        params ["_patient", "_deaths"];
 
+		private _newDeaths = getPlayerScores _patient select 5;
+		if (_newDeaths > _deaths) exitwith {};
         if !(alive _patient) exitWith {};
         _patient setStamina(getStamina _patient - 60);
         [LLSTRING(Pervitin_mid4), 2, _patient] call ACEFUNC(common,displayTextStructured);
@@ -251,8 +307,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
     [{
-        params ["_patient"];
+        params ["_patient", "_deaths"];
 
+		private _newDeaths = getPlayerScores _patient select 5;
+		if (_newDeaths > _deaths) exitwith {};
         if !(alive _patient) exitWith {};
         [LLSTRING(Pervitin_end), 2, _patient] call ACEFUNC(common,displayTextStructured);
     },
@@ -263,8 +321,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
     if (GVAR(weapon_sway_pervitin)) then {
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
 
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             _patient setCustomAimCoef 1;
             _patient setCustomAimCoef(getCustomAimCoef _patient) - 0.7;
@@ -272,21 +332,28 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
         [_patient], 15] call CBA_fnc_waitAndExecute;
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             _patient setCustomAimCoef(getCustomAimCoef _patient) + 0.2;
         },
         [_patient], 60] call CBA_fnc_waitAndExecute;
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             _patient setCustomAimCoef(getCustomAimCoef _patient) + 0.5;
         },
         [_patient], 90] call CBA_fnc_waitAndExecute;
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
+			
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             _patient setCustomAimCoef(getCustomAimCoef _patient) + 0.3;
         },
@@ -294,7 +361,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
+			
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             _patient setCustomAimCoef(getCustomAimCoef _patient) + 0.5;
         },
@@ -302,7 +372,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
+			
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             _patient setCustomAimCoef(getCustomAimCoef _patient) + 0.2;
         },
@@ -310,8 +383,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
         [{
-            params ["_patient"];
-
+            params ["_patient", "_deaths"];
+			
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             _patient setCustomAimCoef(getCustomAimCoef _patient) + 0.3;
 
@@ -320,8 +395,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
 
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             _patient setCustomAimCoef(getCustomAimCoef _patient) - 0.3;
 
@@ -330,8 +407,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
 
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             _patient setCustomAimCoef(getCustomAimCoef _patient) - 0.3;
 
@@ -340,8 +419,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
 
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             _patient setCustomAimCoef(getCustomAimCoef _patient) - 0.2;
 
@@ -350,8 +431,10 @@ if (ACEGVAR(advanced_fatigue,enabled)) then {
 
 
         [{
-            params ["_patient"];
+            params ["_patient", "_deaths"];
 
+			private _newDeaths = getPlayerScores _patient select 5;
+			if (_newDeaths > _deaths) exitwith {};
             if !(alive _patient) exitWith {};
             _patient setCustomAimCoef 1;
 

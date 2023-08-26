@@ -2,7 +2,7 @@
 <Project name="RAT">
 	<Package name="Pharma">
 		<Key ID="STR_RAT_Pharma_Painkillers_DescShort">
-			<English>Used to suppress pain</English>
+			<English>Used to suppress pain, weaker than Morphine</English>
 		</Key>
 		<Key ID="STR_RAT_Pharma_Painkillers_Box_Display">
 			<English>Painkillers</English>
@@ -11,7 +11,7 @@
 			<English>Push Painkillers</English>
 		</Key>
 		<Key ID="STR_RAT_Pharma_Carbonate_DescShort">
-			<English>Used to restore consciousness</English>
+			<English>Used to restore consciousness, weaker than Epinephrine</English>
 		</Key>
 		<Key ID="STR_RAT_Pharma_Carbonate_Box_Display">
 			<English>Ammonium Carbonate</English>
@@ -29,7 +29,7 @@
 			<English>Use Naloxone</English>
 		</Key>
 		<Key ID="STR_RAT_Pharma_Atropine_DescShort">
-			<English>Used to treat bradycardia</English>
+			<English>Used to treat chemical poisoning. (Not currently implemented)</English>
 		</Key>
 		<Key ID="STR_RAT_Pharma_Atropine_Box_Display">
 			<English>Atropine</English>
@@ -47,7 +47,7 @@
 			<English>Push TXA</English>
 		</Key>
 		<Key ID="STR_RAT_Pharma_Norep_DescShort">
-			<English>Used to make blood flow faster (Good while giving blood)</English>
+			<English>Used to make blood flow slower, weaker than Phenylephrine (Good while bleeding)</English>
 		</Key>
 		<Key ID="STR_RAT_Pharma_Norep_Box_Display">
 			<English>Norepinephrine</English>
@@ -56,7 +56,7 @@
 			<English>Push Norepinephrine</English>
 		</Key>
 		<Key ID="STR_RAT_Pharma_Phenyl_DescShort">
-			<English>Used to make blood flow faster (Good while giving blood)</English>
+			<English>Used to make blood flow slower, stronger than Norepinephrine (Good while bleeding)</English>
 		</Key>
 		<Key ID="STR_RAT_Pharma_Phenyl_Box_Display">
 			<English>Phenylephrine</English>
@@ -65,7 +65,7 @@
 			<English>Push Phenylephrine</English>
 		</Key>
 		<Key ID="STR_RAT_Pharma_Nitro_DescShort">
-			<English>Used to make blood flow slower (Good while bleeding)</English>
+			<English>Used to make blood flow faster (Good while giving blood)</English>
 		</Key>
 		<Key ID="STR_RAT_Pharma_Nitro_Box_Display">
 			<English>Nitroglycerin</English>
