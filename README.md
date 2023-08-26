@@ -1,7 +1,7 @@
 # KAT Medical
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/StephyPancakes/RAT-Advancedish-Medical/master/logo2.png">
+    <img src="https://raw.githubusercontent.com/StephyPancakes/RAT-Advancedish-Medical/master/logo3.png">
 </p>
 
 <p align="center">
