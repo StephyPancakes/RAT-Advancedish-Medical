@@ -28,8 +28,12 @@ class CfgVehicles {
         class TransportItems {
             MACRO_ADDITEM(rat_AED,1);
         };
+        ACEGVAR(dragging,canDrag) = 1;
+        ACEGVAR(dragging,canCarry) = 1;
+        ACEGVAR(dragging,dragPosition)[] = {0,1.1,1};
+        ACEGVAR(dragging,carryPosition)[] = {0,1.1,1};
     };
-
+	
     class rat_X_AEDItem: rat_AEDItem {
         displayName = CSTRING(X_Display);
         model = QPATHTOF(models\aedx\aedx.p3d);

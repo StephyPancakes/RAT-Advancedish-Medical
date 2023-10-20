@@ -10,6 +10,7 @@ class CfgWeapons {
         picture = QPATHTOF(ui\bloodIV_empty_ca.paa);
         author = "Battlekeeper";
         hiddenSelectionsTextures[] = {QPATHTOF(ui\IVBag_blood_500ml_empty_ca.paa)};
+        ACE_isMedicalItem = 1;
         class ItemInfo: CBA_MiscItem_ItemInfo {
             mass = 2;
         };
@@ -21,6 +22,7 @@ class CfgWeapons {
         picture = QPATHTOF(ui\bloodIV_empty_ca.paa);
         author = "Battlekeeper";
         hiddenSelectionsTextures[] = {QPATHTOF(ui\IVBag_blood_500ml_empty_ca.paa)};
+        ACE_isMedicalItem = 1;
         class ItemInfo: CBA_MiscItem_ItemInfo {
             mass = 1;
         };
@@ -32,6 +34,7 @@ class CfgWeapons {
         picture = QPATHTOF(ui\defib.paa);
         model = "\A3\Structures_F_EPA\Items\Medical\Defibrillator_F.p3d";
         descriptionShort = CSTRING(AED_DESCRIPTION);
+        ACE_isMedicalItem = 1;
         class ItemInfo: CBA_MiscItem_ItemInfo {
             mass = 30;
         };
@@ -42,6 +45,7 @@ class CfgWeapons {
         picture = QPATHTOF(ui\x-series.paa);
         model = QPATHTOF(models\aedx\aedx.p3d);
         descriptionShort = CSTRING(X_Desc);
+        ACE_isMedicalItem = 1;
         class ItemInfo: CBA_MiscItem_ItemInfo {
             mass = 40;
         };

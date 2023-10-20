@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="RAT">
-    <Package name="Gui">
-        <Key ID="STR_RAT_Gui_dummy">
-            <English>dummy for tabler application</English>
-            <German>Platzhalter für die tabler app</German>
-            <Japanese>tablerのためのダミー文字列です</Japanese>
-            <Italian>fantoccio per applicazione tabler</Italian>
-            <Spanish>maniquí para la aplicación tabler</Spanish>
-        </Key>
-    </Package>
+	<Package name="Gui">
+		<Key ID="STR_RAT_Gui_dummy">
+			<English>dummy for tabler application</English>
+		</Key>
+		<Key ID="STR_RAT_GUI_SubCategory_Basic">
+			<English>Basic Settings</English>
+		</Key>
+		<Key ID="STR_RAT_GUI_SETTING_ColoredLogs">
+			<English>Colored activitylogs (AED-X/Pulseoximeter)</English>
+		</Key>
+		<Key ID="STR_RAT_GUI_SETTING_ColoredLogs_DESC">
+			<English>Colors the Activitylogs of AED-X or Pulseoximeter red, if any value is critical</English>
+		</Key>
+		<Key ID="STR_RAT_GUI_Status_NoIv">
+			<English>No pushed fluids</English>
+		</Key>
+		<Key ID="STR_RAT_GUI_SETTING_showInactiveStatuses">
+			<English>Show Inactive Statuses</English>
+		</Key>
+		<Key ID="STR_RAT_GUI_SETTING_showBleedRate">
+			<English>Show Bleed Rate</English>
+		</Key>
+		<Key ID="STR_RAT_GUI_SETTING_showBleedRate_DESC">
+			<English>Display bleed rate (slow/moderate/severe/massive)</English>
+		</Key>
+		<Key ID="STR_RAT_GUI_SETTING_overlayBodyPart">
+			<English>Overlay Selected Body Part</English>
+		</Key>
+		<Key ID="STR_RAT_GUI_SETTING_showPatientSideLabels">
+			<English>Label Patient Sides</English>
+		</Key>
+	</Package>
 </Project>

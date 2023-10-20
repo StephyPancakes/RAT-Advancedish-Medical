@@ -43,3 +43,10 @@ if (GVAR(incompatibilityWarning)) then {
 ["rat_Armband_Medic_Item", "rat_armband_medic"] call ACEFUNC(common,registerItemReplacement);
 ["rat_Armband_Doctor_Item", "rat_armband_doctor"] call ACEFUNC(common,registerItemReplacement);
 ["rat_Bubble_Wrap_Item", "rat_Bubble_Wrap"] call ACEFUNC(common,registerItemReplacement);
+
+[QGVAR(stopCarryingPrompt), LINKFUNC(stopCarryingPrompt)] call CBA_fnc_addEventHandler;
+[QGVAR(dropObject_carryLocal), {
+    params ["_carrier", "_target"];
+
+    [_carrier, _target] call ACEFUNC(dragging,dropObject_carry);
+}] call CBA_fnc_addEventHandler;

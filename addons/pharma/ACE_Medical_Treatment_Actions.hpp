@@ -40,6 +40,38 @@ class ACE_Medical_Treatment_Actions {
 	class PlasmaIV_250: PlasmaIV {
 		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient, 100, 5] call rat_pharma_fnc_fluid;";
 	};
+//	-------
+	class BloodIV: BasicBandage {
+		allowedSelections[] = {"Body", "LeftArm", "RightArm", "LeftLeg", "RightLeg"};
+		medicRequired = QUOTE(ace_medical_treatment_medicIV);
+		condition = QUOTE(FUNC(removeIV));
+		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient] call rat_pharma_fnc_fluid;";
+	};
+	class BloodIV_500: BloodIV {
+		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient] call rat_pharma_fnc_fluid;";
+	};
+	class BloodIV_250: BloodIV {
+		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient, _bodyPart] call rat_pharma_fnc_fluid;";
+	};
+	class SalineIV: BloodIV {
+		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient] call rat_pharma_fnc_fluid;";
+	};
+	class SalineIV_500: SalineIV {
+		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient] call rat_pharma_fnc_fluid;";
+	};
+	class SalineIV_250: SalineIV {
+		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient] call rat_pharma_fnc_fluid;";
+	};
+	class PlasmaIV: BloodIV {
+		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient] call rat_pharma_fnc_fluid;";
+	};
+	class PlasmaIV_500: PlasmaIV {
+		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient] call rat_pharma_fnc_fluid;";
+	};
+	class PlasmaIV_250: PlasmaIV {
+		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient] call rat_pharma_fnc_fluid;";
+	};
+	
 	*/
 	class Morphine: FieldDressing {
 		callbackSuccess = QFUNC(treatmentAdvanced_medication);
@@ -189,7 +221,7 @@ class ACE_Medical_Treatment_Actions {
 		medicRequired = QGVAR(medLvl_Reorientation);
 		treatmentTime = QGVAR(treatmentTime_Reorientation);
 		items[] = {};
-//		condition = QUOTE(!([_patient] call ace_common_fnc_isAwake) && GVAR(Reorientation_Enable));
+	//	condition = QUOTE(!([_patient] call ace_common_fnc_isAwake) && GVAR(Reorientation_Enable));
 		condition = QUOTE(GVAR(Reorientation_Enable));
 		litter[] = {};
 		callbackSuccess = QFUNC(treatmentAdvanced_Reorientation);
@@ -203,7 +235,7 @@ class ACE_Medical_Treatment_Actions {
 		allowedSelections[] = {"Body", "LeftArm", "RightArm", "LeftLeg", "RightLeg"};
 		treatmentTime = 3;
 		items[] = {};
-		condition = QFUNC(removeIV);
+	//	condition = QFUNC(removeIV);
 		callbackSuccess = QFUNC(retrieveIV);
 		sounds[] = {};
 	};

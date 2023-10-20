@@ -24,7 +24,7 @@ PREP_RECOMPILE_END;
     "LIST",
     [LLSTRING(SETTING_allowSharedVehicleEquipment), LLSTRING(SETTING_allowSharedVehicleEquipment_DESC)],
     [CBA_SETTINGS_CAT, LSTRING(SubCategory_Basic)],
-    [[0, 1, 2, 3, 4], ["STR_ACE_Common_No", "STR_ACE_Medical_Treatment_AllowSharedEquipment_PriorityMedic", LLSTRING(SETTING_allowSharedVehicleEquipment_PriorityVehicleNoSelfTreatment), LLSTRING(SETTING_allowSharedVehicleEquipment_PriorityVehicleExceptSelfTreatment), LLSTRING(SETTING_allowSharedVehicleEquipment_PriorityVehicleAlways)], 0],
+    [[0, 1, 2, 3, 4], ["STR_ACE_Common_No", "STR_ACE_Medical_Treatment_AllowSharedEquipment_PriorityMedic", LLSTRING(SETTING_allowSharedVehicleEquipment_PriorityVehicleNoSelfTreatment), LLSTRING(SETTING_allowSharedVehicleEquipment_PriorityVehicleExceptSelfTreatment), LLSTRING(SETTING_allowSharedVehicleEquipment_PriorityVehicleAlways)], 1],
     true
 ] call CBA_fnc_addSetting;
 
@@ -52,16 +52,6 @@ PREP_RECOMPILE_END;
     QGVAR(incompatibilityWarning),
     "CHECKBOX",
     [LLSTRING(SETTING_incompatibilityWarning), LLSTRING(SETTING_incompatibilityWarning_Desc)],
-    [CBA_SETTINGS_CAT, LSTRING(SubCategory_Basic)],
-    [true],
-    true
-] call CBA_Settings_fnc_init;
-
-//Enable Arsenal Medical category
-[
-    QGVAR(arsenalMedCategory),
-    "CHECKBOX",
-    [LLSTRING(SETTING_arsenalMedCategory), LLSTRING(SETTING_arsenalMedCategory_Desc)],
     [CBA_SETTINGS_CAT, LSTRING(SubCategory_Basic)],
     [true],
     true
@@ -146,13 +136,5 @@ PREP_RECOMPILE_END;
     "-30, -5, 38",
     2
 ] call CBA_Settings_fnc_init;
-
-if (GVAR(arsenalMedCategory)) then {
-    [
-        ["ACE_adenosine","ACE_epinephrine","rat_X_AED","ACE_elasticBandage","ACE_packingBandage","ACE_bloodIV","ACE_bloodIV_250","ACE_bloodIV_500","ACE_bodyBag","rat_Empty_bloodIV_250","rat_Empty_bloodIV_500","FirstAidKit","rat_AED","ACE_fieldDressing","Medikit","ACE_morphine","ACE_personalAidKit","ACE_plasmaIV","ACE_plasmaIV_250","ACE_plasmaIV_500","ACE_quikclot","ACE_salineIV_250","ACE_salineIV","ACE_salineIV_500","ACE_splint","ACE_surgicalKit","ACE_tourniquet","Attachable_Helistretcher","rat_CarbonateItem","rat_PainkillerItem","rat_PervitinItem","rat_CaffeineItem","rat_naloxone","rat_TXA","rat_norepinephrine","rat_phenylephrine","rat_nitroglycerin","rat_atropine","rat_ketamine","rat_Bubble_Wrap_Item"],
-        localize "STR_ACE_Medical_GUI_Medical",
-        "\z\ace\addons\medical_gui\data\categories\triage_card.paa"
-    ] call ACEFUNC(arsenal,addRightPanelButton);
-};
 
 ADDON = true;

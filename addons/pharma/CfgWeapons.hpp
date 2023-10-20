@@ -7,6 +7,7 @@ class CfgWeapons {
 		author = "Katalam";
 		displayName = CSTRING(Painkillers_Box_Display);
 		picture = QPATHTOF(ui\icon_painkillers.paa);
+        ACE_isMedicalItem = 1;
 		class ItemInfo: CBA_MiscItem_ItemInfo {
 			mass = 1;
 		};
@@ -16,6 +17,7 @@ class CfgWeapons {
 		author = "Mazinski.H";
 		displayName = CSTRING(Carbonate_Box_Display);
 		picture = QPATHTOF(ui\icon_Carbonate.paa);
+        ACE_isMedicalItem = 1;
 		class ItemInfo: CBA_MiscItem_ItemInfo {
 			mass = 1;
 		};
@@ -26,6 +28,7 @@ class CfgWeapons {
 		displayName = CSTRING(Pervitin_Capsule_Display);
 		picture = QPATHTOF(ui\icon_Pervitin.paa);
 		descriptionShort = CSTRING(Pervitin_Capsule_DescShort);
+        ACE_isMedicalItem = 1;
 		class ItemInfo: CBA_MiscItem_ItemInfo {
 			mass = 0.1;
 		}; 
@@ -36,6 +39,7 @@ class CfgWeapons {
 		displayName = CSTRING(Caffeine_Bottle_Display);
 		picture = QPATHTOF(ui\icon_Caffeine.paa);
 		descriptionShort = CSTRING(Caffeine_Bottle_DescShort);
+        ACE_isMedicalItem = 1;
 		class ItemInfo: CBA_MiscItem_ItemInfo {
 			mass = 0.1;
 		}; 
@@ -46,6 +50,7 @@ class CfgWeapons {
 		picture = QPATHTOF(ui\icon_Naloxone.paa);
 		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
 		descriptionShort = CSTRING(Naloxone_DescShort);
+        ACE_isMedicalItem = 1;
 		class ItemInfo: CBA_MiscItem_ItemInfo {
 			mass = 0.5;
 		}; 
@@ -56,6 +61,7 @@ class CfgWeapons {
 		picture = QPATHTOF(ui\icon_TXA.paa);
 		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
 		descriptionShort = CSTRING(TXA_DescShort);
+        ACE_isMedicalItem = 1;
 		class ItemInfo: CBA_MiscItem_ItemInfo {
 			mass = 0.5;
 		}; 
@@ -66,6 +72,7 @@ class CfgWeapons {
 		picture = QPATHTOF(ui\norep.paa);
 		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
 		descriptionShort = CSTRING(Norep_DescShort);
+        ACE_isMedicalItem = 1;
 		class ItemInfo: CBA_MiscItem_ItemInfo {
 			mass = 0.5;
 		}; 
@@ -76,6 +83,7 @@ class CfgWeapons {
 		picture = QPATHTOF(ui\phen.paa);
 		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
 		descriptionShort = CSTRING(Phenyl_DescShort);
+        ACE_isMedicalItem = 1;
 		class ItemInfo: CBA_MiscItem_ItemInfo {
 			mass = 0.5;
 		}; 
@@ -86,6 +94,7 @@ class CfgWeapons {
 		picture = QPATHTOF(ui\nitro.paa);
 		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
 		descriptionShort = CSTRING(Nitro_DescShort);
+        ACE_isMedicalItem = 1;
 		class ItemInfo: CBA_MiscItem_ItemInfo {
 			mass = 0.5;
 		}; 
@@ -96,6 +105,7 @@ class CfgWeapons {
 		picture = QPATHTOF(ui\icon_Atropine.paa);
 		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
 		descriptionShort = CSTRING(Atropine_DescShort);
+        ACE_isMedicalItem = 1;
 		class ItemInfo: CBA_MiscItem_ItemInfo {
 			mass = 0.5;
 		}; 
@@ -106,6 +116,7 @@ class CfgWeapons {
 		picture = QPATHTOF(ui\icon_Ketamine.paa);
 		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
 		descriptionShort = CSTRING(Ketamine_DescShort);
+        ACE_isMedicalItem = 1;
 		class ItemInfo: CBA_MiscItem_ItemInfo {
 			mass = 0.5;
 		}; 
