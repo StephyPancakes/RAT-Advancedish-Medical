@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: Digii
  * Splits an string into an array. (that can be used by CBA settings)
@@ -24,12 +24,12 @@ private _array = [];
 
 if (_returnNumber) exitWith
 {
-    {
-        private _i = parseNumber _x;
-        _array pushBack _i;
-    } forEach _clipstring;
+	{
+		private _i = parseNumber _x;
+		_array pushBack _i;
+	} forEach _clipstring;
 
-    _array
+	_array
 };
 
 _clipstring

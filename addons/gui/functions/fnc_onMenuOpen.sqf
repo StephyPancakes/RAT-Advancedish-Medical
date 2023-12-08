@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: Glowbal, mharis001
  * Handles opening the Medical Menu. Called from onLoad event.
@@ -74,9 +74,9 @@ _ctrl ctrlCommit 0;
 {
 	_x params ["_idc", "_enabled"];
 
-    if (_forEachIndex == 1 || {_forEachIndex == count _list - 1}) then {
-        _offsetX = _offsetX + POS_W(0.2);
-    };
+	if (_forEachIndex == 1 || {_forEachIndex == count _list - 1}) then {
+		_offsetX = _offsetX + POS_W(0.2);
+	};
 	private _ctrl = _display displayCtrl _idc;
 	if (_enabled) then {
 		_ctrl ctrlSetPositionX _offsetX;
@@ -88,16 +88,16 @@ _ctrl ctrlCommit 0;
 } forEach _list;
 
 if (GVAR(showPatientSideLabels)) then {
-    (_display displayCtrl IDC_SIDE_LABEL_LEFT) ctrlShow true;
-    (_display displayCtrl IDC_SIDE_LABEL_RIGHT) ctrlShow true;
+	(_display displayCtrl IDC_SIDE_LABEL_LEFT) ctrlShow true;
+	(_display displayCtrl IDC_SIDE_LABEL_RIGHT) ctrlShow true;
 };
 
 // Set toggle button icon and tooltip
 private _ctrl = _display displayCtrl IDC_TOGGLE;
 if (ACEGVAR(medical_gui,target) == ACE_player) then {
-    _ctrl ctrlSetText QACEPATHTOF(medical_gui,data\categories\toggle_to_other.paa);
-    _ctrl ctrlSetTooltip ACELLSTRING(medical_gui,ToggleToOther);
+	_ctrl ctrlSetText QACEPATHTOF(medical_gui,data\categories\toggle_to_other.paa);
+	_ctrl ctrlSetTooltip ACELLSTRING(medical_gui,ToggleToOther);
 } else {
-    _ctrl ctrlSetText QACEPATHTOF(medical_gui,data\categories\toggle_to_self.paa);
-    _ctrl ctrlSetTooltip ACELLSTRING(medical_gui,ToggleToSelf);
+	_ctrl ctrlSetText QACEPATHTOF(medical_gui,data\categories\toggle_to_self.paa);
+	_ctrl ctrlSetTooltip ACELLSTRING(medical_gui,ToggleToSelf);
 };

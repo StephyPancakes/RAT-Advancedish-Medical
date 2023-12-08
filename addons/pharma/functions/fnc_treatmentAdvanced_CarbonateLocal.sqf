@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: Mazinski.H
  * Checks for Carbonate Wakeup values to restore consciousness
@@ -21,9 +21,10 @@ params ["_medic", "_patient"];
 //private _sedated = _patient getVariable [QEGVAR(surgery,sedated), false];
 //if (_sedated) exitWith {};
 
-private _bloodPressure = [_patient] call ACEFUNC(medical_status,getBloodPressure);
-_bloodPressureH = _bloodPressure select 1;
+private _bloodPressureH = GET_BLOOD_PRESSURE(_patient) select 1;
 
-if (_bloodPressureH >= 100 && _bloodPressureH <= 140 && (random 100 <= GVAR(carbonateChance)) && {[_patient] call ACEFUNC(medical_status,hasStableVitals)}  ) then {
-    [_patient, false] call ACEFUNC(medical,setUnconscious);
+//((floor (random 100) < ((linearConversion [50, 100, _bloodPressureH, 0, GVAR(carbonateChance), true]) min (linearConversion [140, 200, _bloodPressureH, GVAR(carbonateChance), 0, true]))) && {[_patient] call EFUNC(misc,hasStableVitals)})
+
+if ((random 100 <= GVAR(carbonateChance)) && {[_patient] call ACEFUNC(medical_status,hasStableVitals)}  ) then {
+	[_patient, false] call ACEFUNC(medical,setUnconscious);
 };

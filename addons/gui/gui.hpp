@@ -1,4 +1,3 @@
-#include "script_component.hpp"
 class RscText;
 class RscButton;
 class RscPicture;
@@ -109,9 +108,6 @@ class ACE_Medical_Menu {
             text = QPATHTOF(data\categories\plate.paa);
             tooltip = "Surgery";
             x = QUOTE(POS_X(13.5));
-        };
-        class Toggle: Triage {
-            tooltip = ACECSTRING(medical_gui,ToggleSelf);
         };
         class TriageCard: RscListBox {
             h = QUOTE(POS_H(12.2));

@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: Glowbal, Edited by MiszczuZPolski
  * Local callback for applying a tourniquet to a patient.
@@ -32,10 +32,10 @@ TRACE_1("clearConditionCaches: tourniquetLocal",_nearPlayers);
 [QACEGVAR(interact_menu,clearConditionCaches), [], _nearPlayers] call CBA_fnc_targetEvent;
 
 [{
-    params ["_patient", "_tourniquets", "_partIndex"];
+	params ["_patient", "_tourniquets", "_partIndex"];
 
-    private _tourniquetActual = _tourniquets select _partIndex;
-    if (_tourniquetActual == 0) exitWith {};
+	private _tourniquetActual = _tourniquets select _partIndex;
+	if (_tourniquetActual == 0) exitWith {};
 
-    [_patient, "Tourniqueted to death!"] call ACEFUNC(medical_status,setDead);
+	[_patient, "Tourniqueted to death!"] call ACEFUNC(medical_status,setDead);
 }, [_patient, _tourniquets, _partIndex], 60] call CBA_fnc_waitAndExecute;

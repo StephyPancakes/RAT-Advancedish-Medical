@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: mharis001
  * Handles updating the Medical Menu UI for the current target.
@@ -19,13 +19,13 @@
 
 // Check if menu should stay open for target
 if(isNull findDisplay 312) then {
-    if !([ACE_player, ACEGVAR(medical_gui,target), ["isNotInside", "isNotSwimming"]] call ACEFUNC(common,canInteractWith) && {[ACE_player, ACEGVAR(medical_gui,target)] call ACEFUNC(medical_gui,canOpenMenu)}) then {
-        closeDialog 0;
-        // Show hint if distance condition failed
-        if ((ACE_player distance ACEGVAR(medical_gui,target) > ACEGVAR(medical_gui,maxDistance)) && {vehicle ACE_player != vehicle ACEGVAR(medical_gui,target)}) then {
-            [[ACELLSTRING(medical,DistanceToFar), ACEGVAR(medical_gui,target) call ACEFUNC(common,getName)], 2] call ACEFUNC(common,displayTextStructured);
-        };
-    };
+	if !([ACE_player, ACEGVAR(medical_gui,target), ["isNotInside", "isNotSwimming"]] call ACEFUNC(common,canInteractWith) && {[ACE_player, ACEGVAR(medical_gui,target)] call ACEFUNC(medical_gui,canOpenMenu)}) then {
+		closeDialog 0;
+		// Show hint if distance condition failed
+		if ((ACE_player distance ACEGVAR(medical_gui,target) > ACEGVAR(medical_gui,maxDistance)) && {vehicle ACE_player != vehicle ACEGVAR(medical_gui,target)}) then {
+			[[ACELLSTRING(medical,DistanceToFar), ACEGVAR(medical_gui,target) call ACEFUNC(common,getName)], 2] call ACEFUNC(common,displayTextStructured);
+		};
+	};
 };
 
 // Get the Medical Menu display

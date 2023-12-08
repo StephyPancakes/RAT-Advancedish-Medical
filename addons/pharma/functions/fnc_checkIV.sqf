@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: Mazinski.H
  * Checks Limb Damage before and IV can be used.
@@ -20,7 +20,7 @@
 params ["_medic", "_patient", "_bodyPart"];
 
 if !(GVAR(ivCheckLimbDamage)) exitWith {
-    true
+	true
 };
 
 private _bodyPartDamage = _patient getVariable [QACEGVAR(medical,bodyPartDamage), [0, 0, 0, 0, 0, 0]];
@@ -31,7 +31,7 @@ private _return = false;
 _final2 = _bodyPartDamage select _compare;
 
 if (_final2 < 7) then {
-    _return = true;
+	_return = true;
 };
 
 _return

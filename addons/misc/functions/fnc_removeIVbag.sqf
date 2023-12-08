@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: Katalam
  * Removes a IV bag for the medicine IV stands.
@@ -25,14 +25,14 @@ private _value = _object getVariable [QGVAR(stand), []];
 private _className = typeOf _object;
 private _newObjectClass = "";
 if (_className isEqualTo "Land_IntravenStand_01_2bags_F") then {
-    _newObjectClass = "Land_IntravenStand_01_1bag_F";
-    if (_value select 0 == _value select 1) then {
-        _value = [_value select 0];
-    } else {
-        _value = _value select {_x != _oldML};
-    };
+	_newObjectClass = "Land_IntravenStand_01_1bag_F";
+	if (_value select 0 == _value select 1) then {
+		_value = [_value select 0];
+	} else {
+		_value = _value select {_x != _oldML};
+	};
 } else {
-    _newObjectClass = "Land_IntravenStand_01_empty_F";
+	_newObjectClass = "Land_IntravenStand_01_empty_F";
 };
 
 // creates new object at [0,0,0]

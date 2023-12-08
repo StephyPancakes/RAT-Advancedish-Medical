@@ -190,6 +190,21 @@
 		<Key ID="STR_RAT_Pharma_treatmentTime_Carbonate">
 			<English>Treatment time for Carbonate</English>
 		</Key>
+		<Key ID="STR_RAT_Pharma_Penthrox_Display">
+			<English>Penthrox Inhaler</English>
+		</Key>
+		<Key ID="STR_RAT_Pharma_Use_Penthrox">
+			<English>Use Penthrox Inhaler</English>
+		</Key>
+		<Key ID="STR_RAT_Pharma_Penthrox_DescShort">
+			<English>Used to manage moderate pain, midway between morphine and painkillers</English>
+		</Key>
+        <Key ID="STR_RAT_Pharma_SETTING_medLvl_Penthrox">
+            <English>Medical level required for Penthrox Inhaler</English>
+        </Key>
+        <Key ID="STR_RAT_Pharma_SETTING_treatmentTime_Penthrox">
+            <English>Treatment time for Penthrox Inhaler</English>
+        </Key>
 		<Key ID="STR_RAT_Pharma_medLvl_Naloxone">
 			<English>Medical level required for Naloxone</English>
 		</Key>
@@ -273,7 +288,6 @@
 		</Key>
 		<Key ID="STR_RAT_Pharma_SubCategory_Nitroglycerin">
 			<English>Nitroglycerin Settings</English>
-
 		</Key>
 		<Key ID="STR_RAT_Pharma_SubCategory_Atropine">
 			<English>Atropine Settings</English>
@@ -297,7 +311,7 @@
 			<English>Take Pervitin</English>
 		</Key>
 		<Key ID="STR_RAT_Pharma_Pervitin_start">
-			<English>The pervitin makes you feel awake and full of endless POWER</English>
+			<English>The pervitin makes you feel awake and full of endless POWER!</English>
 		</Key>
 		<Key ID="STR_RAT_Pharma_Pervitin_mid">
 			<English>You begin to lose your breath...</English>
@@ -334,6 +348,12 @@
 		</Key>
 		<Key ID="STR_RAT_Pharma_pharmaSupplyCrate_displayName">
 			<English>[RAT] Medical crate</English>
+		</Key>
+		<Key ID="STR_RAT_Pharma_SETTING_staminaMedication">
+			<English>Medication Modifies Stamina</English>
+		</Key>
+		<Key ID="STR_RAT_Pharma_SETTING_staminaMedication_DESC">
+			<English>Allow certain medications to modify (vanilla/advanced fatigue) stamina as a side effect</English>
 		</Key>
 	</Package>
 </Project>

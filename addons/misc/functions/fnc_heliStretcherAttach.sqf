@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 
 /*
  * Author: Battlekeeper, modified by YetheSamartaka and Tomcat
@@ -25,4 +25,4 @@ _h = cursorObject;
 _s = createVehicle ["rat_stretcher", (_h modelToWorld [0,0,-5])];
 _s attachTo [_h,[0,0,-.1],"slingload0"];
 
-[_s,_h] call kat_misc_fnc_heliAddActionDeploy;
+[_s,_h] call rat_misc_fnc_heliAddActionDeploy;

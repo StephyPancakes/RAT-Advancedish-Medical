@@ -44,6 +44,16 @@ class CfgWeapons {
 			mass = 0.1;
 		}; 
 	};
+    class rat_PenthroxItem: ACE_ItemCore {
+        scope = 2; //This item is not actually used and it is replaced by ace_common_fnc_registerItemReplacement 
+        author = "Blue";
+        displayName = CSTRING(Penthrox_Display);
+        picture = QPATHTOF(ui\icon_penthrox.paa);
+        ACE_isMedicalItem = 1;
+        class ItemInfo: CBA_MiscItem_ItemInfo {
+            mass = 1;
+        };
+    };
 	class rat_naloxone: ACE_ItemCore {
 		scope = 2;
 		displayName = CSTRING(Naloxone_Box_Display);
@@ -121,108 +131,4 @@ class CfgWeapons {
 			mass = 0.5;
 		}; 
 	};
-// To be removed - EACE, IV_16, IO_FAST, amiodarone, lidocaine, fentanyl, nalbuphrine, Lorazepam. flumazenil, etomidate
-//	class rat_EACA: ACE_ItemCore {
-//		scope = 2;
-//		displayName = CSTRING(EACA_Display);
-//		picture = QPATHTOF(ui\icon_TXA.paa);
-//		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-//		descriptionShort = CSTRING(EACA_DescShort);
-//		class ItemInfo: CBA_MiscItem_ItemInfo {
-//			mass = 0.2;
-//		};
-//	};
-//	class rat_IV_16: ACE_ItemCore {
-//		scope = 2;
-//		displayName = CSTRING(IV_16_Display);
-//		picture = QPATHTOF(ui\icon_IV_16.paa);
-//		model = QPATHTOF(models\iv\rat_iv.p3d);
-//		descriptionShort = CSTRING(IV_DescShort);
-//		hiddenSelections[]={"0"};
-//		hiddenSelectionsMaterials[] = {QPATHTOF(models\iv\kat_iv.rvmat)};
-//		hiddenSelectionsTextures[] = {QPATHTOF(models\iv\kat_iv_co.paa)};
-//		class ItemInfo: CBA_MiscItem_ItemInfo {
-//			mass = 0.5;
-//		}; 
-//	};
-//	class rat_IO_FAST: ACE_ItemCore {
-//		scope = 2;
-//		displayName = CSTRING(IO_45_Display);
-//		picture = QPATHTOF(ui\icon_fast_io.paa);
-//		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-//		descriptionShort = CSTRING(IO_DescShort);
-//		class ItemInfo: CBA_MiscItem_ItemInfo {
-//			mass = 0.5;
-//		}; 
-//	};
-//	class rat_amiodarone: ACE_ItemCore {
-//		scope = 2;
-//		displayName = CSTRING(Amiodarone_Box_Display);
-//		picture = QPATHTOF(ui\icon_Amiodarone.paa);
-//		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-//		descriptionShort = CSTRING(Amiodarone_DescShort);
-//		class ItemInfo: CBA_MiscItem_ItemInfo {
-//			mass = 0.5;
-//		}; 
-//	};
-//	class rat_lidocaine: ACE_ItemCore {
-//		scope = 2;
-//		displayName = CSTRING(Lidocaine_Box_Display);
-//		picture = QPATHTOF(ui\icon_Lidocaine.paa);
-//		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-//		descriptionShort = CSTRING(Lidocaine_DescShort);
-//		class ItemInfo: CBA_MiscItem_ItemInfo {
-//			mass = 0.5;
-//		}; 
-//	};
-//	class rat_fentanyl: ACE_ItemCore {
-//		scope = 2;
-//		displayName = CSTRING(Fentanyl_Box_Display);
-//		picture = QPATHTOF(ui\icon_Fentanyl.paa);
-//		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-//		descriptionShort = CSTRING(Fentanyl_DescShort);
-//		class ItemInfo: CBA_MiscItem_ItemInfo {
-//			mass = 0.5;
-//		}; 
-//	};
-//	class rat_nalbuphine: ACE_ItemCore {
-//		scope = 2;
-//		displayName = CSTRING(Nalbuphine_Box_Display);
-//		picture = QPATHTOF(ui\icon_Nalbuphine.paa);
-//		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-//		descriptionShort = CSTRING(Nalbuphine_DescShort);
-//		class ItemInfo: CBA_MiscItem_ItemInfo {
-//			mass = 0.5;
-//		}; 
-//	};
-//		class rat_lorazepam: ACE_ItemCore {
-//		scope = 2;
-//		displayName = CSTRING(Lorazepam_displayName);
-//		picture = QPATHTOF(ui\icon_lorazepam.paa);
-//		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-//		descriptionShort = CSTRING(Lorazepam_DescShort);
-//		class ItemInfo: CBA_MiscItem_ItemInfo {
-//			mass = 0.2;
-//		}; 
-//	};
-//	class rat_flumazenil: ACE_ItemCore {
-//		scope = 2;
-//		displayName = CSTRING(Flumazenil_displayName);
-//		picture = QPATHTOF(ui\icon_flumazenil.paa);
-//		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-//		descriptionShort = CSTRING(Flumazenil_DescShort);
-//		class ItemInfo: CBA_MiscItem_ItemInfo {
-//			mass = 0.2;
-//		}; 
-//	};
-//	class rat_etomidate: ACE_ItemCore {
-//		scope = 2;
-//		displayName = CSTRING(Etomidate_displayName);
-//		picture = QPATHTOF(ui\icon_etomidate.paa);
-//		model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-//		descriptionShort = CSTRING(Etomidate_DescShort);
-//		class ItemInfo: CBA_MiscItem_ItemInfo {
-//			mass = 0.2;
-//		}; 
-//	};
 };

@@ -1,1 +1,1 @@
-.\hemtt.exe dev
+.\hemtt.exe dev -t 1 -v

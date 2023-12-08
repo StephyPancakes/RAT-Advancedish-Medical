@@ -1,233 +1,356 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="RAT">
-    <Package name="Misc">
-        <Key ID="STR_RAT_Misc_SETTING_ENABLE">
-            <English>ACE-Misc activated?</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Action_add_IV">
-            <English>Attaching IV</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Action_add_IV_Display">
-            <English>Attach IV (1000ml)</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Action_add_IV_Display_500">
-            <English>Attach IV (500ml)</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Action_add_IV_Display_250">
-            <English>Attach IV (250ml)</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Display_IVStand">
-            <English>Stand: Saline IV (1000ml)</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Display_IVStand_500">
-            <English>Stand: Saline IV (500ml)</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Display_IVStand_250">
-            <English>Stand: Saline IV (250ml)</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_disassemble_stretcher_display">
-            <English>Disassemble stretcher</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_disassemble_attach_display">
-            <English>Attach to</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_helistretcher_attach">
-            <English>Attach Stretcher</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_helistretcher_lower10m">
-            <English>Lower Stretcher By 10m</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_helistretcher_raise10m">
-            <English>Raise Stretcher By 10m</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_helistretcher_raise">
-            <English>Raise Stretcher</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_helistretcher_lower">
-            <English>Lower Stretcher</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_helistretcher_flip">
-            <English>Flip Stretcher</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_helistretcher_attention1">
-            <English>The vehicle you are looking at is not a helicopter!</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_helistretcher_attention2">
-            <English>You must be within 15m of the helicopter and look at it!</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Helistretcher_Display">
-            <English>Attachable Helistretcher</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Helistretcher_Desc">
-            <English>Allows you to attach a stretcher to a helicopter(Double click)</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_incompatibilityWarning">
-            <English>Incompatible addon warning</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_incompatibilityWarning_Desc">
-            <English>Throws a warning and add line to RPT log if incompatible addons(Listed by us - developers) that could negatively affect correct functionality of RAT are used.\n Warning disappears after 60 seconds.</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_incompatibilityWarning_Desc">
-            <English>[RAT WARNING] Incompatible addon(s) that could negatively affect correct functionality detected. RAT - Advanced Medical REWRITE Development Team strongly advises to remove these addons: %1</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SubCategory_Basic">
-            <English>Basic Settings</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_treatmentTimeDetachTourniquet">
-            <English>Time to take off tourniquet</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Stretcher_Display">
-            <English>Stretcher</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_StretcherPacked_Display">
-            <English>Stretcher (Packed)</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_NeckTourniquetDescription">
-            <English>Neck Tourniquet</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_allowSharedVehicleEquipment">
-            <English>Allow Shared Vehicle Equipment</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_allowSharedVehicleEquipment_DESC">
-            <English>Sets whether vehicle's medical supplies can be used while treating and in which order</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_allowSharedVehicleEquipment_PriorityVehicleNoSelfTreatment">
-            <English>Vehicle's Equipment First (No self-treatment)</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_allowSharedVehicleEquipment_PriorityVehicleExceptSelfTreatment">
-            <English>Vehicle's Equipment First (Except self-treatment)</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_allowSharedVehicleEquipment_PriorityVehicleAlways">
-            <English>Vehicle's Equipment First (Always)</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SubCategory_Armband">
-            <English>Armband</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftArmPos_Display">
-            <English>Armband position left arm</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftArmPos_Desc">
-            <English>Defines the position (x, y, z) where the armband is slung to the left arm.</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftArmRot_Display">
-            <English>Armband rotation left arm</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftArmRot_Desc">
-            <English>Defines the rotation (yaw, pitch, roll) of the armband that is slung to the left arm.</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightArmPos_Display">
-            <English>Armband position right arm</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightArmPos_Desc">
-            <English>Defines the position (x, y, z) where the armband is slung to the right arm.</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightArmRot_Display">
-            <English>Armband rotation right arm</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightArmRot_Desc">
-            <English>Defines the rotation (yaw, pitch, roll) of the armband that is slung to the right arm.</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftLegPos_Display">
-            <English>Armband position left leg</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftLegPos_Desc">
-            <English>Defines the position (x, y, z) where the armband is slung to the left leg.</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftLegRot_Display">
-            <English>Armband rotation left leg</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftLegRot_Desc">
-            <English>Defines the rotation (yaw, pitch, roll) of the armband that is slung to the left leg.</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightLegPos_Display">
-            <English>Armband position right leg</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightLegPos_Desc">
-            <English>Defines the position (x, y, z) where the armband is slung to the right leg.</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightLegRot_Display">
-            <English>Armband rotation right leg</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightLegRot_Desc">
-            <English>Defines the rotation (yaw, pitch, roll) of the armband that is slung to the right leg.</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Armband_Red_Cross_ItemName">
-            <English>Armband Red Cross</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Armband_Medic_ItemName">
-            <English>Armband Medic</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Armband_Doctor_ItemName">
-            <English>Armband Doctor</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Armband_RAT_ItemName">
-            <English>Armband RAT</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Armband_Sling">
-            <English>Armband</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Armband_Sling_Left_Arm">
-            <English>Sling to left arm</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Armband_Sling_Right_Arm">
-            <English>Sling to right arm</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Armband_Sling_Left_Leg">
-            <English>Sling to left leg</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Armband_Sling_Right_Leg">
-            <English>Sling to right leg</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Armband_UnSling_Left_Arm">
-            <English>Unsling left arm</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Armband_UnSling_Right_Arm">
-            <English>Unsling right arm</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Armband_UnSling_Left_Leg">
-            <English>Unsling left leg</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Armband_UnSling_Right_Leg">
-            <English>Unsling right leg</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Bubble_Wrap_Ace_Action">
-            <English>Pop a Bubble</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Bubble_Wrap_Display">
-            <English>Bubble Wrap</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_Bubble_Wrap_Desc">
-            <English>A Bubble Wrap that you can squeeze to relive some pain</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_BloodGroupPatch_A_P">
-            <English>Blood Group Patch A+</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_BloodGroupPatch_A_N">
-            <English>Blood Group Patch A-</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_BloodGroupPatch_B_P">
-            <English>Blood Group Patch B+</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_BloodGroupPatch_B_N">
-            <English>Blood Group Patch B-</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_BloodGroupPatch_0_P">
-            <English>Blood Group Patch 0+</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_BloodGroupPatch_0_N">
-            <English>Blood Group Patch 0-</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_BloodGroupPatch_AB_P">
-            <English>Blood Group Patch AB+</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_BloodGroupPatch_AB_N">
-            <English>Blood Group Patch AB-</English>
-        </Key>
+	<Package name="Misc">
+		<Key ID="STR_RAT_Misc_SETTING_ENABLE">
+			<English>ACE-Misc activated?</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Action_add_IV">
+			<English>Attaching IV</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Action_add_IV_Display">
+			<English>Attach IV (1000ml)</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Action_add_IV_Display_500">
+			<English>Attach IV (500ml)</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Action_add_IV_Display_250">
+			<English>Attach IV (250ml)</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Display_IVStand">
+			<English>Stand: Saline IV (1000ml)</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Display_IVStand_500">
+			<English>Stand: Saline IV (500ml)</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Display_IVStand_250">
+			<English>Stand: Saline IV (250ml)</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_disassemble_stretcher_display">
+			<English>Disassemble stretcher</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_disassemble_attach_display">
+			<English>Attach to</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_helistretcher_attach">
+			<English>Attach Stretcher</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_helistretcher_lower10m">
+			<English>Lower Stretcher By 10m</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_helistretcher_raise10m">
+			<English>Raise Stretcher By 10m</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_helistretcher_raise">
+			<English>Raise Stretcher</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_helistretcher_lower">
+			<English>Lower Stretcher</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_helistretcher_flip">
+			<English>Flip Stretcher</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_helistretcher_attention1">
+			<English>The vehicle you are looking at is not a helicopter!</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_helistretcher_attention2">
+			<English>You must be within 15m of the helicopter and look at it!</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Helistretcher_Display">
+			<English>Attachable Helistretcher</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Helistretcher_Desc">
+			<English>Allows you to attach a stretcher to a helicopter(Double click)</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_incompatibilityWarning">
+			<English>Incompatible addon warning</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_incompatibilityWarning_Desc">
+			<English>Throws a warning and add line to RPT log if incompatible addons(Listed by us - developers) that could negatively affect correct functionality of RAT are used.\n Warning disappears after 60 seconds.</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_incompatibilityWarning_Desc">
+			<English>[RAT WARNING] Incompatible addon(s) that could negatively affect correct functionality detected. RAT - Advanced Medical REWRITE Development Team strongly advises to remove these addons: %1</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SubCategory_Tourniquet">
+			<English>Tourniquet Settings</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_tourniquetEffects_Enable">
+			<English>Enable tourniquet effects</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_tourniquetEffects_PositiveMultiplier">
+			<English>Tourniquet effects positive multiplier</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_tourniquetEffects_NegativeMultiplier">
+			<English>Tourniquet effects negative multiplier</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SubCategory_Basic">
+			<English>Basic Settings</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_treatmentTimeDetachTourniquet">
+			<English>Time to take off tourniquet</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Stretcher_Display">
+			<English>Stretcher</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_StretcherPacked_Display">
+			<English>Stretcher (Packed)</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_NeckTourniquetDescription">
+			<English>Neck Tourniquet</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_allowSharedVehicleEquipment">
+			<English>Allow Shared Vehicle Equipment</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_allowSharedVehicleEquipment_DESC">
+			<English>Sets whether vehicle's medical supplies can be used while treating and in which order</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_allowSharedVehicleEquipment_PriorityVehicleNoSelfTreatment">
+			<English>Vehicle's Equipment First (No self-treatment)</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_allowSharedVehicleEquipment_PriorityVehicleExceptSelfTreatment">
+			<English>Vehicle's Equipment First (Except self-treatment)</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_allowSharedVehicleEquipment_PriorityVehicleAlways">
+			<English>Vehicle's Equipment First (Always)</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SubCategory_Armband">
+			<English>Armband</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftArmPos_Display">
+			<English>Armband position left arm</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftArmPos_Desc">
+			<English>Defines the position (x, y, z) where the armband is slung to the left arm.</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftArmRot_Display">
+			<English>Armband rotation left arm</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftArmRot_Desc">
+			<English>Defines the rotation (yaw, pitch, roll) of the armband that is slung to the left arm.</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightArmPos_Display">
+			<English>Armband position right arm</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightArmPos_Desc">
+			<English>Defines the position (x, y, z) where the armband is slung to the right arm.</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightArmRot_Display">
+			<English>Armband rotation right arm</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightArmRot_Desc">
+			<English>Defines the rotation (yaw, pitch, roll) of the armband that is slung to the right arm.</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftLegPos_Display">
+			<English>Armband position left leg</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftLegPos_Desc">
+			<English>Defines the position (x, y, z) where the armband is slung to the left leg.</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftLegRot_Display">
+			<English>Armband rotation left leg</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_ArmbandSlingLeftLegRot_Desc">
+			<English>Defines the rotation (yaw, pitch, roll) of the armband that is slung to the left leg.</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightLegPos_Display">
+			<English>Armband position right leg</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightLegPos_Desc">
+			<English>Defines the position (x, y, z) where the armband is slung to the right leg.</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightLegRot_Display">
+			<English>Armband rotation right leg</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_ArmbandSlingRightLegRot_Desc">
+			<English>Defines the rotation (yaw, pitch, roll) of the armband that is slung to the right leg.</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Armband_Red_Cross_ItemName">
+			<English>Armband Red Cross</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Armband_Medic_ItemName">
+			<English>Armband Medic</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Armband_Doctor_ItemName">
+			<English>Armband Doctor</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Armband_RAT_ItemName">
+			<English>Armband RAT</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Armband_Sling">
+			<English>Armband</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Armband_Sling_Left_Arm">
+			<English>Sling to left arm</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Armband_Sling_Right_Arm">
+			<English>Sling to right arm</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Armband_Sling_Left_Leg">
+			<English>Sling to left leg</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Armband_Sling_Right_Leg">
+			<English>Sling to right leg</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Armband_UnSling_Left_Arm">
+			<English>Unsling left arm</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Armband_UnSling_Right_Arm">
+			<English>Unsling right arm</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Armband_UnSling_Left_Leg">
+			<English>Unsling left leg</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Armband_UnSling_Right_Leg">
+			<English>Unsling right leg</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Bubble_Wrap_Ace_Action">
+			<English>Pop a Bubble</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Bubble_Wrap_Display">
+			<English>Bubble Wrap</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_Bubble_Wrap_Desc">
+			<English>A Bubble Wrap that you can squeeze to relive some pain</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SubCategory_IFAK">
+			<English>(IFAK) Individual First Aid Kit</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SubCategory_MFAK">
+			<English>(MFAK) Multiple First Aid Kit</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SubCategory_AFAK">
+			<English>(AFAK) Advanced First Aid Kit</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_FAK_Container">
+			<English>Items unload Container</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_FAK_Container_DESC">
+			<English>Defines where the items from the First Aid Kit are added into. If there is no space left they will be dropped on the ground. \n Default: Items are added where space is left. </English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_Container_Default">
+			<English>Default</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_Container_Uniform">
+			<English>Uniform</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_Container_Vest">
+			<English>Vest</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_Container_Backpack">
+			<English>Backpack</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_ItemSlot_DESC">
+			<English>The items &amp; quantity that is given to the player.\n If you want to add/change items remove existing entry &amp; insert item name-tag &amp; quantity you want. \n Example: [['ACE_packingBandage', 10], ['ACE_quikclot', 15]]  TO  [['ACE_packingBandage', 10], ['ACE_quikclot', 15], ['ACE_Banana', 10]]</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_FirstSlot_Item">
+			<English>First Slot Items &amp; Quantity</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_SecondSlot_Item">
+			<English>Second Slot Items &amp; Quantity</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_ThirdSlot_Item">
+			<English>Third Slot Items &amp; Quantity</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_FourthSlot_Item">
+			<English>Fourth Slot Items &amp; Quantity</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_FifthSlot_Item">
+			<English>Fifth Slot Items &amp; Quantity</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_SixthSlot_Item">
+			<English>Sixth Slot Items &amp; Quantity</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_SeventhSlot_Item">
+			<English>Seventh Slot Items &amp; Quantity</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_EighthSlot_Item">
+			<English>Eighth Slot Items &amp; Quantity</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_IFAK_Display">
+			<English>Individual First Aid Kit</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_IFAK_DESC">
+			<English>The IFAK can be unpacked to provide useful medical items</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_MFAK_Display">
+			<English>Multiple First Aid Kit</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_MFAK_DESC">
+			<English>The MFAK can be unpacked to provide useful medical items</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_AFAK_Display">
+			<English>Advanced First Aid Kit</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_AFAK_DESC">
+			<English>The AFAK can be unpacked to provide useful medical items</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_IFAK_Unpack">
+			<English>IFAK</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_MFAK_Unpack">
+			<English>MFAK</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_AFAK_Unpack">
+			<English>AFAK</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_FAK_Slot_1">
+			<English>Unpack Slot 1</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_FAK_Slot_2">
+			<English>Unpack Slot 2</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_FAK_Slot_3">
+			<English>Unpack Slot 3</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_FAK_Slot_4">
+			<English>Unpack Slot 4</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_FAK_Slot_5">
+			<English>Unpack Slot 5</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_FAK_Slot_6">
+			<English>Unpack Slot 6</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_FAK_Slot_7">
+			<English>Unpack Slot 7</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_FAK_Slot_8">
+			<English>Unpack Slot 8</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_FAK_Slot_1_Repack">
+			<English>Repack Slot 1</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_FAK_Slot_2_Repack">
+			<English>Repack Slot 2</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_FAK_Slot_3_Repack">
+			<English>Repack Slot 3</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_FAK_Slot_4_Repack">
+			<English>Repack Slot 4</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_FAK_Slot_5_Repack">
+			<English>Repack Slot 5</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_FAK_Slot_6_Repack">
+			<English>Repack Slot 6</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_FAK_Slot_7_Repack">
+			<English>Repack Slot 7</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_FAK_Slot_8_Repack">
+			<English>Repack Slot 8</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_SETTING_FAK_RemoveWhenEmpty">
+			<English>Remove when empty</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_CarryPatient">
+			<English>Carry Patient</English>
+		</Key>
 		<Key ID="STR_RAT_Misc_CancelCarrying">
-            <English>Cancel Carrying</English>
-        </Key>
-        <Key ID="STR_RAT_Misc_StoppedCarrying%1">
-            <English>Stopped carrying %1</English>
-        </Key>
-    </Package>
+			<English>Cancel Carrying</English>
+		</Key>
+		<Key ID="STR_RAT_Misc_StoppedCarrying%1">
+			<English>Stopped carrying %1</English>
+		</Key>
+	</Package>
 </Project>

@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: Katalam
  * Remove a given log from the ace medical menu.
@@ -29,9 +29,9 @@ private _log = _target getVariable [_logVarName, []];
 private _newLog = [];
 
 {
-    if !(_x select 0 isEqualTo _message) then {
-        _newLog pushBack _x;
-    };
+	if !(_x select 0 isEqualTo _message) then {
+		_newLog pushBack _x;
+	};
 } forEach _log;
 _log = _newLog;
 

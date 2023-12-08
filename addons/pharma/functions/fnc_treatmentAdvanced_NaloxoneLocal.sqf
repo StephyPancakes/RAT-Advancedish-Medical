@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: Mazinski.H
  * Locates and Removes 1x Morphine after the administration of Naloxone.
@@ -20,11 +20,11 @@ params ["_patient"];
 private _medicationArray = _patient getVariable [QACEGVAR(medical,medications), []];
 
 {
-    _x params ["_medication"];
+	_x params ["_medication"];
 
-    if (_medication isEqualTo "Morphine") then {
-        _medicationArray deleteAt (_medicationArray find _x);
-    };
+	if (_medication isEqualTo "Morphine") then {
+		_medicationArray deleteAt (_medicationArray find _x);
+	};
 } forEach (_medicationArray);
 
 _patient setVariable [QACEGVAR(medical,medications), _medicationArray, true];

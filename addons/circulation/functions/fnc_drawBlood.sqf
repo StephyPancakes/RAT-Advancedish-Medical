@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: Battlekeeper, modified by YetheSamartaka
  * Refactored by Slatery
@@ -18,13 +18,12 @@
  * Public: No
  */
 
-params ["_medic","_patient","_volume"];
+params ["_medic", "_patient", "_volume"];
 
-private _modStr = "ACE_";
-private _bloodtypeStr = "";
-private _bagVolumeStr = format ["_%1",_volume];
+//private _modStr = "ACE_";
+private _bagVolumeStr = toString _volume; 
 private _volumeChange = _volume/1000;
 private _bloodVolume = (_patient getVariable [QACEGVAR(medical,bloodVolume), 6.0]);
-private _itemStr = format ["%1bloodIV%2%3",_modStr,_bagVolumeStr];
+private _itemStr = format ["ACE_bloodIV_%3",_bagVolumeStr];
 _medic addItem _itemStr;
 _patient setVariable [QACEGVAR(medical,bloodVolume), _bloodVolume - _volumeChange,true];

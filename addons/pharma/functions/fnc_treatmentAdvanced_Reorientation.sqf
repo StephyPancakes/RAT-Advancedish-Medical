@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: Mazinski.H
  * Begins Reorientation Treatment
@@ -19,7 +19,7 @@
 params ["_medic", "_patient"];
 
 if (GVAR(Reorientation_Slap)) then {
-	playSound3D [QPATHTOF_SOUND(sounds\slap.ogg), _patient, false, getPosASL _patient, 3, 1, 10];
+	playSound3D [QPATHTOF_SOUND(sounds\slap.ogg), _patient, false, getPosASL _patient, 7, 1, 10];
 };
 
 [QGVAR(reorientationLocal), [_medic, _patient], _patient] call CBA_fnc_targetEvent;

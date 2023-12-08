@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: Katalam
  * Condition check for the medicine IV stands to remove a bag.
@@ -17,8 +17,8 @@
  */
 
 params [
-    ["_player", objNull, [objNull]],
-    ["_ml", 1000, [0]]
+	["_player", objNull, [objNull]],
+	["_ml", 1000, [0]]
 ];
 
 if !(GVAR(enable)) exitWith {false};

@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: Katalam
  * Treatment handle function to remove a bag.
@@ -20,15 +20,15 @@ params ["_player", "_target", "_bodyPart", "_className", "_item"];
 private _value = 0;
 
 switch (_className) do {
-    case "SalineIV": {
-        _value = 1000;
-    };
-    case "SalineIV_500": {
-        _value = 500;
-    };
-    case "SalineIV_250": {
-        _value = 250;
-    };
+	case "SalineIV": {
+		_value = 1000;
+	};
+	case "SalineIV_500": {
+		_value = 500;
+	};
+	case "SalineIV_250": {
+		_value = 250;
+	};
 };
 
 [_player, _value] call FUNC(removeIVbag);

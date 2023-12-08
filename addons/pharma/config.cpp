@@ -5,8 +5,7 @@ class CfgPatches {
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         units[] = {
-            "rat_PainkillerItem",
-            "rat_X_AEDItem"
+            "rat_PainkillerItem"
         };
         weapons[] = {
             "rat_Painkiller",
@@ -15,7 +14,6 @@ class CfgPatches {
             "rat_CarbonateItem",
             "rat_naloxone",
             "rat_TXA",
-            "rat_X_AED",
             "rat_norepinephrine",
             "rat_phenylephrine",
             "rat_nitroglycerin",
@@ -36,7 +34,8 @@ class CfgPatches {
             "ace_medical_treatment",
             "ace_medical_vitals",
             "ace_dogtags",
-            "cba_settings"
+            "cba_settings",
+			"rat_main"
         };
         author = "Katalam";
         authors[] = {"Katalam", "2LT.Mazinski", "MiszczuZPolski"};

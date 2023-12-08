@@ -38,16 +38,6 @@ class CfgVehicles {
 			MACRO_ADDITEM(rat_phenylephrine,20);
 			MACRO_ADDITEM(rat_TXA,20);
 			MACRO_ADDITEM(rat_ketamine,20);
-		//	MACRO_ADDITEM(rat_amiodarone,20);
-		//	MACRO_ADDITEM(rat_IO_FAST,20);
-		//	MACRO_ADDITEM(rat_IV_16,20);
-		//	MACRO_ADDITEM(rat_lidocaine,20);
-		//	MACRO_ADDITEM(rat_fentanyl,20);
-		//	MACRO_ADDITEM(rat_nalbuphine,20);
-		//	MACRO_ADDITEM(rat_lorazepam,20);
-		//	MACRO_ADDITEM(rat_flumazenil,20);
-		//	MACRO_ADDITEM(rat_etomidate,20);
-		//	MACRO_ADDITEM(rat_EACA,20);
 		};
 		class TransportMagazines: TransportMagazines {
 			MACRO_ADDMAGAZINE(rat_Carbonate,10);
@@ -61,13 +51,6 @@ class CfgVehicles {
 			MACRO_ADDITEM(rat_naloxone,15);
 			MACRO_ADDITEM(rat_TXA,15);
 			MACRO_ADDITEM(rat_nitroglycerin,15);
-		//	MACRO_ADDITEM(rat_amiodarone,15);
-		//	MACRO_ADDITEM(rat_EACA,15);
-		//	MACRO_ADDITEM(rat_fentanyl,15);
-		//	MACRO_ADDITEM(rat_lidocaine,15);
-		//	MACRO_ADDITEM(rat_nalbuphine,15);
-		//	MACRO_ADDITEM(rat_norepinephrine,15);
-		//	MACRO_ADDITEM(rat_phenylephrine,15);
 		};
 		class TransportMagazines: TransportMagazines {
 			MACRO_ADDMAGAZINE(rat_Carbonate,15);

@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: Mazinski.H
  * Removes the IV from the patient on the given body part.
@@ -26,7 +26,7 @@ private _IVactual = _IVarray select _partIndex;
 private _return = false;
 
 if (_IVactual > 0) then {
-    _return = true;
+	_return = true;
 };
 
 _return
