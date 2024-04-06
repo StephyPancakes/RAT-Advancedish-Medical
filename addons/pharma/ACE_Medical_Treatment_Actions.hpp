@@ -6,39 +6,6 @@ class ACE_Medical_Treatment_Actions {
 	class Morphine;
 	class CheckPulse;
 	class CPR;
-
-	/*
-	class BloodIV: BasicBandage {
-		allowedSelections[] = {"Body", "LeftArm", "RightArm", "LeftLeg", "RightLeg"};
-		medicRequired = QUOTE(ace_medical_treatment_medicIV);
-		condition = QUOTE(!(GVAR(RequireInsIV)) || FUNC(removeIV));
-		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient, 800, 12] call rat_pharma_fnc_fluid;";
-	};
-	class BloodIV_500: BloodIV {
-		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient, 400, 8] call rat_pharma_fnc_fluid;";
-	};
-	class BloodIV_250: BloodIV {
-		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient, 200, 4] call rat_pharma_fnc_fluid;";
-	};
-	class SalineIV: BloodIV {
-		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient, -750, 0] call rat_pharma_fnc_fluid;";
-	};
-	class SalineIV_500: SalineIV {
-		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient, -350, 0] call rat_pharma_fnc_fluid;";
-	};
-	class SalineIV_250: SalineIV {
-		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient, -150, 0] call rat_pharma_fnc_fluid;";
-	};
-	class PlasmaIV: BloodIV {
-		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient, 500, 15] call rat_pharma_fnc_fluid;";
-	};
-	class PlasmaIV_500: PlasmaIV {
-		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient, 250, 10] call rat_pharma_fnc_fluid;";
-	};
-	class PlasmaIV_250: PlasmaIV {
-		callbackSuccess = "[_medic, _patient, _bodyPart, _className, _itemUser, _usedItem] call ace_medical_treatment_fnc_ivBag; [_patient, 100, 5] call rat_pharma_fnc_fluid;";
-	};
-	*/
 	class Morphine: FieldDressing {
 		callbackSuccess = QFUNC(medication);
 	};
