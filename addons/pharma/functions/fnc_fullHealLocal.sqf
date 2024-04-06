@@ -37,12 +37,12 @@ _patient setVariable [QGVAR(pervStartTime), 0];
 _patient setVariable [QGVAR(pervStage), 0];
 _patient setVariable [QGVAR(pervPFH), nil];
 
-_patient setVariable [QGVAR(TXA), 1, true];
+_unit setVariable [QGVAR(TXA), 1, true];
 
 /// Clear Stamina & weapon sway
 if (ACEGVAR(advanced_fatigue,enabled)) then {
-    ["rat_PDF"] call ACEFUNC(advanced_fatigue,removeDutyFactor);
-    ["rat_EDF"] call ACEFUNC(advanced_fatigue,removeDutyFactor);
+    ["kat_PDF"] call ACEFUNC(advanced_fatigue,removeDutyFactor);
+    ["kat_EDF"] call ACEFUNC(advanced_fatigue,removeDutyFactor);
     // ACEGVAR(advanced_fatigue,swayFactor) = EGVAR(pharma,originalSwayFactor); // TODO REWORK OR REMOVE
 } else {
     _patient setAnimSpeedCoef 1;

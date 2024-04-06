@@ -2,6 +2,9 @@ class CfgFunctions {
 	class overwrite_medical_gui {
 		tag = "ace_medical_gui";
 		class ace_medical_gui {
+			class displayPatientInformation {
+				file = QPATHTOF(functions\fnc_displayPatientInformation.sqf);
+			};
 			class menuPFH {
 				file = QPATHTOF(functions\fnc_menuPFH.sqf);
 			};

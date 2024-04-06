@@ -19,6 +19,17 @@ params ["_unit", ["_isRespawn", true]];
 
 if (!local _unit) exitWith {};
 
+//_unit setVariable [QGVAR(IV), [0,0,0,0,0,0], true];
+//_unit setVariable [QGVAR(IVpfh), [0,0,0,0,0,0], true];
+
+/*
+* 0 = No IV
+* 1 = IO
+* 2 = IV
+* 3 = IV w/ Block
+* 4 = IV w/ Flush
+*/
+
 [_unit] call FUNC(fullHealLocal);
 
 [{

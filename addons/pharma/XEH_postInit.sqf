@@ -49,7 +49,6 @@
 		};
 	};
 }] call CBA_fnc_addEventHandler;
-
 /*
 if (isPlayer) then {
 	[{
