@@ -197,5 +197,109 @@ class ADDON {
 			viscosityChange = 0;
 			onOverDose = "";
 		};
+		// Removed
+		/*
+		class Fentanyl {
+			painReduce = 1;
+			hrIncreaseLow[] = {-10, -5};
+			hrIncreaseNormal[] = {-15, -10};
+			hrIncreaseHigh[] = {-20, -10};
+			timeInSystem = 900;
+			timeTillMaxEffect = 20;
+			maxDose = 2;
+			incompatibleMedication[] = {};
+			viscosityChange = -10;
+		};
+		*/
+		/*
+		class Nalbuphine {
+			painReduce = 0.6;
+			hrIncreaseLow[] = {-5, 0};
+			hrIncreaseNormal[] = {-10, -5};
+			hrIncreaseHigh[] = {-15, -5};
+			timeInSystem = 900;
+			timeTillMaxEffect = 30;
+			maxDose = 4;
+			incompatibleMedication[] = {};
+			viscosityChange = -5;
+		};
+		*/
+		/*
+		class Amiodarone {
+			painReduce = 0;
+			hrIncreaseLow[] = {0, 0, 0};
+			hrIncreaseNormal[] = {0, 0, 0};
+			hrIncreaseHigh[] = {0, 0, 0};
+			timeInSystem = 120;
+			timeTillMaxEffect = 30;
+			maxDose = 4;
+			incompatibleMedication[]= {};
+			viscosityChange = 0;
+		};
+		*/
+		/*
+		class Lidocaine {
+			painReduce = 0.2;
+			hrIncreaseLow[] = {0, 0, 0};
+			hrIncreaseNormal[] = {0, 0, 0};
+			hrIncreaseHigh[] = {0, 0, 0};
+			timeInSystem = 120;
+			timeTillMaxEffect = 30;
+			maxDose = 4;
+			incompatibleMedication[]= {};
+		};
+		*/
+		/*
+		class EACA {
+			painReduce = 0;
+			hrIncreaseLow[] = {0, 0};
+			hrIncreaseNormal[] = {0, 0};
+			hrIncreaseHigh[] = {0, 0};
+			timeInSystem = 600;
+			timeTillMaxEffect = 15;
+			maxDose = 10;
+			incompatibleMedication[] = {};
+			viscosityChange = 0;
+		};
+		*/
+		/*
+		class Etomidate {
+			painReduce = 0.4;
+			hrIncreaseLow[] = {-5, -10};
+			hrIncreaseNormal[] = {-15, -20};
+			hrIncreaseHigh[] = {-20, -30};
+			timeInSystem = 45;
+			timeTillMaxEffect = 5;
+			maxDose = 10;
+			incompatibleMedication[] = {};
+			viscosityChange = 0;
+		};
+		*/
+		/*
+		class Flumazenil {
+			painReduce = 0;
+			hrIncreaseLow[] = {0, 0};
+			hrIncreaseNormal[] = {0, 0};
+			hrIncreaseHigh[] = {0, 0};
+			timeInSystem = 60;
+			timeTillMaxEffect = 5;
+			maxDose = 3;
+			incompatibleMedication[] = {};
+			viscosityChange = 0;
+		};
+		*/
+		/*
+		class Lorazepam {
+			painReduce = 0;
+			hrIncreaseLow[] = {0, 0};
+			hrIncreaseNormal[] = {0, 0};
+			hrIncreaseHigh[] = {0, 0};
+			timeInSystem = 60;
+			timeTillMaxEffect = 5;
+			maxDose = 3;
+			incompatibleMedication[] = {};
+			viscosityChange = -15;
+		};
+		*/
 	};
 };

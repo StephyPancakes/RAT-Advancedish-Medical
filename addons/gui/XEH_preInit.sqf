@@ -7,7 +7,7 @@ PREP_RECOMPILE_START;
 PREP_RECOMPILE_END;
 
 #define CBA_SETTINGS_CAT "RAT - ADVish Medical: GUI"
-
+/*
 // Enable or disable Colored Action Logs
 [
     QGVAR(ColoredLogs),
@@ -16,6 +16,36 @@ PREP_RECOMPILE_END;
     [CBA_SETTINGS_CAT, LSTRING(SubCategory_Basic)],
     [true],
     true
+] call CBA_Settings_fnc_init;
+*/
+// Show inactive patient statuses
+[
+	QGVAR(showInactiveStatuses),
+	"CHECKBOX",
+	LLSTRING(SETTING_showInactiveStatuses),
+	[CBA_SETTINGS_CAT, LSTRING(SubCategory_Basic)],
+	[true],
+	true
+] call CBA_Settings_fnc_init;
+
+// Display bleed rate (slow/moderate/severe/massive)
+[
+	QGVAR(showBleedRate),
+	"CHECKBOX",
+	[LLSTRING(SETTING_showBleedRate), LLSTRING(SETTING_showBleedRate_DESC)],
+	[CBA_SETTINGS_CAT, LSTRING(SubCategory_Basic)],
+	[true],
+	true
+] call CBA_Settings_fnc_init;
+
+// Overlay selected body part in medical menu
+[
+	QGVAR(overlayBodyPart),
+	"CHECKBOX",
+	LLSTRING(SETTING_overlayBodyPart),
+	[CBA_SETTINGS_CAT, LSTRING(SubCategory_Basic)],
+	[true],
+	false
 ] call CBA_Settings_fnc_init;
 
 // Label left and right in medical menu

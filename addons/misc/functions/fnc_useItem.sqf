@@ -1,7 +1,6 @@
 #include "..\script_component.hpp"
 /*
  * Author: Glowbal, mharis001
- * Modified: Blue
  * Uses one of the treatment items. Respects the priority defined by the allowSharedEquipment setting.
  *
  * Arguments:
@@ -67,7 +66,7 @@ if (GVAR(allowSharedVehicleEquipment) > 0 && _vehicleCondition) then {
 {
 	private _origin = _x;
 	if(_forEachIndex != _vehicleIndex) then { // Remove unit item
-		private _originItems = [_origin, 0] call ACEFUNC(common,uniqueItems); // Item
+		private _originItems = [_origin, false, false] call FUNC(getUniqueItems); // Item
 		{
 			if (_x in _originItems) then {
 				_origin removeItem _x;
@@ -75,26 +74,26 @@ if (GVAR(allowSharedVehicleEquipment) > 0 && _vehicleCondition) then {
 			};
 		} forEach _items;
 
-		_originItems = [_origin, 2] call ACEFUNC(common,uniqueItems); // Magazine
+		_originItems = [_origin, false, true] call FUNC(getUniqueItems); // Magazine
 		{
 			if (_x in _originItems) then {
-				[_origin, _x] call ACEFUNC(common,adjustMagazineAmmo);
+				[_origin,_x] call EFUNC(pharma,removeItemFromMag);
 				[_origin, _x] breakOut "Main";
 			};
 		} forEach _items;
 	} else { // Remove vehicle item
-		private _originItems = [_origin, 0] call ACEFUNC(common,uniqueItems); // Item
+		private _originItems = [_origin, true, false] call FUNC(getUniqueItems); // Item
 		{
 			if (_x in _originItems) then {
-				_origin addItemCargoGlobal [_x, -1];
+				[_origin, _x] call FUNC(removeItemFromVehicle);
 				[_origin, _x] breakOut "Main";
 			};
 		} forEach _items;
 
-		_originItems = [_origin, 2] call ACEFUNC(common,uniqueItems); // Magazine
+		_originItems = [_origin, true, true] call FUNC(getUniqueItems); // Magazine
 		{
 			if (_x in _originItems) then {
-				[_origin, _x] call ACEFUNC(common,adjustMagazineAmmo);
+				[_origin, _x, true] call FUNC(removeItemFromVehicle);
 				[_origin, _x] breakOut "Main";
 			};
 		} forEach _items;

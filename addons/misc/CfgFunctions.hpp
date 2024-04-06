@@ -1,4 +1,12 @@
 class CfgFunctions {
+	class ADDON {
+		tag = "ace_interaction";
+		class ace_interaction {
+			class addPassengersActions {
+				file = QPATHTOF(functions\fnc_addPassengersActions.sqf);
+			};
+		};
+	};
 	class overwrite_ace_dragging {
 		tag = "ace_dragging";
 		class ace_dragging {
@@ -21,6 +29,15 @@ class CfgFunctions {
 	class overwrite_medical_treatment {
 		tag = "ace_medical_treatment";
 		class ace_medical_treatment {
+			class canTreat {
+				file = QPATHTOF(functions\fnc_canTreat.sqf);
+			};
+			class fullHealLocal {
+				file = QPATHTOF(functions\fnc_fullHealLocal.sqf);
+			};
+			class hasItem {
+				file = QPATHTOF(functions\fnc_hasItem.sqf);
+			};
 			class treatment {
 				file = QPATHTOF(functions\fnc_treatment.sqf);
 			};
@@ -37,6 +54,14 @@ class CfgFunctions {
 		class ace_medical {
 			class setUnconscious {
 				file = QPATHTOF(functions\fnc_setUnconscious.sqf);
+			};
+		};
+	};
+	class overwrite_ace_medical_status {
+		tag = "ace_medical_status";
+		class ace_medical_status {
+			class hasStableVitals {
+				file = QPATHTOF(functions\fnc_hasStableVitals.sqf);
 			};
 		};
 	};

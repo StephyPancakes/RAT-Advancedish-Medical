@@ -19,8 +19,14 @@ private _alphaAction = _patient getVariable [QGVAR(alphaAction), 1];
 
 _alphaAction = _alphaAction + _value;
 
-_alphaAction = (_alphaAction min 2) max 0.5;
+if (_alphaAction > 2) exitWith {
+	_alphaAction = 2;
+	_patient setVariable [QGVAR(alphaAction), _alphaAction, true];
+};
 
-ACEGVAR(medical,const_minCardiacOutput) = _alphaAction * EGVAR(circulation,cardiacArrestBleedRate);
+if (_alphaAction < 0.5) exitWith {
+	_alphaAction = 0.5;
+	_patient setVariable [QGVAR(alphaAction), _alphaAction, true];
+};
 
 _patient setVariable [QGVAR(alphaAction), _alphaAction, true];

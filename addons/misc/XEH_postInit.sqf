@@ -35,6 +35,10 @@ if (GVAR(incompatibilityWarning)) then {
 
 [QGVAR(headTourniquetLocal), LINKFUNC(headTourniquetLocal)] call CBA_fnc_addEventHandler;
 
+["loadout", {
+	GVAR(uniqueItemsCache) = nil;
+}] call CBA_fnc_addPlayerEventHandler;
+
 ["rat_Armband_Red_Cross_Item", "rat_armband_red_cross"] call ACEFUNC(common,registerItemReplacement);
 ["rat_Armband_Medic_Item", "rat_armband_medic"] call ACEFUNC(common,registerItemReplacement);
 ["rat_Armband_Doctor_Item", "rat_armband_doctor"] call ACEFUNC(common,registerItemReplacement);
@@ -61,6 +65,6 @@ call FUNC(FAK_updateContents);
 ["multiplier", {
 	private _activeTourniquets = GET_TOURNIQUETS(ACE_player);
 	if (ACE_player getVariable [QGVAR(Tourniquet_ArmNecrosis), 0] > 0) then {
-		1 max (ACE_player getVariable [QGVAR(Tourniquet_ArmNecrosis), 0]) / 10
-	} else {1};
+		(ACE_player getVariable [QGVAR(Tourniquet_ArmNecrosis), 0]) / 10
+	} else {0};
 }, QUOTE(ADDON)] call ACEFUNC(common,addSwayFactor);

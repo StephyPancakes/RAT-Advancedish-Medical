@@ -22,7 +22,6 @@ class CfgPatches {
         };
         magazines[] = { };
         requiredAddons[] = {
-			"rat_main",
             "ace_medical",
             "ace_medical_ai",
             "ace_medical_blood",
@@ -35,7 +34,8 @@ class CfgPatches {
             "ace_medical_treatment",
             "ace_medical_vitals",
             "ace_dogtags",
-            "cba_settings"
+            "cba_settings",
+			"rat_main"
         };
         author = "Katalam";
         authors[] = {"Katalam", "2LT.Mazinski", "MiszczuZPolski"};
