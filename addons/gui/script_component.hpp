@@ -28,7 +28,7 @@
 #define PATIENT_INFO_IGUI_OFFSET_X (PATIENT_INFO_IGUI_X - PATIENT_INFO_IGUI_BASE_X)
 #define PATIENT_INFO_IGUI_OFFSET_Y (PATIENT_INFO_IGUI_Y - PATIENT_INFO_IGUI_BASE_Y)
 
-#undef MED_LOG_VARNAME	  
+#undef MED_LOG_VARNAME
 #define MED_LOG_VARNAME(type) (format ["ace_medical_log_%1", type])
 
 #include "gui_defines.hpp"

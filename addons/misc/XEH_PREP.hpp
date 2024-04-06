@@ -43,3 +43,4 @@ PREP(treatmentSuccess);
 PREP(unloadAndCarryPatient);
 PREP(unSlingArmband);
 PREP(updateDamageEffects);
+PREP(useItem);

@@ -60,7 +60,7 @@ private _countEnabled = {
 	if (_category isEqualType "") then { _x set [1, (ACEGVAR(medical_gui,actions) findIf {_category == _x select 1}) > -1]; };
 	_x select 1
 } count _list;
-private _offsetX = POS_X(1.5) + 0.5 * (POS_X(12) - POS_X(_countEnabled * 1.5));
+private _offsetX = POS_X(1.5) + 0.5 * (POS_X(12.33) - POS_X(_countEnabled * 1.5) - POS_W(2 * 0.2));
 // 0.2 - divider gap size
 
 // Set divider position

@@ -7,7 +7,7 @@ PREP_RECOMPILE_START;
 PREP_RECOMPILE_END;
 
 #define CBA_SETTINGS_CAT "RAT - ADVish Medical: GUI"
-
+/*
 // Enable or disable Colored Action Logs
 [
     QGVAR(ColoredLogs),
@@ -17,7 +17,7 @@ PREP_RECOMPILE_END;
     [true],
     true
 ] call CBA_Settings_fnc_init;
-
+*/
 // Label left and right in medical menu
 [
 	QGVAR(showPatientSideLabels),

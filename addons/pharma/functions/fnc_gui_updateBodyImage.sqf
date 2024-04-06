@@ -28,18 +28,18 @@ private _ctrlIO = _ctrlGroup controlsGroupCtrl IDC_BODY_TORSO_IO;
 private _IVArray = _target getVariable [QGVAR(IV), [0,0,0,0,0,0]];
 
 {
-    switch (_IVArray select (_forEachIndex + 2)) do {
-        case 0: {
-            _x ctrlShow false;
-        };
-        default {
-            _x ctrlShow true;
-        };
-    };
+	switch (_IVArray select (_forEachIndex + 2)) do {
+		case 0: {
+			_x ctrlShow false;
+		};
+		default {
+			_x ctrlShow true;
+		};
+	};
 } forEach [_ctrlIVLeftArm, _ctrlIVRightArm, _ctrlIVLeftLeg, _ctrlIVRightLeg];
 
 if ((_IVArray select 1) isEqualTo 1) then {
-    _ctrlIO ctrlShow true;
+	_ctrlIO ctrlShow true;
 } else {
-    _ctrlIO ctrlShow false;
+	_ctrlIO ctrlShow false;
 };
