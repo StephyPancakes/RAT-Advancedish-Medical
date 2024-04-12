@@ -1,7 +1,10 @@
 PREP(alphaAction);
 PREP(checkIV);
-PREP(getBloodLoss);
+PREP(fullHealLocal);
 PREP(getBloodVolumeChange);
+PREP(gui_updateBodyImage);
+PREP(gui_updateInjuryListPart);
+PREP(handleRespawn);
 PREP(tourniquetRemove);
 PREP(init);
 PREP(medication);

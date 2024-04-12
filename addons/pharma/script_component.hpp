@@ -1,6 +1,7 @@
 #define COMPONENT pharma
 #define COMPONENT_BEAUTIFIED RAT - Pharma
 #include "\x\rat\addons\main\script_mod.hpp"
+#include "\x\rat\addons\gui\gui_defines.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
